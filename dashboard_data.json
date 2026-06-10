@@ -83,36 +83,6 @@
         "balance": 104987.18,
         "drawdown_pct": 0.0,
         "equity": 104987.18,
-        "timestamp": "2026-06-10T22:45:11.456020+10:00"
-      },
-      {
-        "balance": 104987.18,
-        "drawdown_pct": 0.0,
-        "equity": 104987.18,
-        "timestamp": "2026-06-10T22:46:28.990705+10:00"
-      },
-      {
-        "balance": 104987.18,
-        "drawdown_pct": 0.0,
-        "equity": 104987.18,
-        "timestamp": "2026-06-10T22:47:50.209807+10:00"
-      },
-      {
-        "balance": 104987.18,
-        "drawdown_pct": 0.0,
-        "equity": 104987.18,
-        "timestamp": "2026-06-10T22:49:11.241814+10:00"
-      },
-      {
-        "balance": 104987.18,
-        "drawdown_pct": 0.0,
-        "equity": 104987.18,
-        "timestamp": "2026-06-10T22:50:29.383156+10:00"
-      },
-      {
-        "balance": 104987.18,
-        "drawdown_pct": 0.0,
-        "equity": 104987.18,
         "timestamp": "2026-06-10T22:51:45.821179+10:00"
       },
       {
@@ -3078,6 +3048,36 @@
         "drawdown_pct": 0.0,
         "equity": 104987.18,
         "timestamp": "2026-06-11T09:08:21.577332+10:00"
+      },
+      {
+        "balance": 104987.18,
+        "drawdown_pct": 0.0,
+        "equity": 104987.18,
+        "timestamp": "2026-06-11T09:09:33.721117+10:00"
+      },
+      {
+        "balance": 104987.18,
+        "drawdown_pct": 0.0,
+        "equity": 104987.18,
+        "timestamp": "2026-06-11T09:10:44.027272+10:00"
+      },
+      {
+        "balance": 104987.18,
+        "drawdown_pct": 0.0,
+        "equity": 104987.18,
+        "timestamp": "2026-06-11T09:11:52.724265+10:00"
+      },
+      {
+        "balance": 104987.18,
+        "drawdown_pct": 0.0,
+        "equity": 104987.18,
+        "timestamp": "2026-06-11T09:13:02.375433+10:00"
+      },
+      {
+        "balance": 104987.18,
+        "drawdown_pct": 0.0,
+        "equity": 104987.18,
+        "timestamp": "2026-06-11T09:14:12.552987+10:00"
       }
     ],
     "r_histogram": [
@@ -3103,8 +3103,8 @@
       }
     ]
   },
-  "generated_at": "2026-06-11T09:08:30.784354+10:00",
-  "generated_at_display": "Jun 11, 9:08 AM",
+  "generated_at": "2026-06-11T09:14:23.398097+10:00",
+  "generated_at_display": "Jun 11, 9:14 AM",
   "performance": {
     "by_instrument": [
       {
@@ -3119,8 +3119,8 @@
         "max_losing_streak": 0,
         "name": "XAUUSD",
         "profit_factor": null,
-        "trades_per_month": 10.4039846952121,
-        "trades_per_week": 2.4275964288828233,
+        "trades_per_month": 10.389280224298219,
+        "trades_per_week": 2.424165385669584,
         "win_rate": 1.0,
         "wins": 1
       }
@@ -3138,8 +3138,8 @@
         "max_losing_streak": 0,
         "name": "FVG",
         "profit_factor": null,
-        "trades_per_month": 10.4039846952121,
-        "trades_per_week": 2.4275964288828233,
+        "trades_per_month": 10.389280224298219,
+        "trades_per_week": 2.424165385669584,
         "win_rate": 1.0,
         "wins": 1
       }
@@ -3155,8 +3155,8 @@
       "losses": 0,
       "max_losing_streak": 0,
       "profit_factor": null,
-      "trades_per_month": 10.4039846952121,
-      "trades_per_week": 2.4275964288828233,
+      "trades_per_month": 10.389280224298219,
+      "trades_per_week": 2.424165385669584,
       "win_rate": 1.0,
       "wins": 1
     }
@@ -3165,7 +3165,7 @@
     "classic_phase1_target_pct": 0.08,
     "daily_loss_baseline_estimate": 104987.18,
     "daily_loss_limit_pct": 0.05,
-    "days_since_last_trade": 2.6049859300231484,
+    "days_since_last_trade": 2.6090671076041665,
     "inactivity_limit_days": 30,
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
@@ -3692,13 +3692,13 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-06-11T09:08:21.577332+10:00",
-    "last_scan_at_display": "Jun 11, 9:08 AM",
+    "last_scan_at": "2026-06-11T09:14:12.552987+10:00",
+    "last_scan_at_display": "Jun 11, 9:14 AM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
       "block_end_local": "",
-      "last_fetch_at": "2026-06-11T08:12:59.570827+10:00",
+      "last_fetch_at": "2026-06-11T09:13:02.422317+10:00",
       "next_event": {
         "block_end_local": "2026-06-11T22:35:00+10:00",
         "block_end_utc": "2026-06-11T12:35:00+00:00",
@@ -3718,35 +3718,35 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 9.207022,
+    "scan_age_seconds": 10.84511,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-06-11T09:00:00+10:00",
+        "latest_candle": "2026-06-11T09:05:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-06-11T09:00:00+10:00",
+        "latest_candle": "2026-06-11T09:05:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-06-11T09:00:00+10:00",
+        "latest_candle": "2026-06-11T09:05:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XTIUSD",
-        "latest_candle": "2026-06-11T09:00:00+10:00",
+        "latest_candle": "2026-06-11T09:05:00+10:00",
         "stale": false
       }
     ],
