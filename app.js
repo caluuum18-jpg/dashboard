@@ -19,6 +19,20 @@ function metric(label, value, note = '', className = '') {
   return `<div class="metric"><div class="metric-label">${esc(label)}</div><div class="metric-value ${className}">${esc(value)}</div>${note ? `<div class="metric-note">${esc(note)}</div>` : ''}</div>`;
 }
 
+function updateMode(data) {
+  const el = document.getElementById('mode-status');
+  const mode = String(data.system?.mode || 'UNKNOWN').toUpperCase();
+  el.textContent = mode;
+  el.className = 'mode-pill';
+  if (mode === 'LIVE DEMO') {
+    el.classList.add('mode-live');
+  } else if (mode === 'DRY RUN') {
+    el.classList.add('mode-dry');
+  } else {
+    el.classList.add('mode-other');
+  }
+}
+
 function updateStatus(data) {
   const el = document.getElementById('data-status');
   const exportAge = ageSeconds(data.generated_at);
@@ -38,13 +52,10 @@ function updateStatus(data) {
 
 function renderHealth(data) {
   const s = data.system;
-  const weekend = s.scanner_stale ? `Stale: last reported ${s.weekend_guard ? 'Active' : 'Inactive'}` : (s.weekend_guard ? 'Active' : 'Inactive');
   const newsStatus = s.news_guard.status === 'not_checked' ? 'Not checked yet' : (s.news_guard.status || 'unknown');
   document.getElementById('health-grid').innerHTML = [
-    metric('Mode', s.mode),
     metric('Last VPS scan', s.last_scan_at_display || s.last_scan_at || 'missing'),
     metric('Last scan status', s.last_scan_status || 'unknown'),
-    metric('Weekend guard', weekend),
     metric('News guard', newsStatus, s.news_guard.reason || ''),
     metric('Account guard', s.account_guard.status || 'clear', s.account_guard.reason || ''),
     metric('Open orders', s.open_orders_count),
@@ -72,6 +83,37 @@ function renderPhase(data) {
   ].join('');
 }
 
+function renderSchedule(data) {
+  const target = document.getElementById('hours-calendar');
+  const schedule = data.schedule || {};
+  const hours = schedule.hours || Array.from({ length: 24 }, (_, i) => String(i).padStart(2, '0'));
+  const rows = schedule.rows || [];
+  if (!rows.length) {
+    target.innerHTML = '<p class="muted">No active strategy hours configured.</p>';
+    return;
+  }
+  const header = ['<div></div>', ...hours.map(h => `<div class="hour-label">${esc(h)}</div>`)].join('');
+  const body = rows.map(row => {
+    const cells = (row.cells || []).map(cell => {
+      const strategies = cell.strategies || [];
+      const label = strategies.join('+');
+      let cls = 'hour-cell';
+      if (strategies.length > 1) cls += ' active combo';
+      else if (strategies[0] === 'FVG') cls += ' active fvg';
+      else if (strategies[0] === 'ORB') cls += ' active orb';
+      return `<div class="${cls}" title="${esc(row.instrument)} ${String(cell.hour).padStart(2, '0')}:00 ${esc(label || 'inactive')}">${esc(label)}</div>`;
+    }).join('');
+    return `<div class="instrument-label">${esc(row.instrument)}</div>${cells}`;
+  }).join('');
+  target.innerHTML = `<div class="schedule-legend">
+      <span>${esc(schedule.timezone || 'Australia/Melbourne')}</span>
+      <span class="legend-chip"><span class="legend-dot fvg"></span>FVG</span>
+      <span class="legend-chip"><span class="legend-dot orb"></span>ORB</span>
+      <span class="legend-chip"><span class="legend-dot combo"></span>Both</span>
+    </div>
+    <div class="hours-calendar"><div class="hours-grid">${header}${body}</div></div>`;
+}
+
 function renderAccount(data) {
   const a = data.account;
   document.getElementById('account-grid').innerHTML = [
@@ -85,6 +127,7 @@ function renderAccount(data) {
     metric('Max loss left', fmtMoney(a.max_loss_remaining), '', clsPnL(a.max_loss_remaining)),
   ].join('');
   drawLineChart('equity-chart', data.charts.equity.map(x => x.equity), '#1f5eff');
+  renderSchedule(data);
 }
 
 function renderPerformance(data) {
@@ -135,6 +178,7 @@ async function loadDashboard() {
     const res = await fetch(`dashboard_data.json?v=${Date.now()}`, { cache: 'no-store' });
     const data = await res.json();
     state.refreshSeconds = Number(data.refresh_seconds || 45);
+    updateMode(data);
     updateStatus(data);
     renderHealth(data);
     renderPhase(data);

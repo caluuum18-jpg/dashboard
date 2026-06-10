@@ -46,8 +46,8 @@
     ],
     "r_histogram": []
   },
-  "generated_at": "2026-06-10T12:05:04.979243+10:00",
-  "generated_at_display": "2026-06-10 12:05 PM Melbourne",
+  "generated_at": "2026-06-10T12:19:23.880502+10:00",
+  "generated_at_display": "2026-06-10 12:19 PM Melbourne",
   "performance": {
     "by_instrument": [],
     "by_strategy": [],
@@ -100,6 +100,474 @@
     "server_rollover_note": "Daily-loss baseline is estimated from runner state until broker-server rollover export is added."
   },
   "refresh_seconds": 45,
+  "schedule": {
+    "hours": [
+      "00",
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23"
+    ],
+    "rows": [
+      {
+        "cells": [
+          {
+            "hour": 0,
+            "strategies": [
+              "FVG",
+              "ORB"
+            ]
+          },
+          {
+            "hour": 1,
+            "strategies": []
+          },
+          {
+            "hour": 2,
+            "strategies": []
+          },
+          {
+            "hour": 3,
+            "strategies": []
+          },
+          {
+            "hour": 4,
+            "strategies": []
+          },
+          {
+            "hour": 5,
+            "strategies": [
+              "FVG"
+            ]
+          },
+          {
+            "hour": 6,
+            "strategies": []
+          },
+          {
+            "hour": 7,
+            "strategies": []
+          },
+          {
+            "hour": 8,
+            "strategies": []
+          },
+          {
+            "hour": 9,
+            "strategies": []
+          },
+          {
+            "hour": 10,
+            "strategies": []
+          },
+          {
+            "hour": 11,
+            "strategies": [
+              "FVG"
+            ]
+          },
+          {
+            "hour": 12,
+            "strategies": []
+          },
+          {
+            "hour": 13,
+            "strategies": []
+          },
+          {
+            "hour": 14,
+            "strategies": []
+          },
+          {
+            "hour": 15,
+            "strategies": [
+              "FVG"
+            ]
+          },
+          {
+            "hour": 16,
+            "strategies": [
+              "FVG"
+            ]
+          },
+          {
+            "hour": 17,
+            "strategies": []
+          },
+          {
+            "hour": 18,
+            "strategies": [
+              "FVG"
+            ]
+          },
+          {
+            "hour": 19,
+            "strategies": []
+          },
+          {
+            "hour": 20,
+            "strategies": []
+          },
+          {
+            "hour": 21,
+            "strategies": []
+          },
+          {
+            "hour": 22,
+            "strategies": []
+          },
+          {
+            "hour": 23,
+            "strategies": []
+          }
+        ],
+        "instrument": "BTCUSD"
+      },
+      {
+        "cells": [
+          {
+            "hour": 0,
+            "strategies": []
+          },
+          {
+            "hour": 1,
+            "strategies": []
+          },
+          {
+            "hour": 2,
+            "strategies": []
+          },
+          {
+            "hour": 3,
+            "strategies": []
+          },
+          {
+            "hour": 4,
+            "strategies": []
+          },
+          {
+            "hour": 5,
+            "strategies": [
+              "FVG"
+            ]
+          },
+          {
+            "hour": 6,
+            "strategies": []
+          },
+          {
+            "hour": 7,
+            "strategies": []
+          },
+          {
+            "hour": 8,
+            "strategies": [
+              "FVG"
+            ]
+          },
+          {
+            "hour": 9,
+            "strategies": []
+          },
+          {
+            "hour": 10,
+            "strategies": []
+          },
+          {
+            "hour": 11,
+            "strategies": []
+          },
+          {
+            "hour": 12,
+            "strategies": []
+          },
+          {
+            "hour": 13,
+            "strategies": []
+          },
+          {
+            "hour": 14,
+            "strategies": []
+          },
+          {
+            "hour": 15,
+            "strategies": []
+          },
+          {
+            "hour": 16,
+            "strategies": []
+          },
+          {
+            "hour": 17,
+            "strategies": []
+          },
+          {
+            "hour": 18,
+            "strategies": []
+          },
+          {
+            "hour": 19,
+            "strategies": []
+          },
+          {
+            "hour": 20,
+            "strategies": []
+          },
+          {
+            "hour": 21,
+            "strategies": []
+          },
+          {
+            "hour": 22,
+            "strategies": [
+              "FVG"
+            ]
+          },
+          {
+            "hour": 23,
+            "strategies": [
+              "ORB"
+            ]
+          }
+        ],
+        "instrument": "NAS100"
+      },
+      {
+        "cells": [
+          {
+            "hour": 0,
+            "strategies": []
+          },
+          {
+            "hour": 1,
+            "strategies": []
+          },
+          {
+            "hour": 2,
+            "strategies": []
+          },
+          {
+            "hour": 3,
+            "strategies": []
+          },
+          {
+            "hour": 4,
+            "strategies": []
+          },
+          {
+            "hour": 5,
+            "strategies": []
+          },
+          {
+            "hour": 6,
+            "strategies": []
+          },
+          {
+            "hour": 7,
+            "strategies": []
+          },
+          {
+            "hour": 8,
+            "strategies": []
+          },
+          {
+            "hour": 9,
+            "strategies": []
+          },
+          {
+            "hour": 10,
+            "strategies": []
+          },
+          {
+            "hour": 11,
+            "strategies": [
+              "FVG"
+            ]
+          },
+          {
+            "hour": 12,
+            "strategies": []
+          },
+          {
+            "hour": 13,
+            "strategies": [
+              "FVG"
+            ]
+          },
+          {
+            "hour": 14,
+            "strategies": [
+              "FVG"
+            ]
+          },
+          {
+            "hour": 15,
+            "strategies": []
+          },
+          {
+            "hour": 16,
+            "strategies": [
+              "FVG"
+            ]
+          },
+          {
+            "hour": 17,
+            "strategies": [
+              "FVG"
+            ]
+          },
+          {
+            "hour": 18,
+            "strategies": []
+          },
+          {
+            "hour": 19,
+            "strategies": []
+          },
+          {
+            "hour": 20,
+            "strategies": []
+          },
+          {
+            "hour": 21,
+            "strategies": []
+          },
+          {
+            "hour": 22,
+            "strategies": []
+          },
+          {
+            "hour": 23,
+            "strategies": []
+          }
+        ],
+        "instrument": "XAUUSD"
+      },
+      {
+        "cells": [
+          {
+            "hour": 0,
+            "strategies": []
+          },
+          {
+            "hour": 1,
+            "strategies": []
+          },
+          {
+            "hour": 2,
+            "strategies": []
+          },
+          {
+            "hour": 3,
+            "strategies": []
+          },
+          {
+            "hour": 4,
+            "strategies": []
+          },
+          {
+            "hour": 5,
+            "strategies": []
+          },
+          {
+            "hour": 6,
+            "strategies": []
+          },
+          {
+            "hour": 7,
+            "strategies": []
+          },
+          {
+            "hour": 8,
+            "strategies": []
+          },
+          {
+            "hour": 9,
+            "strategies": []
+          },
+          {
+            "hour": 10,
+            "strategies": []
+          },
+          {
+            "hour": 11,
+            "strategies": []
+          },
+          {
+            "hour": 12,
+            "strategies": []
+          },
+          {
+            "hour": 13,
+            "strategies": []
+          },
+          {
+            "hour": 14,
+            "strategies": []
+          },
+          {
+            "hour": 15,
+            "strategies": []
+          },
+          {
+            "hour": 16,
+            "strategies": []
+          },
+          {
+            "hour": 17,
+            "strategies": []
+          },
+          {
+            "hour": 18,
+            "strategies": []
+          },
+          {
+            "hour": 19,
+            "strategies": []
+          },
+          {
+            "hour": 20,
+            "strategies": []
+          },
+          {
+            "hour": 21,
+            "strategies": []
+          },
+          {
+            "hour": 22,
+            "strategies": []
+          },
+          {
+            "hour": 23,
+            "strategies": [
+              "ORB"
+            ]
+          }
+        ],
+        "instrument": "XTIUSD"
+      }
+    ],
+    "timezone": "Australia/Melbourne"
+  },
   "schema_version": 1,
   "stale_amber_seconds": 180,
   "stale_red_seconds": 300,
@@ -122,7 +590,7 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 2759397.442647,
+    "scan_age_seconds": 2760256.35077,
     "scanner_stale": true,
     "symbols": [],
     "weekend_guard": true

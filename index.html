@@ -10,7 +10,10 @@
   <header class="topbar">
     <div>
       <p class="eyebrow">Paper / Prop Monitor</p>
-      <h1>Trading Dashboard</h1>
+      <div class="title-row">
+        <h1>Trading Dashboard</h1>
+        <span class="mode-pill" id="mode-status">Loading</span>
+      </div>
     </div>
     <div class="status-pill" id="data-status">Loading</div>
   </header>
@@ -33,6 +36,10 @@
         <div class="chart-panel">
           <h3>Equity</h3>
           <svg id="equity-chart" viewBox="0 0 640 220" preserveAspectRatio="none"></svg>
+        </div>
+        <div class="chart-panel">
+          <h3>Active Hours</h3>
+          <div id="hours-calendar"></div>
         </div>
       </div>
     </section>
