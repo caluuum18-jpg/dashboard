@@ -46,8 +46,8 @@
     ],
     "r_histogram": []
   },
-  "generated_at": "2026-06-10T12:23:50.965310+10:00",
-  "generated_at_display": "2026-06-10 12:23 PM Melbourne",
+  "generated_at": "2026-06-10T12:31:57.265427+10:00",
+  "generated_at_display": "Jun 10, 12:31 PM",
   "performance": {
     "by_instrument": [],
     "by_strategy": [],
@@ -133,35 +133,44 @@
           {
             "hour": 0,
             "strategies": [
-              "FVG",
               "ORB"
             ]
           },
           {
             "hour": 1,
-            "strategies": []
+            "strategies": [
+              "ORB"
+            ]
           },
           {
             "hour": 2,
-            "strategies": []
+            "strategies": [
+              "ORB"
+            ]
           },
           {
             "hour": 3,
-            "strategies": []
+            "strategies": [
+              "ORB"
+            ]
           },
           {
             "hour": 4,
-            "strategies": []
+            "strategies": [
+              "ORB"
+            ]
           },
           {
             "hour": 5,
             "strategies": [
-              "FVG"
+              "ORB"
             ]
           },
           {
             "hour": 6,
-            "strategies": []
+            "strategies": [
+              "ORB"
+            ]
           },
           {
             "hour": 7,
@@ -181,9 +190,7 @@
           },
           {
             "hour": 11,
-            "strategies": [
-              "FVG"
-            ]
+            "strategies": []
           },
           {
             "hour": 12,
@@ -199,15 +206,11 @@
           },
           {
             "hour": 15,
-            "strategies": [
-              "FVG"
-            ]
+            "strategies": []
           },
           {
             "hour": 16,
-            "strategies": [
-              "FVG"
-            ]
+            "strategies": []
           },
           {
             "hour": 17,
@@ -215,9 +218,7 @@
           },
           {
             "hour": 18,
-            "strategies": [
-              "FVG"
-            ]
+            "strategies": []
           },
           {
             "hour": 19,
@@ -246,15 +247,21 @@
         "cells": [
           {
             "hour": 0,
-            "strategies": []
+            "strategies": [
+              "ORB"
+            ]
           },
           {
             "hour": 1,
-            "strategies": []
+            "strategies": [
+              "ORB"
+            ]
           },
           {
             "hour": 2,
-            "strategies": []
+            "strategies": [
+              "ORB"
+            ]
           },
           {
             "hour": 3,
@@ -266,9 +273,7 @@
           },
           {
             "hour": 5,
-            "strategies": [
-              "FVG"
-            ]
+            "strategies": []
           },
           {
             "hour": 6,
@@ -280,9 +285,7 @@
           },
           {
             "hour": 8,
-            "strategies": [
-              "FVG"
-            ]
+            "strategies": []
           },
           {
             "hour": 9,
@@ -338,9 +341,7 @@
           },
           {
             "hour": 22,
-            "strategies": [
-              "FVG"
-            ]
+            "strategies": []
           },
           {
             "hour": 23,
@@ -466,19 +467,27 @@
         "cells": [
           {
             "hour": 0,
-            "strategies": []
+            "strategies": [
+              "ORB"
+            ]
           },
           {
             "hour": 1,
-            "strategies": []
+            "strategies": [
+              "ORB"
+            ]
           },
           {
             "hour": 2,
-            "strategies": []
+            "strategies": [
+              "ORB"
+            ]
           },
           {
             "hour": 3,
-            "strategies": []
+            "strategies": [
+              "ORB"
+            ]
           },
           {
             "hour": 4,
@@ -578,7 +587,7 @@
     },
     "broker_server": "Pepperstone-Demo",
     "last_scan_at": "2026-05-09T13:35:07.544697+10:00",
-    "last_scan_at_display": "2026-05-09 1:35 PM Melbourne",
+    "last_scan_at_display": "May 9, 1:35 PM",
     "last_scan_status": "weekend_guard",
     "mode": "LIVE DEMO",
     "news_guard": {
@@ -590,7 +599,7 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 2760523.428768,
+    "scan_age_seconds": 2761009.740959,
     "scanner_stale": true,
     "symbols": [],
     "weekend_guard": true
