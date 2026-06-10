@@ -21,28 +21,31 @@ function metric(label, value, note = '', className = '') {
 
 function updateStatus(data) {
   const el = document.getElementById('data-status');
-  const age = ageSeconds(data.generated_at);
+  const exportAge = ageSeconds(data.generated_at);
+  const scanAge = ageSeconds(data.system?.last_scan_at);
   el.className = 'status-pill';
-  if (age <= data.stale_amber_seconds) {
-    el.classList.add('status-ok');
-    el.textContent = 'Live';
-  } else if (age <= data.stale_red_seconds) {
+  if (exportAge > data.stale_red_seconds || scanAge > data.stale_red_seconds) {
+    el.classList.add('status-bad');
+    el.textContent = 'Scanner stale';
+  } else if (exportAge > data.stale_amber_seconds || scanAge > data.stale_amber_seconds) {
     el.classList.add('status-warn');
     el.textContent = 'Stale';
   } else {
-    el.classList.add('status-bad');
-    el.textContent = 'Offline';
+    el.classList.add('status-ok');
+    el.textContent = 'Live';
   }
 }
 
 function renderHealth(data) {
   const s = data.system;
+  const weekend = s.scanner_stale ? `Stale: last reported ${s.weekend_guard ? 'Active' : 'Inactive'}` : (s.weekend_guard ? 'Active' : 'Inactive');
+  const newsStatus = s.news_guard.status === 'not_checked' ? 'Not checked yet' : (s.news_guard.status || 'unknown');
   document.getElementById('health-grid').innerHTML = [
     metric('Mode', s.mode),
-    metric('Last VPS scan', s.last_scan_at || 'missing'),
+    metric('Last VPS scan', s.last_scan_at_display || s.last_scan_at || 'missing'),
     metric('Last scan status', s.last_scan_status || 'unknown'),
-    metric('Weekend guard', s.weekend_guard ? 'Active' : 'Inactive'),
-    metric('News guard', s.news_guard.status || 'unknown', s.news_guard.reason || ''),
+    metric('Weekend guard', weekend),
+    metric('News guard', newsStatus, s.news_guard.reason || ''),
     metric('Account guard', s.account_guard.status || 'clear', s.account_guard.reason || ''),
     metric('Open orders', s.open_orders_count),
     metric('Open positions', s.open_positions_count),
@@ -72,8 +75,8 @@ function renderPhase(data) {
 function renderAccount(data) {
   const a = data.account;
   document.getElementById('account-grid').innerHTML = [
-    metric('Balance', fmtMoney(a.balance)),
-    metric('Equity', fmtMoney(a.equity)),
+    metric('Balance', fmtMoney(a.balance), a.warning || ''),
+    metric('Equity', fmtMoney(a.equity), a.source ? `Source: ${a.source}` : ''),
     metric('Floating PnL', fmtMoney(a.floating_pnl), '', clsPnL(a.floating_pnl)),
     metric('Net PnL', fmtMoney(a.net_pnl), '', clsPnL(a.net_pnl)),
     metric('Max DD from $100k', fmtPct(a.drawdown_from_initial_pct)),
