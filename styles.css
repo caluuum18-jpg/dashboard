@@ -137,6 +137,12 @@ svg { width: 100%; min-height: 190px; display: block; }
   border: 1px solid var(--line);
   font-variant-numeric: tabular-nums;
 }
+.hour-label.current {
+  color: var(--text);
+  background: #dfe8ff;
+  border-color: #9fb8ff;
+  font-weight: 900;
+}
 .instrument-label {
   display: flex;
   align-items: center;
@@ -164,6 +170,13 @@ svg { width: 100%; min-height: 190px; display: block; }
 .hour-cell.fvg { background: #e8f6ee; border-color: #b9e4ca; color: var(--green); }
 .hour-cell.orb { background: #fff3df; border-color: #f3d39a; color: var(--amber); }
 .hour-cell.combo { background: #edf0ff; border-color: #cbd4ff; color: #3542a2; }
+.hour-cell.current {
+  box-shadow: inset 0 0 0 2px #1f5eff;
+}
+.hour-cell.current:not(.active) {
+  background: #dfe8ff;
+  border-color: #9fb8ff;
+}
 .schedule-legend {
   display: flex;
   flex-wrap: wrap;

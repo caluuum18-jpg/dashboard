@@ -40,7 +40,7 @@ function updateStatus(data) {
   el.className = 'status-pill';
   if (exportAge > data.stale_red_seconds || scanAge > data.stale_red_seconds) {
     el.classList.add('status-bad');
-    el.textContent = 'Scanner stale';
+    el.textContent = 'Dashboard stale';
   } else if (exportAge > data.stale_amber_seconds || scanAge > data.stale_amber_seconds) {
     el.classList.add('status-warn');
     el.textContent = 'Stale';
@@ -83,6 +83,20 @@ function renderPhase(data) {
   ].join('');
 }
 
+function melbourneHour() {
+  try {
+    const parts = new Intl.DateTimeFormat('en-AU', {
+      timeZone: 'Australia/Melbourne',
+      hour: '2-digit',
+      hour12: false
+    }).formatToParts(new Date());
+    const raw = Number(parts.find(p => p.type === 'hour')?.value || NaN);
+    return raw === 24 ? 0 : raw;
+  } catch (err) {
+    return new Date().getHours();
+  }
+}
+
 function renderSchedule(data) {
   const target = document.getElementById('hours-calendar');
   const schedule = data.schedule || {};
@@ -92,7 +106,11 @@ function renderSchedule(data) {
     target.innerHTML = '<p class="muted">No active strategy hours configured.</p>';
     return;
   }
-  const header = ['<div></div>', ...hours.map(h => `<div class="hour-label">${esc(h)}</div>`)].join('');
+  const currentHour = melbourneHour();
+  const header = ['<div></div>', ...hours.map(h => {
+    const cls = Number(h) === currentHour ? 'hour-label current' : 'hour-label';
+    return `<div class="${cls}">${esc(h)}</div>`;
+  })].join('');
   const body = rows.map(row => {
     const cells = (row.cells || []).map(cell => {
       const strategies = cell.strategies || [];
@@ -101,6 +119,7 @@ function renderSchedule(data) {
       if (strategies.length > 1) cls += ' active combo';
       else if (strategies[0] === 'FVG') cls += ' active fvg';
       else if (strategies[0] === 'ORB') cls += ' active orb';
+      if (Number(cell.hour) === currentHour) cls += ' current';
       return `<div class="${cls}" title="${esc(row.instrument)} ${String(cell.hour).padStart(2, '0')}:00 ${esc(label || 'inactive')}">${esc(label)}</div>`;
     }).join('');
     return `<div class="instrument-label">${esc(row.instrument)}</div>${cells}`;
@@ -123,7 +142,7 @@ function renderAccount(data) {
     metric('Net PnL', fmtMoney(a.net_pnl), '', clsPnL(a.net_pnl)),
     metric('Max DD from $100k', fmtPct(a.drawdown_from_initial_pct)),
     metric('Daily DD', fmtPct(a.daily_drawdown_pct)),
-    metric('Daily loss left', fmtMoney(a.daily_loss_remaining), '', clsPnL(a.daily_loss_remaining)),
+    metric('Daily loss room', fmtMoney(a.daily_loss_remaining), '', clsPnL(a.daily_loss_remaining)),
     metric('Max loss left', fmtMoney(a.max_loss_remaining), '', clsPnL(a.max_loss_remaining)),
   ].join('');
   drawLineChart('equity-chart', data.charts.equity.map(x => x.equity), '#1f5eff');
