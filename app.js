@@ -85,7 +85,6 @@ function renderAccount(data) {
     metric('Max loss left', fmtMoney(a.max_loss_remaining), '', clsPnL(a.max_loss_remaining)),
   ].join('');
   drawLineChart('equity-chart', data.charts.equity.map(x => x.equity), '#1f5eff');
-  drawBarChart('daily-chart', data.charts.daily.map(x => x.realized_pnl));
 }
 
 function renderPerformance(data) {
@@ -129,22 +128,6 @@ function drawLineChart(id, values, color) {
     return `${x.toFixed(1)},${y.toFixed(1)}`;
   }).join(' ');
   svg.innerHTML = `<polyline fill="none" stroke="${color}" stroke-width="3" points="${pts}"></polyline>`;
-}
-
-function drawBarChart(id, values) {
-  const svg = document.getElementById(id);
-  svg.innerHTML = '';
-  if (!values.length) return;
-  const maxAbs = Math.max(1, ...values.map(v => Math.abs(v)));
-  const w = 640 / values.length;
-  const bars = values.map((v, i) => {
-    const h = Math.abs(v) / maxAbs * 90;
-    const x = i * w;
-    const y = v >= 0 ? 110 - h : 110;
-    const color = v >= 0 ? '#0b7a3b' : '#b42318';
-    return `<rect x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${Math.max(1, w - 2).toFixed(1)}" height="${h.toFixed(1)}" fill="${color}"></rect>`;
-  }).join('');
-  svg.innerHTML = `<line x1="0" y1="110" x2="640" y2="110" stroke="#d9e0e7"></line>${bars}`;
 }
 
 async function loadDashboard() {
