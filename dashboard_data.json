@@ -75,12 +75,6 @@
         "balance": 104987.18,
         "drawdown_pct": 0.0,
         "equity": 104987.18,
-        "timestamp": "2026-06-10T12:19:49.582692+10:00"
-      },
-      {
-        "balance": 104987.18,
-        "drawdown_pct": 0.0,
-        "equity": 104987.18,
         "timestamp": "2026-06-10T12:21:02.728255+10:00"
       },
       {
@@ -3070,6 +3064,12 @@
         "drawdown_pct": 0.0,
         "equity": 104987.18,
         "timestamp": "2026-06-10T22:58:10.778860+10:00"
+      },
+      {
+        "balance": 104987.18,
+        "drawdown_pct": 0.0,
+        "equity": 104987.18,
+        "timestamp": "2026-06-10T22:59:29.185630+10:00"
       }
     ],
     "r_histogram": [
@@ -3095,8 +3095,8 @@
       }
     ]
   },
-  "generated_at": "2026-06-10T22:58:25.357082+10:00",
-  "generated_at_display": "Jun 10, 10:58 PM",
+  "generated_at": "2026-06-10T22:59:42.373187+10:00",
+  "generated_at_display": "Jun 10, 10:59 PM",
   "performance": {
     "by_instrument": [
       {
@@ -3111,8 +3111,8 @@
         "max_losing_streak": 0,
         "name": "XAUUSD",
         "profit_factor": null,
-        "trades_per_month": 12.195930850648214,
-        "trades_per_week": 2.845717198484583,
+        "trades_per_month": 12.191512917744811,
+        "trades_per_week": 2.8446863474737887,
         "win_rate": 1.0,
         "wins": 1
       }
@@ -3130,8 +3130,8 @@
         "max_losing_streak": 0,
         "name": "FVG",
         "profit_factor": null,
-        "trades_per_month": 12.195930850648214,
-        "trades_per_week": 2.845717198484583,
+        "trades_per_month": 12.191512917744811,
+        "trades_per_week": 2.8446863474737887,
         "win_rate": 1.0,
         "wins": 1
       }
@@ -3147,8 +3147,8 @@
       "losses": 0,
       "max_losing_streak": 0,
       "profit_factor": null,
-      "trades_per_month": 12.195931747511265,
-      "trades_per_week": 2.8457174077526286,
+      "trades_per_month": 12.191513814015549,
+      "trades_per_week": 2.8446865566036283,
       "win_rate": 1.0,
       "wins": 1
     }
@@ -3157,7 +3157,7 @@
     "classic_phase1_target_pct": 0.08,
     "daily_loss_baseline_estimate": 104987.18,
     "daily_loss_limit_pct": 0.05,
-    "days_since_last_trade": 2.1813121841550926,
+    "days_since_last_trade": 2.1822033933680554,
     "inactivity_limit_days": 30,
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
@@ -3684,8 +3684,8 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-06-10T22:58:10.778860+10:00",
-    "last_scan_at_display": "Jun 10, 10:58 PM",
+    "last_scan_at": "2026-06-10T22:59:29.185630+10:00",
+    "last_scan_at_display": "Jun 10, 10:59 PM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
@@ -3710,7 +3710,7 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 14.578222,
+    "scan_age_seconds": 13.187557,
     "scanner_stale": false,
     "symbols": [
       {
