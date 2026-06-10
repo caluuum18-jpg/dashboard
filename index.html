@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trading Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Paper / Prop Monitor</p>
+      <h1>Trading Dashboard</h1>
+    </div>
+    <div class="status-pill" id="data-status">Loading</div>
+  </header>
+
+  <main>
+    <section class="section" aria-labelledby="health-title">
+      <h2 id="health-title">Program Health</h2>
+      <div class="metric-grid" id="health-grid"></div>
+    </section>
+
+    <section class="section" aria-labelledby="phase-title">
+      <h2 id="phase-title">The5ers Progress</h2>
+      <div class="phase-grid" id="phase-grid"></div>
+    </section>
+
+    <section class="section" aria-labelledby="account-title">
+      <h2 id="account-title">Balance And Risk</h2>
+      <div class="metric-grid" id="account-grid"></div>
+      <div class="chart-row">
+        <div class="chart-panel">
+          <h3>Equity</h3>
+          <svg id="equity-chart" viewBox="0 0 640 220" preserveAspectRatio="none"></svg>
+        </div>
+        <div class="chart-panel">
+          <h3>Daily PnL</h3>
+          <svg id="daily-chart" viewBox="0 0 640 220" preserveAspectRatio="none"></svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="performance-title">
+      <h2 id="performance-title">Performance</h2>
+      <div class="metric-grid" id="performance-grid"></div>
+      <div class="table-wrap" id="breakdown-wrap"></div>
+    </section>
+
+    <section class="section" aria-labelledby="trades-title">
+      <h2 id="trades-title">Trades</h2>
+      <div class="table-wrap" id="open-trades"></div>
+      <div class="table-wrap" id="recent-trades"></div>
+      <div class="table-wrap" id="recent-cancellations"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
