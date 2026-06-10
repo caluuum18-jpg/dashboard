@@ -16,7 +16,7 @@
     "peak_drawdown_pct": 0.0,
     "peak_equity": 100000.0,
     "source": "paper_state",
-    "warning": "Ignored stale journal balance that was far below the configured $100k baseline. Run the scanner on the live server to refresh broker balance/equity.",
+    "warning": "",
     "zone": "green"
   },
   "charts": {
@@ -46,8 +46,8 @@
     ],
     "r_histogram": []
   },
-  "generated_at": "2026-06-10T12:31:57.265427+10:00",
-  "generated_at_display": "Jun 10, 12:31 PM",
+  "generated_at": "2026-06-10T12:37:48.288689+10:00",
+  "generated_at_display": "Jun 10, 12:37 PM",
   "performance": {
     "by_instrument": [],
     "by_strategy": [],
@@ -599,7 +599,7 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 2761009.740959,
+    "scan_age_seconds": 2761360.750813,
     "scanner_stale": true,
     "symbols": [],
     "weekend_guard": true

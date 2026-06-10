@@ -117,8 +117,8 @@ function renderSchedule(data) {
 function renderAccount(data) {
   const a = data.account;
   document.getElementById('account-grid').innerHTML = [
-    metric('Balance', fmtMoney(a.balance), a.warning || ''),
-    metric('Equity', fmtMoney(a.equity), a.source ? `Source: ${a.source}` : ''),
+    metric('Balance', fmtMoney(a.balance)),
+    metric('Equity', fmtMoney(a.equity)),
     metric('Floating PnL', fmtMoney(a.floating_pnl), '', clsPnL(a.floating_pnl)),
     metric('Net PnL', fmtMoney(a.net_pnl), '', clsPnL(a.net_pnl)),
     metric('Max DD from $100k', fmtPct(a.drawdown_from_initial_pct)),
