@@ -70,45 +70,15 @@
         "win_rate": 0.0
       },
       {
-        "closed_trades": 0,
+        "closed_trades": 1,
         "date": "2026-06-11",
         "ending_equity": 102898.04,
-        "expectancy_r": 0.0,
-        "realized_pnl": 0.0,
+        "expectancy_r": -0.9995495869203944,
+        "realized_pnl": -2089.14,
         "win_rate": 0.0
       }
     ],
     "equity": [
-      {
-        "balance": 104987.18,
-        "drawdown_pct": 0.0,
-        "equity": 104987.18,
-        "timestamp": "2026-06-11T10:19:13.411195+10:00"
-      },
-      {
-        "balance": 104987.18,
-        "drawdown_pct": 0.0,
-        "equity": 104987.18,
-        "timestamp": "2026-06-11T10:20:32.246687+10:00"
-      },
-      {
-        "balance": 104987.18,
-        "drawdown_pct": 0.0,
-        "equity": 104987.18,
-        "timestamp": "2026-06-11T10:21:47.898711+10:00"
-      },
-      {
-        "balance": 104987.18,
-        "drawdown_pct": 0.0,
-        "equity": 104987.18,
-        "timestamp": "2026-06-11T10:23:04.179020+10:00"
-      },
-      {
-        "balance": 104987.18,
-        "drawdown_pct": 0.0,
-        "equity": 104987.18,
-        "timestamp": "2026-06-11T10:24:20.387951+10:00"
-      },
       {
         "balance": 104987.18,
         "drawdown_pct": 0.0,
@@ -3078,6 +3048,36 @@
         "drawdown_pct": 0.0,
         "equity": 102898.04,
         "timestamp": "2026-06-11T20:23:15.739667+10:00"
+      },
+      {
+        "balance": 102898.04,
+        "drawdown_pct": 0.0,
+        "equity": 102898.04,
+        "timestamp": "2026-06-11T20:24:30.141625+10:00"
+      },
+      {
+        "balance": 102898.04,
+        "drawdown_pct": 0.0,
+        "equity": 102898.04,
+        "timestamp": "2026-06-11T20:25:40.234466+10:00"
+      },
+      {
+        "balance": 102898.04,
+        "drawdown_pct": 0.0,
+        "equity": 102898.04,
+        "timestamp": "2026-06-11T20:26:49.979761+10:00"
+      },
+      {
+        "balance": 102898.04,
+        "drawdown_pct": 0.0,
+        "equity": 102898.04,
+        "timestamp": "2026-06-11T20:28:01.253883+10:00"
+      },
+      {
+        "balance": 102898.04,
+        "drawdown_pct": 0.0,
+        "equity": 102898.04,
+        "timestamp": "2026-06-11T20:29:11.728188+10:00"
       }
     ],
     "r_histogram": [
@@ -3086,7 +3086,7 @@
         "label": "<=-1R"
       },
       {
-        "count": 0,
+        "count": 1,
         "label": "-1R..0"
       },
       {
@@ -3103,61 +3103,61 @@
       }
     ]
   },
-  "generated_at": "2026-06-11T20:23:26.621673+10:00",
-  "generated_at_display": "Jun 11, 8:23 PM",
+  "generated_at": "2026-06-11T20:29:21.294557+10:00",
+  "generated_at_display": "Jun 11, 8:29 PM",
   "performance": {
     "by_instrument": [
       {
-        "average_loss": 0.0,
+        "average_loss": -2089.14,
         "average_win": 4987.18,
-        "average_win_loss_ratio": 0.0,
-        "closed_trades": 1,
-        "current_losing_streak": 0,
-        "expectancy_dollars": 4987.18,
-        "expectancy_r": 2.5024099942657894,
-        "losses": 0,
-        "max_losing_streak": 0,
+        "average_win_loss_ratio": 2.387192816182736,
+        "closed_trades": 2,
+        "current_losing_streak": 1,
+        "expectancy_dollars": 1449.0200000000002,
+        "expectancy_r": 0.7514302036726974,
+        "losses": 1,
+        "max_losing_streak": 1,
         "name": "XAUUSD",
-        "profit_factor": null,
-        "trades_per_month": 8.949313093791346,
-        "trades_per_week": 2.0881730552179807,
-        "win_rate": 1.0,
+        "profit_factor": 2.387192816182736,
+        "trades_per_month": 18.784902244553358,
+        "trades_per_week": 4.38314385706245,
+        "win_rate": 0.5,
         "wins": 1
       }
     ],
     "by_strategy": [
       {
-        "average_loss": 0.0,
+        "average_loss": -2089.14,
         "average_win": 4987.18,
-        "average_win_loss_ratio": 0.0,
-        "closed_trades": 1,
-        "current_losing_streak": 0,
-        "expectancy_dollars": 4987.18,
-        "expectancy_r": 2.5024099942657894,
-        "losses": 0,
-        "max_losing_streak": 0,
+        "average_win_loss_ratio": 2.387192816182736,
+        "closed_trades": 2,
+        "current_losing_streak": 1,
+        "expectancy_dollars": 1449.0200000000002,
+        "expectancy_r": 0.7514302036726974,
+        "losses": 1,
+        "max_losing_streak": 1,
         "name": "FVG",
-        "profit_factor": null,
-        "trades_per_month": 8.949313093791346,
-        "trades_per_week": 2.0881730552179807,
-        "win_rate": 1.0,
+        "profit_factor": 2.387192816182736,
+        "trades_per_month": 18.784902244553358,
+        "trades_per_week": 4.38314385706245,
+        "win_rate": 0.5,
         "wins": 1
       }
     ],
     "summary": {
-      "average_loss": 0.0,
+      "average_loss": -2089.14,
       "average_win": 4987.18,
-      "average_win_loss_ratio": 0.0,
-      "closed_trades": 1,
-      "current_losing_streak": 0,
-      "expectancy_dollars": 4987.18,
-      "expectancy_r": 2.5024099942657894,
-      "losses": 0,
-      "max_losing_streak": 0,
-      "profit_factor": null,
-      "trades_per_month": 8.949313576742725,
-      "trades_per_week": 2.088173167906636,
-      "win_rate": 1.0,
+      "average_win_loss_ratio": 2.387192816182736,
+      "closed_trades": 2,
+      "current_losing_streak": 1,
+      "expectancy_dollars": 1449.0200000000002,
+      "expectancy_r": 0.7514302036726974,
+      "losses": 1,
+      "max_losing_streak": 1,
+      "profit_factor": 2.387192816182736,
+      "trades_per_month": 18.784902244553358,
+      "trades_per_week": 4.38314385706245,
+      "win_rate": 0.5,
       "wins": 1
     }
   },
@@ -3165,7 +3165,7 @@
     "classic_phase1_target_pct": 0.08,
     "daily_loss_baseline_estimate": 104987.18,
     "daily_loss_limit_pct": 0.05,
-    "days_since_last_trade": 3.073687750844907,
+    "days_since_last_trade": 0.0033367425578703703,
     "inactivity_limit_days": 30,
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
@@ -3692,8 +3692,8 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-06-11T20:23:15.739667+10:00",
-    "last_scan_at_display": "Jun 11, 8:23 PM",
+    "last_scan_at": "2026-06-11T20:29:11.728188+10:00",
+    "last_scan_at_display": "Jun 11, 8:29 PM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
@@ -3718,35 +3718,35 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 10.882006,
+    "scan_age_seconds": 9.566369,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-06-11T20:15:00+10:00",
+        "latest_candle": "2026-06-11T20:20:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-06-11T20:15:00+10:00",
+        "latest_candle": "2026-06-11T20:20:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-06-11T20:15:00+10:00",
+        "latest_candle": "2026-06-11T20:20:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XTIUSD",
-        "latest_candle": "2026-06-11T20:15:00+10:00",
+        "latest_candle": "2026-06-11T20:20:00+10:00",
         "stale": false
       }
     ],
@@ -3760,16 +3760,16 @@
     },
     "recent": [
       {
-        "actual_exit": 0.0,
+        "actual_exit": 4107.88,
         "created_at": "2026-06-11T16:35:41.771455+10:00",
         "direction": "SELL",
         "entry": 4085.698892857143,
-        "exit_reason": "nan",
+        "exit_reason": "SL",
         "instrument": "XAUUSD",
-        "realized_pnl": 0.0,
-        "realized_r": 0.0,
+        "realized_pnl": -2089.14,
+        "realized_r": -0.9995,
         "risk_dollars": 2090.0814,
-        "status": "ORDER_CREATED",
+        "status": "CLOSED",
         "strategy": "FVG"
       },
       {
