@@ -100,39 +100,17 @@
         "expectancy_r": 0.0,
         "realized_pnl": 0.0,
         "win_rate": 0.0
+      },
+      {
+        "closed_trades": 0,
+        "date": "2026-06-15",
+        "ending_equity": 102898.04,
+        "expectancy_r": 0.0,
+        "realized_pnl": 0.0,
+        "win_rate": 0.0
       }
     ],
     "equity": [
-      {
-        "balance": 102898.04,
-        "drawdown_pct": 0.0,
-        "equity": 102898.04,
-        "timestamp": "2026-06-14T09:14:25.478167+10:00"
-      },
-      {
-        "balance": 102898.04,
-        "drawdown_pct": 0.0,
-        "equity": 102898.04,
-        "timestamp": "2026-06-14T09:15:25.808967+10:00"
-      },
-      {
-        "balance": 102898.04,
-        "drawdown_pct": 0.0,
-        "equity": 102898.04,
-        "timestamp": "2026-06-14T09:16:26.130632+10:00"
-      },
-      {
-        "balance": 102898.04,
-        "drawdown_pct": 0.0,
-        "equity": 102898.04,
-        "timestamp": "2026-06-14T09:17:28.279335+10:00"
-      },
-      {
-        "balance": 102898.04,
-        "drawdown_pct": 0.0,
-        "equity": 102898.04,
-        "timestamp": "2026-06-14T09:18:28.612361+10:00"
-      },
       {
         "balance": 102898.04,
         "drawdown_pct": 0.0,
@@ -3102,6 +3080,36 @@
         "drawdown_pct": 0.0,
         "equity": 102898.04,
         "timestamp": "2026-06-14T23:57:19.184143+10:00"
+      },
+      {
+        "balance": 102898.04,
+        "drawdown_pct": 0.0,
+        "equity": 102898.04,
+        "timestamp": "2026-06-14T23:58:21.315763+10:00"
+      },
+      {
+        "balance": 102898.04,
+        "drawdown_pct": 0.0,
+        "equity": 102898.04,
+        "timestamp": "2026-06-14T23:59:21.645219+10:00"
+      },
+      {
+        "balance": 102898.04,
+        "drawdown_pct": 0.0,
+        "equity": 102898.04,
+        "timestamp": "2026-06-15T00:00:22.008343+10:00"
+      },
+      {
+        "balance": 102898.04,
+        "drawdown_pct": 0.0,
+        "equity": 102898.04,
+        "timestamp": "2026-06-15T00:01:29.882019+10:00"
+      },
+      {
+        "balance": 102898.04,
+        "drawdown_pct": 0.0,
+        "equity": 102898.04,
+        "timestamp": "2026-06-15T00:02:36.007117+10:00"
       }
     ],
     "r_histogram": [
@@ -3127,8 +3135,8 @@
       }
     ]
   },
-  "generated_at": "2026-06-14T23:57:19.448184+10:00",
-  "generated_at_display": "Jun 14, 11:57 PM",
+  "generated_at": "2026-06-15T00:02:42.282931+10:00",
+  "generated_at_display": "Jun 15, 12:02 AM",
   "performance": {
     "by_instrument": [
       {
@@ -3189,13 +3197,26 @@
     "classic_phase1_target_pct": 0.08,
     "daily_loss_baseline_estimate": 102898.04,
     "daily_loss_limit_pct": 0.05,
-    "days_since_last_trade": 3.1477598169444443,
+    "days_since_last_trade": 3.1514963302199073,
     "inactivity_limit_days": 30,
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
     "minimum_profitable_days": 3,
     "news_status": "clear",
-    "next_news": {},
+    "next_news": {
+      "block_end_local": "2026-06-18T04:05:00+10:00",
+      "block_end_utc": "2026-06-17T18:05:00+00:00",
+      "block_start_local": "2026-06-18T03:55:00+10:00",
+      "block_start_utc": "2026-06-17T17:55:00+00:00",
+      "country": "USD",
+      "event_time_local": "2026-06-18T04:00:00+10:00",
+      "event_time_utc": "2026-06-17T18:00:00+00:00",
+      "impact": "High",
+      "instruments": "BTCUSD,NAS100,XAUUSD,XTIUSD",
+      "reason": "Forex Factory high-impact event",
+      "source": "forex_factory",
+      "title": "Federal Funds Rate"
+    },
     "phase1": {
       "label": "Phase 1",
       "progress": 0.28980399999999934,
@@ -3703,52 +3724,65 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-06-14T23:57:19.184143+10:00",
-    "last_scan_at_display": "Jun 14, 11:57 PM",
-    "last_scan_status": "weekend_guard",
+    "last_scan_at": "2026-06-15T00:02:36.007117+10:00",
+    "last_scan_at_display": "Jun 15, 12:02 AM",
+    "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
       "block_end_local": "",
-      "last_fetch_at": "2026-06-12T23:38:44.956438+10:00",
-      "next_event": {},
+      "last_fetch_at": "2026-06-15T00:00:22.421647+10:00",
+      "next_event": {
+        "block_end_local": "2026-06-18T04:05:00+10:00",
+        "block_end_utc": "2026-06-17T18:05:00+00:00",
+        "block_start_local": "2026-06-18T03:55:00+10:00",
+        "block_start_utc": "2026-06-17T17:55:00+00:00",
+        "country": "USD",
+        "event_time_local": "2026-06-18T04:00:00+10:00",
+        "event_time_utc": "2026-06-17T18:00:00+00:00",
+        "impact": "High",
+        "instruments": "BTCUSD,NAS100,XAUUSD,XTIUSD",
+        "reason": "Forex Factory high-impact event",
+        "source": "forex_factory",
+        "title": "Federal Funds Rate"
+      },
       "reason": "no active high-impact news blackout",
       "status": "clear"
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 0.264041,
+    "scan_age_seconds": 6.2758140000000004,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-06-12T23:50:00+10:00",
+        "latest_candle": "2026-06-14T23:55:00+10:00",
         "stale": false
       },
       {
-        "fresh": true,
+        "fresh": false,
         "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-06-12T23:50:00+10:00",
-        "stale": false
+        "latest_candle": "2026-06-13T09:45:00+10:00",
+        "stale": true
       },
       {
-        "fresh": true,
+        "fresh": false,
         "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-06-12T23:50:00+10:00",
-        "stale": false
+        "latest_candle": "2026-06-13T09:45:00+10:00",
+        "stale": true
       },
       {
-        "fresh": true,
+        "fresh": false,
         "future": false,
         "instrument": "XTIUSD",
-        "latest_candle": "2026-06-12T23:50:00+10:00",
-        "stale": false
+        "latest_candle": "2026-06-13T09:45:00+10:00",
+        "stale": true
       }
     ],
-    "weekend_guard": true
+    "weekend_guard": false
   },
   "trades": {
     "cancellations": [],
