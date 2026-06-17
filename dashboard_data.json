@@ -4,16 +4,16 @@
     "baseline": 100000.0,
     "closed_pnl": 2898.0399999999936,
     "current_initial_drawdown_pct": 0.0,
-    "daily_drawdown_pct": 0.0011191661182272175,
-    "daily_loss_remaining": 5029.742000000013,
+    "daily_drawdown_pct": 0.0013020656175763497,
+    "daily_loss_remaining": 5010.922000000006,
     "day_start_equity": 102898.04,
     "drawdown_from_initial_pct": 0.0028450999999999477,
-    "equity": 102782.88,
-    "floating_pnl": -115.15999999998894,
-    "max_loss_remaining": 12782.880000000005,
+    "equity": 102764.06,
+    "floating_pnl": -133.97999999999593,
+    "max_loss_remaining": 12764.059999999998,
     "min_equity": 99715.49,
-    "net_pnl": 2782.8800000000047,
-    "peak_drawdown_pct": 2.0996,
+    "net_pnl": 2764.0599999999977,
+    "peak_drawdown_pct": 2.1175,
     "peak_equity": 104987.18,
     "source": "journal",
     "warning": "",
@@ -128,19 +128,13 @@
       {
         "closed_trades": 0,
         "date": "2026-06-18",
-        "ending_equity": 102782.88,
+        "ending_equity": 102764.06,
         "expectancy_r": 0.0,
         "realized_pnl": 0.0,
         "win_rate": 0.0
       }
     ],
     "equity": [
-      {
-        "balance": 102898.04,
-        "drawdown_pct": 0.0,
-        "equity": 102898.04,
-        "timestamp": "2026-06-17T15:24:10.516903+10:00"
-      },
       {
         "balance": 102898.04,
         "drawdown_pct": 0.0,
@@ -3134,6 +3128,12 @@
         "drawdown_pct": 0.0,
         "equity": 102782.88,
         "timestamp": "2026-06-18T01:23:49.542703+10:00"
+      },
+      {
+        "balance": 102898.04,
+        "drawdown_pct": 0.0,
+        "equity": 102764.06,
+        "timestamp": "2026-06-18T01:25:03.419274+10:00"
       }
     ],
     "r_histogram": [
@@ -3159,8 +3159,8 @@
       }
     ]
   },
-  "generated_at": "2026-06-18T01:23:59.481278+10:00",
-  "generated_at_display": "Jun 18, 1:23 AM",
+  "generated_at": "2026-06-18T01:25:15.889044+10:00",
+  "generated_at_display": "Jun 18, 1:25 AM",
   "performance": {
     "by_instrument": [
       {
@@ -3221,7 +3221,7 @@
     "classic_phase1_target_pct": 0.08,
     "daily_loss_baseline_estimate": 102898.04,
     "daily_loss_limit_pct": 0.05,
-    "days_since_last_trade": 6.207945385162038,
+    "days_since_last_trade": 6.208829734305555,
     "inactivity_limit_days": 30,
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
@@ -3243,8 +3243,8 @@
     },
     "phase1": {
       "label": "Phase 1",
-      "progress": 0.2782880000000005,
-      "remaining_dollars": 7217.119999999995,
+      "progress": 0.27640599999999976,
+      "remaining_dollars": 7235.940000000002,
       "target_dollars": 10000.0,
       "target_pct": 0.1
     },
@@ -3748,8 +3748,8 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-06-18T01:23:49.542703+10:00",
-    "last_scan_at_display": "Jun 18, 1:23 AM",
+    "last_scan_at": "2026-06-18T01:25:03.419274+10:00",
+    "last_scan_at_display": "Jun 18, 1:25 AM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
@@ -3774,35 +3774,35 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 1,
-    "scan_age_seconds": 9.938575,
+    "scan_age_seconds": 12.46977,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-06-18T01:15:00+10:00",
+        "latest_candle": "2026-06-18T01:20:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-06-18T01:15:00+10:00",
+        "latest_candle": "2026-06-18T01:20:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-06-18T01:15:00+10:00",
+        "latest_candle": "2026-06-18T01:20:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XTIUSD",
-        "latest_candle": "2026-06-18T01:15:00+10:00",
+        "latest_candle": "2026-06-18T01:20:00+10:00",
         "stale": false
       }
     ],
@@ -3815,7 +3815,7 @@
       "positions": [
         {
           "price_open": 65069.38,
-          "profit": -118.79,
+          "profit": -156.06,
           "sl": 65439.81,
           "symbol": "BTCUSD.a",
           "tp": 64066.1,
