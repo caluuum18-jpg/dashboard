@@ -131,36 +131,6 @@
         "balance": 102898.04,
         "drawdown_pct": 0.0,
         "equity": 102898.04,
-        "timestamp": "2026-06-17T09:41:47.697389+10:00"
-      },
-      {
-        "balance": 102898.04,
-        "drawdown_pct": 0.0,
-        "equity": 102898.04,
-        "timestamp": "2026-06-17T09:42:54.538010+10:00"
-      },
-      {
-        "balance": 102898.04,
-        "drawdown_pct": 0.0,
-        "equity": 102898.04,
-        "timestamp": "2026-06-17T09:44:01.942366+10:00"
-      },
-      {
-        "balance": 102898.04,
-        "drawdown_pct": 0.0,
-        "equity": 102898.04,
-        "timestamp": "2026-06-17T09:45:09.415511+10:00"
-      },
-      {
-        "balance": 102898.04,
-        "drawdown_pct": 0.0,
-        "equity": 102898.04,
-        "timestamp": "2026-06-17T09:46:17.376724+10:00"
-      },
-      {
-        "balance": 102898.04,
-        "drawdown_pct": 0.0,
-        "equity": 102898.04,
         "timestamp": "2026-06-17T09:47:27.595370+10:00"
       },
       {
@@ -3126,6 +3096,36 @@
         "drawdown_pct": 0.0,
         "equity": 102898.04,
         "timestamp": "2026-06-17T19:29:42.915295+10:00"
+      },
+      {
+        "balance": 102898.04,
+        "drawdown_pct": 0.0,
+        "equity": 102898.04,
+        "timestamp": "2026-06-17T19:30:58.550331+10:00"
+      },
+      {
+        "balance": 102898.04,
+        "drawdown_pct": 0.0,
+        "equity": 102898.04,
+        "timestamp": "2026-06-17T19:32:10.873782+10:00"
+      },
+      {
+        "balance": 102898.04,
+        "drawdown_pct": 0.0,
+        "equity": 102898.04,
+        "timestamp": "2026-06-17T19:33:23.890112+10:00"
+      },
+      {
+        "balance": 102898.04,
+        "drawdown_pct": 0.0,
+        "equity": 102898.04,
+        "timestamp": "2026-06-17T19:34:36.575777+10:00"
+      },
+      {
+        "balance": 102898.04,
+        "drawdown_pct": 0.0,
+        "equity": 102898.04,
+        "timestamp": "2026-06-17T19:35:46.158883+10:00"
       }
     ],
     "r_histogram": [
@@ -3151,8 +3151,8 @@
       }
     ]
   },
-  "generated_at": "2026-06-17T19:29:53.552330+10:00",
-  "generated_at_display": "Jun 17, 7:29 PM",
+  "generated_at": "2026-06-17T19:35:55.908768+10:00",
+  "generated_at_display": "Jun 17, 7:35 PM",
   "performance": {
     "by_instrument": [
       {
@@ -3213,7 +3213,7 @@
     "classic_phase1_target_pct": 0.08,
     "daily_loss_baseline_estimate": 102898.04,
     "daily_loss_limit_pct": 0.05,
-    "days_since_last_trade": 5.96204342974537,
+    "days_since_last_trade": 5.96623737,
     "inactivity_limit_days": 30,
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
@@ -3740,13 +3740,13 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-06-17T19:29:42.915295+10:00",
-    "last_scan_at_display": "Jun 17, 7:29 PM",
+    "last_scan_at": "2026-06-17T19:35:46.158883+10:00",
+    "last_scan_at_display": "Jun 17, 7:35 PM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
       "block_end_local": "",
-      "last_fetch_at": "2026-06-17T18:32:36.796646+10:00",
+      "last_fetch_at": "2026-06-17T19:33:23.983894+10:00",
       "next_event": {
         "block_end_local": "2026-06-18T04:05:00+10:00",
         "block_end_utc": "2026-06-17T18:05:00+00:00",
@@ -3766,35 +3766,35 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 10.637035000000001,
+    "scan_age_seconds": 9.749885,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-06-17T19:20:00+10:00",
+        "latest_candle": "2026-06-17T19:30:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-06-17T19:20:00+10:00",
+        "latest_candle": "2026-06-17T19:30:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-06-17T19:20:00+10:00",
+        "latest_candle": "2026-06-17T19:30:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XTIUSD",
-        "latest_candle": "2026-06-17T19:20:00+10:00",
+        "latest_candle": "2026-06-17T19:30:00+10:00",
         "stale": false
       }
     ],
