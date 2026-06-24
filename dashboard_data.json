@@ -187,12 +187,6 @@
         "balance": 102693.77,
         "drawdown_pct": 0.0,
         "equity": 102693.77,
-        "timestamp": "2026-06-24T03:16:25.147557+10:00"
-      },
-      {
-        "balance": 102693.77,
-        "drawdown_pct": 0.0,
-        "equity": 102693.77,
         "timestamp": "2026-06-24T03:17:42.344754+10:00"
       },
       {
@@ -3182,6 +3176,12 @@
         "drawdown_pct": 0.0,
         "equity": 102693.77,
         "timestamp": "2026-06-24T13:41:08.242025+10:00"
+      },
+      {
+        "balance": 102693.77,
+        "drawdown_pct": 0.0,
+        "equity": 102693.77,
+        "timestamp": "2026-06-24T13:42:24.757799+10:00"
       }
     ],
     "r_histogram": [
@@ -3207,8 +3207,8 @@
       }
     ]
   },
-  "generated_at": "2026-06-24T13:41:21.988821+10:00",
-  "generated_at_display": "Jun 24, 1:41 PM",
+  "generated_at": "2026-06-24T13:42:33.381155+10:00",
+  "generated_at_display": "Jun 24, 1:42 PM",
   "performance": {
     "by_instrument": [
       {
@@ -3223,8 +3223,8 @@
         "max_losing_streak": 1,
         "name": "BTCUSD",
         "profit_factor": 0.0,
-        "trades_per_month": 4.5879831167463925,
-        "trades_per_week": 1.0705293939074916,
+        "trades_per_month": 4.587403414048358,
+        "trades_per_week": 1.070394129944617,
         "win_rate": 0.0,
         "wins": 0
       },
@@ -3276,8 +3276,8 @@
         "max_losing_streak": 1,
         "name": "ORB",
         "profit_factor": 0.0,
-        "trades_per_month": 4.58798324369361,
-        "trades_per_week": 1.070529423528509,
+        "trades_per_month": 4.5874035409553775,
+        "trades_per_week": 1.0703941595562545,
         "win_rate": 0.0,
         "wins": 0
       }
@@ -3303,7 +3303,7 @@
     "classic_phase1_target_pct": 0.08,
     "daily_loss_baseline_estimate": 102693.77,
     "daily_loss_limit_pct": 0.05,
-    "days_since_last_trade": 6.376979037280092,
+    "days_since_last_trade": 6.377805337442129,
     "inactivity_limit_days": 30,
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
@@ -3830,8 +3830,8 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-06-24T13:41:08.242025+10:00",
-    "last_scan_at_display": "Jun 24, 1:41 PM",
+    "last_scan_at": "2026-06-24T13:42:24.757799+10:00",
+    "last_scan_at_display": "Jun 24, 1:42 PM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
@@ -3856,7 +3856,7 @@
     },
     "open_orders_count": 1,
     "open_positions_count": 0,
-    "scan_age_seconds": 13.746796,
+    "scan_age_seconds": 8.623356,
     "scanner_stale": false,
     "symbols": [
       {
