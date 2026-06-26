@@ -196,39 +196,17 @@
         "expectancy_r": 0.0,
         "realized_pnl": 0.0,
         "win_rate": 0.0
+      },
+      {
+        "closed_trades": 0,
+        "date": "2026-06-27",
+        "ending_equity": 102693.77,
+        "expectancy_r": 0.0,
+        "realized_pnl": 0.0,
+        "win_rate": 0.0
       }
     ],
     "equity": [
-      {
-        "balance": 102693.77,
-        "drawdown_pct": 0.0,
-        "equity": 102693.77,
-        "timestamp": "2026-06-26T13:56:42.177528+10:00"
-      },
-      {
-        "balance": 102693.77,
-        "drawdown_pct": 0.0,
-        "equity": 102693.77,
-        "timestamp": "2026-06-26T13:57:53.378646+10:00"
-      },
-      {
-        "balance": 102693.77,
-        "drawdown_pct": 0.0,
-        "equity": 102693.77,
-        "timestamp": "2026-06-26T13:59:05.310985+10:00"
-      },
-      {
-        "balance": 102693.77,
-        "drawdown_pct": 0.0,
-        "equity": 102693.77,
-        "timestamp": "2026-06-26T14:00:15.696574+10:00"
-      },
-      {
-        "balance": 102693.77,
-        "drawdown_pct": 0.0,
-        "equity": 102693.77,
-        "timestamp": "2026-06-26T14:01:29.565227+10:00"
-      },
       {
         "balance": 102693.77,
         "drawdown_pct": 0.0,
@@ -3198,6 +3176,36 @@
         "drawdown_pct": 0.0,
         "equity": 102693.77,
         "timestamp": "2026-06-26T23:57:17.364230+10:00"
+      },
+      {
+        "balance": 102693.77,
+        "drawdown_pct": 0.0,
+        "equity": 102693.77,
+        "timestamp": "2026-06-26T23:58:34.914326+10:00"
+      },
+      {
+        "balance": 102693.77,
+        "drawdown_pct": 0.0,
+        "equity": 102693.77,
+        "timestamp": "2026-06-26T23:59:48.667852+10:00"
+      },
+      {
+        "balance": 102693.77,
+        "drawdown_pct": 0.0,
+        "equity": 102693.77,
+        "timestamp": "2026-06-27T00:01:03.212878+10:00"
+      },
+      {
+        "balance": 102693.77,
+        "drawdown_pct": 0.0,
+        "equity": 102693.77,
+        "timestamp": "2026-06-27T00:02:04.771431+10:00"
+      },
+      {
+        "balance": 102693.77,
+        "drawdown_pct": 0.0,
+        "equity": 102693.77,
+        "timestamp": "2026-06-27T00:03:06.359535+10:00"
       }
     ],
     "r_histogram": [
@@ -3223,8 +3231,8 @@
       }
     ]
   },
-  "generated_at": "2026-06-26T23:57:31.445812+10:00",
-  "generated_at_display": "Jun 26, 11:57 PM",
+  "generated_at": "2026-06-27T00:03:07.562703+10:00",
+  "generated_at_display": "Jun 27, 12:03 AM",
   "performance": {
     "by_instrument": [
       {
@@ -3239,8 +3247,8 @@
         "max_losing_streak": 1,
         "name": "BTCUSD",
         "profit_factor": 0.0,
-        "trades_per_month": 3.345709425841386,
-        "trades_per_week": 0.7806655326963235,
+        "trades_per_month": 3.344258506058908,
+        "trades_per_week": 0.7803269847470786,
         "win_rate": 0.0,
         "wins": 0
       },
@@ -3292,8 +3300,8 @@
         "max_losing_streak": 1,
         "name": "ORB",
         "profit_factor": 0.0,
-        "trades_per_month": 3.345709425841386,
-        "trades_per_week": 0.7806655326963235,
+        "trades_per_month": 3.344258506058908,
+        "trades_per_week": 0.7803269847470786,
         "win_rate": 0.0,
         "wins": 0
       }
@@ -3319,7 +3327,7 @@
     "classic_phase1_target_pct": 0.08,
     "daily_loss_baseline_estimate": 102693.77,
     "daily_loss_limit_pct": 0.05,
-    "days_since_last_trade": 8.804866270972221,
+    "days_since_last_trade": 8.808756693715278,
     "inactivity_limit_days": 30,
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
@@ -3833,9 +3841,9 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-06-26T23:57:17.364230+10:00",
-    "last_scan_at_display": "Jun 26, 11:57 PM",
-    "last_scan_status": "connected",
+    "last_scan_at": "2026-06-27T00:03:06.359535+10:00",
+    "last_scan_at_display": "Jun 27, 12:03 AM",
+    "last_scan_status": "weekend_guard",
     "mode": "LIVE DEMO",
     "news_guard": {
       "block_end_local": "",
@@ -3846,7 +3854,7 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 14.081582,
+    "scan_age_seconds": 1.218802,
     "scanner_stale": false,
     "symbols": [
       {
@@ -3878,7 +3886,7 @@
         "stale": false
       }
     ],
-    "weekend_guard": false
+    "weekend_guard": true
   },
   "trades": {
     "cancellations": [],
