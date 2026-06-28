@@ -204,15 +204,17 @@
         "expectancy_r": 0.0,
         "realized_pnl": 0.0,
         "win_rate": 0.0
+      },
+      {
+        "closed_trades": 0,
+        "date": "2026-06-29",
+        "ending_equity": 102693.77,
+        "expectancy_r": 0.0,
+        "realized_pnl": 0.0,
+        "win_rate": 0.0
       }
     ],
     "equity": [
-      {
-        "balance": 102693.77,
-        "drawdown_pct": 0.0,
-        "equity": 102693.77,
-        "timestamp": "2026-06-27T13:17:15.627813+10:00"
-      },
       {
         "balance": 102693.77,
         "drawdown_pct": 0.0,
@@ -3206,6 +3208,12 @@
         "drawdown_pct": 0.0,
         "equity": 102693.77,
         "timestamp": "2026-06-27T21:44:42.219345+10:00"
+      },
+      {
+        "balance": 102693.77,
+        "drawdown_pct": 0.0,
+        "equity": 102693.77,
+        "timestamp": "2026-06-29T00:56:18.526729+10:00"
       }
     ],
     "r_histogram": [
@@ -3231,8 +3239,8 @@
       }
     ]
   },
-  "generated_at": "2026-06-27T21:44:42.750623+10:00",
-  "generated_at_display": "Jun 27, 9:44 PM",
+  "generated_at": "2026-06-29T00:56:28.090242+10:00",
+  "generated_at_display": "Jun 29, 12:56 AM",
   "performance": {
     "by_instrument": [
       {
@@ -3247,8 +3255,8 @@
         "max_losing_streak": 1,
         "name": "BTCUSD",
         "profit_factor": 0.0,
-        "trades_per_month": 3.0381353159436912,
-        "trades_per_week": 0.7088982403868613,
+        "trades_per_month": 2.725379445409551,
+        "trades_per_week": 0.6359218705955618,
         "win_rate": 0.0,
         "wins": 0
       },
@@ -3300,8 +3308,8 @@
         "max_losing_streak": 1,
         "name": "ORB",
         "profit_factor": 0.0,
-        "trades_per_month": 3.0381353159436912,
-        "trades_per_week": 0.7088982403868613,
+        "trades_per_month": 2.725379490187766,
+        "trades_per_week": 0.6359218810438121,
         "win_rate": 0.0,
         "wins": 0
       }
@@ -3327,13 +3335,26 @@
     "classic_phase1_target_pct": 0.08,
     "daily_loss_baseline_estimate": 102693.77,
     "daily_loss_limit_pct": 0.05,
-    "days_since_last_trade": 9.712636183449074,
+    "days_since_last_trade": 10.845799655578704,
     "inactivity_limit_days": 30,
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
     "minimum_profitable_days": 3,
     "news_status": "clear",
-    "next_news": {},
+    "next_news": {
+      "block_end_local": "2026-07-01T23:05:00+10:00",
+      "block_end_utc": "2026-07-01T13:05:00+00:00",
+      "block_start_local": "2026-07-01T22:55:00+10:00",
+      "block_start_utc": "2026-07-01T12:55:00+00:00",
+      "country": "USD",
+      "event_time_local": "2026-07-01T23:00:00+10:00",
+      "event_time_utc": "2026-07-01T13:00:00+00:00",
+      "impact": "High",
+      "instruments": "BTCUSD,NAS100,XAUUSD,XTIUSD",
+      "reason": "Forex Factory high-impact event",
+      "source": "forex_factory",
+      "title": "Fed Chairman Warsh Speaks"
+    },
     "phase1": {
       "label": "Phase 1",
       "progress": 0.2693770000000004,
@@ -3841,52 +3862,65 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-06-27T21:44:42.219345+10:00",
-    "last_scan_at_display": "Jun 27, 9:44 PM",
-    "last_scan_status": "weekend_guard",
+    "last_scan_at": "2026-06-29T00:56:18.526729+10:00",
+    "last_scan_at_display": "Jun 29, 12:56 AM",
+    "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
       "block_end_local": "",
-      "last_fetch_at": "2026-06-26T23:12:34.430367+10:00",
-      "next_event": {},
+      "last_fetch_at": "2026-06-29T00:56:19.074058+10:00",
+      "next_event": {
+        "block_end_local": "2026-07-01T23:05:00+10:00",
+        "block_end_utc": "2026-07-01T13:05:00+00:00",
+        "block_start_local": "2026-07-01T22:55:00+10:00",
+        "block_start_utc": "2026-07-01T12:55:00+00:00",
+        "country": "USD",
+        "event_time_local": "2026-07-01T23:00:00+10:00",
+        "event_time_utc": "2026-07-01T13:00:00+00:00",
+        "impact": "High",
+        "instruments": "BTCUSD,NAS100,XAUUSD,XTIUSD",
+        "reason": "Forex Factory high-impact event",
+        "source": "forex_factory",
+        "title": "Fed Chairman Warsh Speaks"
+      },
       "reason": "no active high-impact news blackout",
       "status": "clear"
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 0.531278,
+    "scan_age_seconds": 9.563513,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-06-26T23:50:00+10:00",
+        "latest_candle": "2026-06-29T00:50:00+10:00",
         "stale": false
       },
       {
-        "fresh": true,
+        "fresh": false,
         "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-06-26T23:50:00+10:00",
-        "stale": false
+        "latest_candle": "2026-06-27T09:45:00+10:00",
+        "stale": true
       },
       {
-        "fresh": true,
+        "fresh": false,
         "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-06-26T23:50:00+10:00",
-        "stale": false
+        "latest_candle": "2026-06-27T09:45:00+10:00",
+        "stale": true
       },
       {
-        "fresh": true,
+        "fresh": false,
         "future": false,
         "instrument": "XTIUSD",
-        "latest_candle": "2026-06-26T23:50:00+10:00",
-        "stale": false
+        "latest_candle": "2026-06-27T09:45:00+10:00",
+        "stale": true
       }
     ],
-    "weekend_guard": true
+    "weekend_guard": false
   },
   "trades": {
     "cancellations": [],
