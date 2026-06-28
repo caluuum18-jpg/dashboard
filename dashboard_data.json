@@ -219,36 +219,6 @@
         "balance": 102693.77,
         "drawdown_pct": 0.0,
         "equity": 102693.77,
-        "timestamp": "2026-06-27T19:39:38.925523+10:00"
-      },
-      {
-        "balance": 102693.77,
-        "drawdown_pct": 0.0,
-        "equity": 102693.77,
-        "timestamp": "2026-06-27T19:40:39.564895+10:00"
-      },
-      {
-        "balance": 102693.77,
-        "drawdown_pct": 0.0,
-        "equity": 102693.77,
-        "timestamp": "2026-06-27T19:41:40.278528+10:00"
-      },
-      {
-        "balance": 102693.77,
-        "drawdown_pct": 0.0,
-        "equity": 102693.77,
-        "timestamp": "2026-06-27T19:42:40.903621+10:00"
-      },
-      {
-        "balance": 102693.77,
-        "drawdown_pct": 0.0,
-        "equity": 102693.77,
-        "timestamp": "2026-06-27T19:43:43.558442+10:00"
-      },
-      {
-        "balance": 102693.77,
-        "drawdown_pct": 0.0,
-        "equity": 102693.77,
         "timestamp": "2026-06-27T19:44:44.211345+10:00"
       },
       {
@@ -3214,6 +3184,36 @@
         "drawdown_pct": 0.0,
         "equity": 102693.77,
         "timestamp": "2026-06-29T07:57:05.387551+10:00"
+      },
+      {
+        "balance": 102693.77,
+        "drawdown_pct": 0.0,
+        "equity": 102693.77,
+        "timestamp": "2026-06-29T07:58:14.538254+10:00"
+      },
+      {
+        "balance": 102693.77,
+        "drawdown_pct": 0.0,
+        "equity": 102693.77,
+        "timestamp": "2026-06-29T07:59:21.868393+10:00"
+      },
+      {
+        "balance": 102693.77,
+        "drawdown_pct": 0.0,
+        "equity": 102693.77,
+        "timestamp": "2026-06-29T08:00:29.109770+10:00"
+      },
+      {
+        "balance": 102693.77,
+        "drawdown_pct": 0.0,
+        "equity": 102693.77,
+        "timestamp": "2026-06-29T08:01:40.663635+10:00"
+      },
+      {
+        "balance": 102693.77,
+        "drawdown_pct": 0.0,
+        "equity": 102693.77,
+        "timestamp": "2026-06-29T08:02:50.884178+10:00"
       }
     ],
     "r_histogram": [
@@ -3239,8 +3239,8 @@
       }
     ]
   },
-  "generated_at": "2026-06-29T07:57:12.542768+10:00",
-  "generated_at_display": "Jun 29, 7:57 AM",
+  "generated_at": "2026-06-29T08:03:02.962444+10:00",
+  "generated_at_display": "Jun 29, 8:03 AM",
   "performance": {
     "by_instrument": [
       {
@@ -3255,8 +3255,8 @@
         "max_losing_streak": 1,
         "name": "BTCUSD",
         "profit_factor": 0.0,
-        "trades_per_month": 2.6549089116935356,
-        "trades_per_week": 0.619478746061825,
+        "trades_per_month": 2.653956341690909,
+        "trades_per_week": 0.6192564797278787,
         "win_rate": 0.0,
         "wins": 0
       },
@@ -3308,8 +3308,8 @@
         "max_losing_streak": 1,
         "name": "ORB",
         "profit_factor": 0.0,
-        "trades_per_month": 2.6549089541506645,
-        "trades_per_week": 0.6194787559684883,
+        "trades_per_month": 2.6539563841501854,
+        "trades_per_week": 0.6192564896350432,
         "win_rate": 0.0,
         "wins": 0
       }
@@ -3335,7 +3335,7 @@
     "classic_phase1_target_pct": 0.08,
     "daily_loss_baseline_estimate": 102693.77,
     "daily_loss_limit_pct": 0.05,
-    "days_since_last_trade": 11.137980819074075,
+    "days_since_last_trade": 11.142036602361111,
     "inactivity_limit_days": 30,
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
@@ -3862,13 +3862,13 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-06-29T07:57:05.387551+10:00",
-    "last_scan_at_display": "Jun 29, 7:57 AM",
+    "last_scan_at": "2026-06-29T08:02:50.884178+10:00",
+    "last_scan_at_display": "Jun 29, 8:02 AM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
       "block_end_local": "",
-      "last_fetch_at": "2026-06-29T06:59:49.424024+10:00",
+      "last_fetch_at": "2026-06-29T08:00:29.234816+10:00",
       "next_event": {
         "block_end_local": "2026-07-01T23:05:00+10:00",
         "block_end_utc": "2026-07-01T13:05:00+00:00",
@@ -3888,35 +3888,35 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 7.155217,
+    "scan_age_seconds": 12.078266,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-06-29T07:50:00+10:00",
+        "latest_candle": "2026-06-29T07:55:00+10:00",
         "stale": false
       },
       {
         "fresh": false,
         "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-06-27T09:45:00+10:00",
+        "latest_candle": "2026-06-27T09:50:00+10:00",
         "stale": true
       },
       {
         "fresh": false,
         "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-06-27T09:45:00+10:00",
+        "latest_candle": "2026-06-27T09:50:00+10:00",
         "stale": true
       },
       {
         "fresh": false,
         "future": false,
         "instrument": "XTIUSD",
-        "latest_candle": "2026-06-27T09:45:00+10:00",
+        "latest_candle": "2026-06-27T09:50:00+10:00",
         "stale": true
       }
     ],
