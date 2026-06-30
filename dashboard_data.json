@@ -235,12 +235,6 @@
         "balance": 102693.77,
         "drawdown_pct": 0.0,
         "equity": 102693.77,
-        "timestamp": "2026-06-30T14:57:02.060630+10:00"
-      },
-      {
-        "balance": 102693.77,
-        "drawdown_pct": 0.0,
-        "equity": 102693.77,
         "timestamp": "2026-06-30T14:58:14.415355+10:00"
       },
       {
@@ -3230,6 +3224,12 @@
         "drawdown_pct": 0.0,
         "equity": 102693.77,
         "timestamp": "2026-07-01T00:59:52.442703+10:00"
+      },
+      {
+        "balance": 102693.77,
+        "drawdown_pct": 0.0,
+        "equity": 102693.77,
+        "timestamp": "2026-07-01T01:01:12.304027+10:00"
       }
     ],
     "r_histogram": [
@@ -3255,8 +3255,8 @@
       }
     ]
   },
-  "generated_at": "2026-07-01T01:00:08.381737+10:00",
-  "generated_at_display": "Jul 1, 1:00 AM",
+  "generated_at": "2026-07-01T01:01:28.482803+10:00",
+  "generated_at_display": "Jul 1, 1:01 AM",
   "performance": {
     "by_instrument": [
       {
@@ -3271,8 +3271,8 @@
         "max_losing_streak": 1,
         "name": "BTCUSD",
         "profit_factor": 0.0,
-        "trades_per_month": 2.3058846019201638,
-        "trades_per_week": 0.5380397404480382,
+        "trades_per_month": 2.3057203302123077,
+        "trades_per_week": 0.5380014103828717,
         "win_rate": 0.0,
         "wins": 0
       },
@@ -3324,8 +3324,8 @@
         "max_losing_streak": 1,
         "name": "ORB",
         "profit_factor": 0.0,
-        "trades_per_month": 2.305884633999203,
-        "trades_per_week": 0.5380397479331473,
+        "trades_per_month": 2.3057203622519085,
+        "trades_per_week": 0.5380014178587786,
         "win_rate": 0.0,
         "wins": 0
       }
@@ -3351,7 +3351,7 @@
     "classic_phase1_target_pct": 0.08,
     "daily_loss_baseline_estimate": 102693.77,
     "daily_loss_limit_pct": 0.05,
-    "days_since_last_trade": 12.84834950630787,
+    "days_since_last_trade": 12.849276421331018,
     "inactivity_limit_days": 30,
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
@@ -3878,8 +3878,8 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-07-01T00:59:52.442703+10:00",
-    "last_scan_at_display": "Jul 1, 12:59 AM",
+    "last_scan_at": "2026-07-01T01:01:12.304027+10:00",
+    "last_scan_at_display": "Jul 1, 1:01 AM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
@@ -3903,8 +3903,8 @@
       "status": "clear"
     },
     "open_orders_count": 0,
-    "open_positions_count": 0,
-    "scan_age_seconds": 15.954642,
+    "open_positions_count": 1,
+    "scan_age_seconds": 16.178776,
     "scanner_stale": false,
     "symbols": [
       {
@@ -3918,14 +3918,14 @@
         "fresh": true,
         "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-07-01T00:50:00+10:00",
+        "latest_candle": "2026-07-01T00:55:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-07-01T00:50:00+10:00",
+        "latest_candle": "2026-07-01T00:55:00+10:00",
         "stale": false
       },
       {
@@ -3942,9 +3942,31 @@
     "cancellations": [],
     "open": {
       "orders": [],
-      "positions": []
+      "positions": [
+        {
+          "price_open": 58480.98,
+          "profit": -3.7,
+          "sl": 59266.04,
+          "symbol": "BTCUSD.a",
+          "tp": 56699.76,
+          "volume": 0.18
+        }
+      ]
     },
     "recent": [
+      {
+        "actual_exit": 0.0,
+        "created_at": "2026-07-01T01:01:26.092705+10:00",
+        "direction": "SELL",
+        "entry": 58483.8,
+        "exit_reason": "nan",
+        "instrument": "BTCUSD",
+        "realized_pnl": 0.0,
+        "realized_r": 0.0,
+        "risk_dollars": 203.2668,
+        "status": "ORDER_CREATED",
+        "strategy": "ORB"
+      },
       {
         "actual_exit": 0.0,
         "created_at": "2026-06-24T11:41:08.863335+10:00",
