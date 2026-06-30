@@ -4,16 +4,16 @@
     "baseline": 100000.0,
     "closed_pnl": 2693.770000000004,
     "current_initial_drawdown_pct": 0.0,
-    "daily_drawdown_pct": 8.763920148223207e-05,
-    "daily_loss_remaining": 5125.688500000004,
+    "daily_drawdown_pct": 8.666543257681726e-06,
+    "daily_loss_remaining": 5133.798500000004,
     "day_start_equity": 102693.77,
     "drawdown_from_initial_pct": 0.0028450999999999477,
-    "equity": 102684.77,
-    "floating_pnl": -9.0,
-    "max_loss_remaining": 12684.770000000004,
+    "equity": 102692.88,
+    "floating_pnl": -0.8899999999994179,
+    "max_loss_remaining": 12692.880000000005,
     "min_equity": 99715.49,
-    "net_pnl": 2684.770000000004,
-    "peak_drawdown_pct": 2.193,
+    "net_pnl": 2692.8800000000047,
+    "peak_drawdown_pct": 2.1853,
     "peak_equity": 104987.18,
     "source": "journal",
     "warning": "",
@@ -224,19 +224,13 @@
       {
         "closed_trades": 0,
         "date": "2026-07-01",
-        "ending_equity": 102684.77,
+        "ending_equity": 102692.88,
         "expectancy_r": 0.0,
         "realized_pnl": 0.0,
         "win_rate": 0.0
       }
     ],
     "equity": [
-      {
-        "balance": 102693.77,
-        "drawdown_pct": 0.0,
-        "equity": 102693.77,
-        "timestamp": "2026-06-30T23:03:22.361582+10:00"
-      },
       {
         "balance": 102693.77,
         "drawdown_pct": 0.0,
@@ -3230,6 +3224,12 @@
         "drawdown_pct": 0.0,
         "equity": 102684.77,
         "timestamp": "2026-07-01T09:04:10.531067+10:00"
+      },
+      {
+        "balance": 102693.77,
+        "drawdown_pct": 0.0,
+        "equity": 102692.88,
+        "timestamp": "2026-07-01T09:05:19.921486+10:00"
       }
     ],
     "r_histogram": [
@@ -3255,8 +3255,8 @@
       }
     ]
   },
-  "generated_at": "2026-07-01T09:04:17.795925+10:00",
-  "generated_at_display": "Jul 1, 9:04 AM",
+  "generated_at": "2026-07-01T09:05:27.201793+10:00",
+  "generated_at_display": "Jul 1, 9:05 AM",
   "performance": {
     "by_instrument": [
       {
@@ -3271,8 +3271,8 @@
         "max_losing_streak": 1,
         "name": "BTCUSD",
         "profit_factor": 0.0,
-        "trades_per_month": 2.2477952584636265,
-        "trades_per_week": 0.5244855603081795,
+        "trades_per_month": 2.247659973797541,
+        "trades_per_week": 0.5244539938860928,
         "win_rate": 0.0,
         "wins": 0
       },
@@ -3324,8 +3324,8 @@
         "max_losing_streak": 1,
         "name": "ORB",
         "profit_factor": 0.0,
-        "trades_per_month": 2.2477952584636265,
-        "trades_per_week": 0.5244855603081795,
+        "trades_per_month": 2.247660004245828,
+        "trades_per_week": 0.5244540009906932,
         "win_rate": 0.0,
         "wins": 0
       }
@@ -3351,7 +3351,7 @@
     "classic_phase1_target_pct": 0.08,
     "daily_loss_baseline_estimate": 102693.77,
     "daily_loss_limit_pct": 0.05,
-    "days_since_last_trade": 13.184569397280093,
+    "days_since_last_trade": 13.185372705937501,
     "inactivity_limit_days": 30,
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
@@ -3373,8 +3373,8 @@
     },
     "phase1": {
       "label": "Phase 1",
-      "progress": 0.2684770000000004,
-      "remaining_dollars": 7315.229999999996,
+      "progress": 0.26928800000000047,
+      "remaining_dollars": 7307.119999999995,
       "target_dollars": 10000.0,
       "target_pct": 0.1
     },
@@ -3878,8 +3878,8 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-07-01T09:04:10.531067+10:00",
-    "last_scan_at_display": "Jul 1, 9:04 AM",
+    "last_scan_at": "2026-07-01T09:05:19.921486+10:00",
+    "last_scan_at_display": "Jul 1, 9:05 AM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
@@ -3904,35 +3904,35 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 1,
-    "scan_age_seconds": 7.264858,
+    "scan_age_seconds": 7.280307,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-07-01T08:55:00+10:00",
+        "latest_candle": "2026-07-01T09:00:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-07-01T08:55:00+10:00",
+        "latest_candle": "2026-07-01T09:00:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-07-01T08:55:00+10:00",
+        "latest_candle": "2026-07-01T09:00:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XTIUSD",
-        "latest_candle": "2026-07-01T08:55:00+10:00",
+        "latest_candle": "2026-07-01T09:00:00+10:00",
         "stale": false
       }
     ],
@@ -3945,7 +3945,7 @@
       "positions": [
         {
           "price_open": 58480.98,
-          "profit": -16.12,
+          "profit": -4.47,
           "sl": 59266.04,
           "symbol": "BTCUSD.a",
           "tp": 56699.76,
