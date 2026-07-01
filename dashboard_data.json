@@ -234,36 +234,6 @@
       {
         "balance": 102693.77,
         "drawdown_pct": 0.0,
-        "equity": 102564.58,
-        "timestamp": "2026-07-01T13:00:36.464084+10:00"
-      },
-      {
-        "balance": 102693.77,
-        "drawdown_pct": 0.0,
-        "equity": 102567.77,
-        "timestamp": "2026-07-01T13:01:49.669225+10:00"
-      },
-      {
-        "balance": 102693.77,
-        "drawdown_pct": 0.0,
-        "equity": 102564.99,
-        "timestamp": "2026-07-01T13:03:03.898122+10:00"
-      },
-      {
-        "balance": 102693.77,
-        "drawdown_pct": 0.0,
-        "equity": 102568.69,
-        "timestamp": "2026-07-01T13:04:16.906076+10:00"
-      },
-      {
-        "balance": 102693.77,
-        "drawdown_pct": 0.0,
-        "equity": 102571.35,
-        "timestamp": "2026-07-01T13:05:30.907867+10:00"
-      },
-      {
-        "balance": 102693.77,
-        "drawdown_pct": 0.0,
         "equity": 102555.54,
         "timestamp": "2026-07-01T13:06:44.016232+10:00"
       },
@@ -3230,6 +3200,36 @@
         "drawdown_pct": 0.0,
         "equity": 102489.03,
         "timestamp": "2026-07-01T22:59:58.681338+10:00"
+      },
+      {
+        "balance": 102489.03,
+        "drawdown_pct": 0.0,
+        "equity": 102489.03,
+        "timestamp": "2026-07-01T23:01:04.221072+10:00"
+      },
+      {
+        "balance": 102489.03,
+        "drawdown_pct": 0.0,
+        "equity": 102489.03,
+        "timestamp": "2026-07-01T23:02:05.852143+10:00"
+      },
+      {
+        "balance": 102489.03,
+        "drawdown_pct": 0.0,
+        "equity": 102489.03,
+        "timestamp": "2026-07-01T23:03:07.533181+10:00"
+      },
+      {
+        "balance": 102489.03,
+        "drawdown_pct": 0.0,
+        "equity": 102489.03,
+        "timestamp": "2026-07-01T23:04:08.933365+10:00"
+      },
+      {
+        "balance": 102489.03,
+        "drawdown_pct": 0.0,
+        "equity": 102489.03,
+        "timestamp": "2026-07-01T23:05:10.601338+10:00"
       }
     ],
     "r_histogram": [
@@ -3255,8 +3255,8 @@
       }
     ]
   },
-  "generated_at": "2026-07-01T22:59:59.900133+10:00",
-  "generated_at_display": "Jul 1, 10:59 PM",
+  "generated_at": "2026-07-01T23:05:23.943705+10:00",
+  "generated_at_display": "Jul 1, 11:05 PM",
   "performance": {
     "by_instrument": [
       {
@@ -3351,25 +3351,25 @@
     "classic_phase1_target_pct": 0.08,
     "daily_loss_baseline_estimate": 102693.77,
     "daily_loss_limit_pct": 0.05,
-    "days_since_last_trade": 0.2202652287037037,
+    "days_since_last_trade": 0.22401573292824073,
     "inactivity_limit_days": 30,
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
     "minimum_profitable_days": 3,
-    "news_status": "blocked",
+    "news_status": "clear",
     "next_news": {
-      "block_end_local": "2026-07-01T23:05:00+10:00",
-      "block_end_utc": "2026-07-01T13:05:00+00:00",
-      "block_start_local": "2026-07-01T22:55:00+10:00",
-      "block_start_utc": "2026-07-01T12:55:00+00:00",
+      "block_end_local": "2026-07-02T00:05:00+10:00",
+      "block_end_utc": "2026-07-01T14:05:00+00:00",
+      "block_start_local": "2026-07-01T23:55:00+10:00",
+      "block_start_utc": "2026-07-01T13:55:00+00:00",
       "country": "USD",
-      "event_time_local": "2026-07-01T23:00:00+10:00",
-      "event_time_utc": "2026-07-01T13:00:00+00:00",
+      "event_time_local": "2026-07-02T00:00:00+10:00",
+      "event_time_utc": "2026-07-01T14:00:00+00:00",
       "impact": "High",
       "instruments": "BTCUSD,NAS100,XAUUSD,XTIUSD",
       "reason": "Forex Factory high-impact event",
       "source": "forex_factory",
-      "title": "Fed Chairman Warsh Speaks"
+      "title": "ISM Manufacturing PMI"
     },
     "phase1": {
       "label": "Phase 1",
@@ -3878,61 +3878,61 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-07-01T22:59:58.681338+10:00",
-    "last_scan_at_display": "Jul 1, 10:59 PM",
+    "last_scan_at": "2026-07-01T23:05:10.601338+10:00",
+    "last_scan_at_display": "Jul 1, 11:05 PM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
-      "block_end_local": "2026-07-01T23:05:00+10:00",
+      "block_end_local": "",
       "last_fetch_at": "2026-07-01T22:40:07.169403+10:00",
       "next_event": {
-        "block_end_local": "2026-07-01T23:05:00+10:00",
-        "block_end_utc": "2026-07-01T13:05:00+00:00",
-        "block_start_local": "2026-07-01T22:55:00+10:00",
-        "block_start_utc": "2026-07-01T12:55:00+00:00",
+        "block_end_local": "2026-07-02T00:05:00+10:00",
+        "block_end_utc": "2026-07-01T14:05:00+00:00",
+        "block_start_local": "2026-07-01T23:55:00+10:00",
+        "block_start_utc": "2026-07-01T13:55:00+00:00",
         "country": "USD",
-        "event_time_local": "2026-07-01T23:00:00+10:00",
-        "event_time_utc": "2026-07-01T13:00:00+00:00",
+        "event_time_local": "2026-07-02T00:00:00+10:00",
+        "event_time_utc": "2026-07-01T14:00:00+00:00",
         "impact": "High",
         "instruments": "BTCUSD,NAS100,XAUUSD,XTIUSD",
         "reason": "Forex Factory high-impact event",
         "source": "forex_factory",
-        "title": "Fed Chairman Warsh Speaks"
+        "title": "ISM Manufacturing PMI"
       },
-      "reason": "USD High Fed Chairman Warsh Speaks",
-      "status": "blocked"
+      "reason": "no active high-impact news blackout",
+      "status": "clear"
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 1.218795,
+    "scan_age_seconds": 13.342367,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-07-01T22:45:00+10:00",
+        "latest_candle": "2026-07-01T23:00:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-07-01T22:45:00+10:00",
+        "latest_candle": "2026-07-01T23:00:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-07-01T22:45:00+10:00",
+        "latest_candle": "2026-07-01T23:00:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XTIUSD",
-        "latest_candle": "2026-07-01T22:45:00+10:00",
+        "latest_candle": "2026-07-01T23:00:00+10:00",
         "stale": false
       }
     ],
