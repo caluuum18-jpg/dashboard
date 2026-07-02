@@ -243,36 +243,6 @@
         "balance": 102489.03,
         "drawdown_pct": 0.0,
         "equity": 102489.03,
-        "timestamp": "2026-07-02T10:59:22.010005+10:00"
-      },
-      {
-        "balance": 102489.03,
-        "drawdown_pct": 0.0,
-        "equity": 102489.03,
-        "timestamp": "2026-07-02T11:00:36.984283+10:00"
-      },
-      {
-        "balance": 102489.03,
-        "drawdown_pct": 0.0,
-        "equity": 102489.03,
-        "timestamp": "2026-07-02T11:01:51.368460+10:00"
-      },
-      {
-        "balance": 102489.03,
-        "drawdown_pct": 0.0,
-        "equity": 102489.03,
-        "timestamp": "2026-07-02T11:03:05.693796+10:00"
-      },
-      {
-        "balance": 102489.03,
-        "drawdown_pct": 0.0,
-        "equity": 102489.03,
-        "timestamp": "2026-07-02T11:04:23.077840+10:00"
-      },
-      {
-        "balance": 102489.03,
-        "drawdown_pct": 0.0,
-        "equity": 102489.03,
         "timestamp": "2026-07-02T11:05:43.375857+10:00"
       },
       {
@@ -3238,6 +3208,36 @@
         "drawdown_pct": 0.0,
         "equity": 102489.03,
         "timestamp": "2026-07-02T21:05:35.038081+10:00"
+      },
+      {
+        "balance": 102489.03,
+        "drawdown_pct": 0.0,
+        "equity": 102489.03,
+        "timestamp": "2026-07-02T21:06:50.263790+10:00"
+      },
+      {
+        "balance": 102489.03,
+        "drawdown_pct": 0.0,
+        "equity": 102489.03,
+        "timestamp": "2026-07-02T21:08:00.971715+10:00"
+      },
+      {
+        "balance": 102489.03,
+        "drawdown_pct": 0.0,
+        "equity": 102489.03,
+        "timestamp": "2026-07-02T21:09:13.383358+10:00"
+      },
+      {
+        "balance": 102489.03,
+        "drawdown_pct": 0.0,
+        "equity": 102489.03,
+        "timestamp": "2026-07-02T21:10:24.924117+10:00"
+      },
+      {
+        "balance": 102489.03,
+        "drawdown_pct": 0.0,
+        "equity": 102489.03,
+        "timestamp": "2026-07-02T21:11:37.399712+10:00"
       }
     ],
     "r_histogram": [
@@ -3263,8 +3263,8 @@
       }
     ]
   },
-  "generated_at": "2026-07-02T21:05:47.492088+10:00",
-  "generated_at_display": "Jul 2, 9:05 PM",
+  "generated_at": "2026-07-02T21:11:48.558410+10:00",
+  "generated_at_display": "Jul 2, 9:11 PM",
   "performance": {
     "by_instrument": [
       {
@@ -3359,7 +3359,7 @@
     "classic_phase1_target_pct": 0.08,
     "daily_loss_baseline_estimate": 102489.03,
     "daily_loss_limit_pct": 0.05,
-    "days_since_last_trade": 1.140954769537037,
+    "days_since_last_trade": 1.1451337778935184,
     "inactivity_limit_days": 30,
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
@@ -3886,8 +3886,8 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-07-02T21:05:35.038081+10:00",
-    "last_scan_at_display": "Jul 2, 9:05 PM",
+    "last_scan_at": "2026-07-02T21:11:37.399712+10:00",
+    "last_scan_at_display": "Jul 2, 9:11 PM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
@@ -3912,35 +3912,35 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 12.454007,
+    "scan_age_seconds": 11.158698,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-07-02T21:00:00+10:00",
+        "latest_candle": "2026-07-02T21:05:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-07-02T21:00:00+10:00",
+        "latest_candle": "2026-07-02T21:05:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-07-02T21:00:00+10:00",
+        "latest_candle": "2026-07-02T21:05:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XTIUSD",
-        "latest_candle": "2026-07-02T21:00:00+10:00",
+        "latest_candle": "2026-07-02T21:05:00+10:00",
         "stale": false
       }
     ],
