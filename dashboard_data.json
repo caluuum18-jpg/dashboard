@@ -283,36 +283,6 @@
         "balance": 102489.03,
         "drawdown_pct": 0.0,
         "equity": 102489.03,
-        "timestamp": "2026-07-06T14:08:15.697085+10:00"
-      },
-      {
-        "balance": 102489.03,
-        "drawdown_pct": 0.0,
-        "equity": 102489.03,
-        "timestamp": "2026-07-06T14:09:28.276160+10:00"
-      },
-      {
-        "balance": 102489.03,
-        "drawdown_pct": 0.0,
-        "equity": 102489.03,
-        "timestamp": "2026-07-06T14:10:39.124944+10:00"
-      },
-      {
-        "balance": 102489.03,
-        "drawdown_pct": 0.0,
-        "equity": 102489.03,
-        "timestamp": "2026-07-06T14:11:50.293623+10:00"
-      },
-      {
-        "balance": 102489.03,
-        "drawdown_pct": 0.0,
-        "equity": 102489.03,
-        "timestamp": "2026-07-06T14:12:59.327372+10:00"
-      },
-      {
-        "balance": 102489.03,
-        "drawdown_pct": 0.0,
-        "equity": 102489.03,
         "timestamp": "2026-07-06T14:14:10.201713+10:00"
       },
       {
@@ -3278,6 +3248,36 @@
         "drawdown_pct": 0.0,
         "equity": 102489.03,
         "timestamp": "2026-07-07T00:03:15.597816+10:00"
+      },
+      {
+        "balance": 102489.03,
+        "drawdown_pct": 0.0,
+        "equity": 102489.03,
+        "timestamp": "2026-07-07T00:04:20.022585+10:00"
+      },
+      {
+        "balance": 102489.03,
+        "drawdown_pct": 0.0,
+        "equity": 102489.03,
+        "timestamp": "2026-07-07T00:05:21.601675+10:00"
+      },
+      {
+        "balance": 102489.03,
+        "drawdown_pct": 0.0,
+        "equity": 102489.03,
+        "timestamp": "2026-07-07T00:06:35.649549+10:00"
+      },
+      {
+        "balance": 102489.03,
+        "drawdown_pct": 0.0,
+        "equity": 102489.03,
+        "timestamp": "2026-07-07T00:07:49.009885+10:00"
+      },
+      {
+        "balance": 102489.03,
+        "drawdown_pct": 0.0,
+        "equity": 102489.03,
+        "timestamp": "2026-07-07T00:09:03.307337+10:00"
       }
     ],
     "r_histogram": [
@@ -3303,8 +3303,8 @@
       }
     ]
   },
-  "generated_at": "2026-07-07T00:03:17.050985+10:00",
-  "generated_at_display": "Jul 7, 12:03 AM",
+  "generated_at": "2026-07-07T00:09:16.791829+10:00",
+  "generated_at_display": "Jul 7, 12:09 AM",
   "performance": {
     "by_instrument": [
       {
@@ -3399,25 +3399,25 @@
     "classic_phase1_target_pct": 0.08,
     "daily_loss_baseline_estimate": 102489.03,
     "daily_loss_limit_pct": 0.05,
-    "days_since_last_trade": 5.26421355306713,
+    "days_since_last_trade": 5.268377220243056,
     "inactivity_limit_days": 30,
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
     "minimum_profitable_days": 3,
-    "news_status": "blocked",
+    "news_status": "clear",
     "next_news": {
-      "block_end_local": "2026-07-07T00:05:00+10:00",
-      "block_end_utc": "2026-07-06T14:05:00+00:00",
-      "block_start_local": "2026-07-06T23:55:00+10:00",
-      "block_start_utc": "2026-07-06T13:55:00+00:00",
+      "block_end_local": "2026-07-09T04:05:00+10:00",
+      "block_end_utc": "2026-07-08T18:05:00+00:00",
+      "block_start_local": "2026-07-09T03:55:00+10:00",
+      "block_start_utc": "2026-07-08T17:55:00+00:00",
       "country": "USD",
-      "event_time_local": "2026-07-07T00:00:00+10:00",
-      "event_time_utc": "2026-07-06T14:00:00+00:00",
+      "event_time_local": "2026-07-09T04:00:00+10:00",
+      "event_time_utc": "2026-07-08T18:00:00+00:00",
       "impact": "High",
       "instruments": "BTCUSD,NAS100,XAUUSD,XTIUSD",
       "reason": "Forex Factory high-impact event",
       "source": "forex_factory",
-      "title": "ISM Services PMI"
+      "title": "FOMC Meeting Minutes"
     },
     "phase1": {
       "label": "Phase 1",
@@ -3926,61 +3926,61 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-07-07T00:03:15.597816+10:00",
-    "last_scan_at_display": "Jul 7, 12:03 AM",
+    "last_scan_at": "2026-07-07T00:09:03.307337+10:00",
+    "last_scan_at_display": "Jul 7, 12:09 AM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
-      "block_end_local": "2026-07-07T00:05:00+10:00",
+      "block_end_local": "",
       "last_fetch_at": "2026-07-06T23:17:55.448333+10:00",
       "next_event": {
-        "block_end_local": "2026-07-07T00:05:00+10:00",
-        "block_end_utc": "2026-07-06T14:05:00+00:00",
-        "block_start_local": "2026-07-06T23:55:00+10:00",
-        "block_start_utc": "2026-07-06T13:55:00+00:00",
+        "block_end_local": "2026-07-09T04:05:00+10:00",
+        "block_end_utc": "2026-07-08T18:05:00+00:00",
+        "block_start_local": "2026-07-09T03:55:00+10:00",
+        "block_start_utc": "2026-07-08T17:55:00+00:00",
         "country": "USD",
-        "event_time_local": "2026-07-07T00:00:00+10:00",
-        "event_time_utc": "2026-07-06T14:00:00+00:00",
+        "event_time_local": "2026-07-09T04:00:00+10:00",
+        "event_time_utc": "2026-07-08T18:00:00+00:00",
         "impact": "High",
         "instruments": "BTCUSD,NAS100,XAUUSD,XTIUSD",
         "reason": "Forex Factory high-impact event",
         "source": "forex_factory",
-        "title": "ISM Services PMI"
+        "title": "FOMC Meeting Minutes"
       },
-      "reason": "USD High ISM Services PMI",
-      "status": "blocked"
+      "reason": "no active high-impact news blackout",
+      "status": "clear"
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 1.453169,
+    "scan_age_seconds": 13.484492,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-07-06T23:45:00+10:00",
+        "latest_candle": "2026-07-07T00:00:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-07-06T23:45:00+10:00",
+        "latest_candle": "2026-07-07T00:00:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-07-06T23:45:00+10:00",
+        "latest_candle": "2026-07-07T00:00:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XTIUSD",
-        "latest_candle": "2026-07-06T23:45:00+10:00",
+        "latest_candle": "2026-07-07T00:00:00+10:00",
         "stale": false
       }
     ],
