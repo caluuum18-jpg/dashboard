@@ -276,33 +276,17 @@
         "expectancy_r": 0.0,
         "realized_pnl": 0.0,
         "win_rate": 0.0
+      },
+      {
+        "closed_trades": 0,
+        "date": "2026-07-08",
+        "ending_equity": 102489.03,
+        "expectancy_r": 0.0,
+        "realized_pnl": 0.0,
+        "win_rate": 0.0
       }
     ],
     "equity": [
-      {
-        "balance": 102489.03,
-        "drawdown_pct": 0.0,
-        "equity": 102489.03,
-        "timestamp": "2026-07-07T13:58:58.881534+10:00"
-      },
-      {
-        "balance": 102489.03,
-        "drawdown_pct": 0.0,
-        "equity": 102489.03,
-        "timestamp": "2026-07-07T14:00:09.398103+10:00"
-      },
-      {
-        "balance": 102489.03,
-        "drawdown_pct": 0.0,
-        "equity": 102489.03,
-        "timestamp": "2026-07-07T14:01:20.992777+10:00"
-      },
-      {
-        "balance": 102489.03,
-        "drawdown_pct": 0.0,
-        "equity": 102489.03,
-        "timestamp": "2026-07-07T14:02:31.759351+10:00"
-      },
       {
         "balance": 102489.03,
         "drawdown_pct": 0.0,
@@ -3278,6 +3262,30 @@
         "drawdown_pct": 0.0,
         "equity": 102489.03,
         "timestamp": "2026-07-07T23:58:10.665882+10:00"
+      },
+      {
+        "balance": 102489.03,
+        "drawdown_pct": 0.0,
+        "equity": 102489.03,
+        "timestamp": "2026-07-07T23:59:28.293154+10:00"
+      },
+      {
+        "balance": 102489.03,
+        "drawdown_pct": 0.0,
+        "equity": 102489.03,
+        "timestamp": "2026-07-08T00:00:43.591107+10:00"
+      },
+      {
+        "balance": 102489.03,
+        "drawdown_pct": 0.0,
+        "equity": 102489.03,
+        "timestamp": "2026-07-08T00:01:58.779593+10:00"
+      },
+      {
+        "balance": 102489.03,
+        "drawdown_pct": 0.0,
+        "equity": 102489.03,
+        "timestamp": "2026-07-08T00:03:14.483358+10:00"
       }
     ],
     "r_histogram": [
@@ -3303,8 +3311,8 @@
       }
     ]
   },
-  "generated_at": "2026-07-07T23:58:24.916014+10:00",
-  "generated_at_display": "Jul 7, 11:58 PM",
+  "generated_at": "2026-07-08T00:03:29.233486+10:00",
+  "generated_at_display": "Jul 8, 12:03 AM",
   "performance": {
     "by_instrument": [
       {
@@ -3399,7 +3407,7 @@
     "classic_phase1_target_pct": 0.08,
     "daily_loss_baseline_estimate": 102489.03,
     "daily_loss_limit_pct": 0.05,
-    "days_since_last_trade": 6.260832361273148,
+    "days_since_last_trade": 6.264354554236111,
     "inactivity_limit_days": 30,
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
@@ -3926,8 +3934,8 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-07-07T23:58:10.665882+10:00",
-    "last_scan_at_display": "Jul 7, 11:58 PM",
+    "last_scan_at": "2026-07-08T00:03:14.483358+10:00",
+    "last_scan_at_display": "Jul 8, 12:03 AM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
@@ -3952,35 +3960,35 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 14.250132,
+    "scan_age_seconds": 14.750128,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-07-07T23:50:00+10:00",
+        "latest_candle": "2026-07-07T23:55:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-07-07T23:50:00+10:00",
+        "latest_candle": "2026-07-07T23:55:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-07-07T23:50:00+10:00",
+        "latest_candle": "2026-07-07T23:55:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XTIUSD",
-        "latest_candle": "2026-07-07T23:50:00+10:00",
+        "latest_candle": "2026-07-07T23:55:00+10:00",
         "stale": false
       }
     ],
