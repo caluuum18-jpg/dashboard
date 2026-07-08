@@ -299,36 +299,6 @@
         "balance": 102489.03,
         "drawdown_pct": 0.0,
         "equity": 102489.03,
-        "timestamp": "2026-07-08T17:31:57.533368+10:00"
-      },
-      {
-        "balance": 102489.03,
-        "drawdown_pct": 0.0,
-        "equity": 102489.03,
-        "timestamp": "2026-07-08T17:33:14.440183+10:00"
-      },
-      {
-        "balance": 102489.03,
-        "drawdown_pct": 0.0,
-        "equity": 102489.03,
-        "timestamp": "2026-07-08T17:34:27.206558+10:00"
-      },
-      {
-        "balance": 102489.03,
-        "drawdown_pct": 0.0,
-        "equity": 102489.03,
-        "timestamp": "2026-07-08T17:35:40.285361+10:00"
-      },
-      {
-        "balance": 102489.03,
-        "drawdown_pct": 0.0,
-        "equity": 102489.03,
-        "timestamp": "2026-07-08T17:36:52.708018+10:00"
-      },
-      {
-        "balance": 102489.03,
-        "drawdown_pct": 0.0,
-        "equity": 102489.03,
         "timestamp": "2026-07-08T17:38:05.677948+10:00"
       },
       {
@@ -3294,6 +3264,36 @@
         "drawdown_pct": 0.0,
         "equity": 102489.03,
         "timestamp": "2026-07-09T03:51:01.112781+10:00"
+      },
+      {
+        "balance": 102489.03,
+        "drawdown_pct": 0.0,
+        "equity": 102489.03,
+        "timestamp": "2026-07-09T03:52:17.301338+10:00"
+      },
+      {
+        "balance": 102489.03,
+        "drawdown_pct": 0.0,
+        "equity": 102489.03,
+        "timestamp": "2026-07-09T03:53:30.288683+10:00"
+      },
+      {
+        "balance": 102489.03,
+        "drawdown_pct": 0.0,
+        "equity": 102489.03,
+        "timestamp": "2026-07-09T03:54:42.959414+10:00"
+      },
+      {
+        "balance": 102489.03,
+        "drawdown_pct": 0.0,
+        "equity": 102489.03,
+        "timestamp": "2026-07-09T03:55:44.976098+10:00"
+      },
+      {
+        "balance": 102489.03,
+        "drawdown_pct": 0.0,
+        "equity": 102489.03,
+        "timestamp": "2026-07-09T03:56:46.794188+10:00"
       }
     ],
     "r_histogram": [
@@ -3319,8 +3319,8 @@
       }
     ]
   },
-  "generated_at": "2026-07-09T03:51:13.862861+10:00",
-  "generated_at_display": "Jul 9, 3:51 AM",
+  "generated_at": "2026-07-09T03:56:48.434827+10:00",
+  "generated_at_display": "Jul 9, 3:56 AM",
   "performance": {
     "by_instrument": [
       {
@@ -3415,12 +3415,12 @@
     "classic_phase1_target_pct": 0.08,
     "daily_loss_baseline_estimate": 102489.03,
     "daily_loss_limit_pct": 0.05,
-    "days_since_last_trade": 7.42250998681713,
+    "days_since_last_trade": 7.426382347534722,
     "inactivity_limit_days": 30,
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
     "minimum_profitable_days": 3,
-    "news_status": "clear",
+    "news_status": "blocked",
     "next_news": {
       "block_end_local": "2026-07-09T04:05:00+10:00",
       "block_end_utc": "2026-07-08T18:05:00+00:00",
@@ -3942,13 +3942,13 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-07-09T03:51:01.112781+10:00",
-    "last_scan_at_display": "Jul 9, 3:51 AM",
+    "last_scan_at": "2026-07-09T03:56:46.794188+10:00",
+    "last_scan_at_display": "Jul 9, 3:56 AM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
-      "block_end_local": "",
-      "last_fetch_at": "2026-07-09T02:52:42.652842+10:00",
+      "block_end_local": "2026-07-09T04:05:00+10:00",
+      "last_fetch_at": "2026-07-09T03:53:30.505399+10:00",
       "next_event": {
         "block_end_local": "2026-07-09T04:05:00+10:00",
         "block_end_utc": "2026-07-08T18:05:00+00:00",
@@ -3963,12 +3963,12 @@
         "source": "forex_factory",
         "title": "FOMC Meeting Minutes"
       },
-      "reason": "no active high-impact news blackout",
-      "status": "clear"
+      "reason": "USD High FOMC Meeting Minutes",
+      "status": "blocked"
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 12.75008,
+    "scan_age_seconds": 1.640639,
     "scanner_stale": false,
     "symbols": [
       {
