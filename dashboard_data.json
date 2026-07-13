@@ -35,7 +35,7 @@
         "balance": 100000.0,
         "drawdown_pct": 0.0,
         "equity": 100000.0,
-        "timestamp": "2026-07-14T09:33:07.804524+10:00"
+        "timestamp": "2026-07-14T09:33:29.663994+10:00"
       }
     ],
     "r_histogram": [
@@ -61,7 +61,7 @@
       }
     ]
   },
-  "generated_at": "2026-07-14T09:33:07.882649+10:00",
+  "generated_at": "2026-07-14T09:33:29.726511+10:00",
   "generated_at_display": "Jul 14, 9:33 AM",
   "performance": {
     "by_instrument": [
@@ -123,7 +123,7 @@
     "classic_phase1_target_pct": 0.08,
     "daily_loss_baseline_estimate": 100000.0,
     "daily_loss_limit_pct": 0.05,
-    "days_since_last_trade": 9.042245370370371e-07,
+    "days_since_last_trade": 7.235763888888889e-07,
     "inactivity_limit_days": 30,
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
@@ -637,7 +637,7 @@
       "status": "clear"
     },
     "broker_server": "TEST-DEMO",
-    "last_scan_at": "2026-07-14T09:33:07.804524+10:00",
+    "last_scan_at": "2026-07-14T09:33:29.663994+10:00",
     "last_scan_at_display": "Jul 14, 9:33 AM",
     "last_scan_status": "validation",
     "mode": "LIVE DEMO",
@@ -650,7 +650,7 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 0.078125,
+    "scan_age_seconds": 0.062517,
     "scanner_stale": false,
     "symbols": [
       {
@@ -672,7 +672,7 @@
     "recent": [
       {
         "actual_exit": 102.1,
-        "created_at": "2026-07-14T09:33:07.804524+10:00",
+        "created_at": "2026-07-14T09:33:29.663994+10:00",
         "direction": "BUY",
         "entry": 100.0,
         "exit_reason": "TP",
