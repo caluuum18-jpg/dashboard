@@ -22,12 +22,12 @@
   "charts": {
     "daily": [
       {
-        "closed_trades": 1,
+        "closed_trades": 0,
         "date": "2026-07-14",
         "ending_equity": 100000.0,
-        "expectancy_r": 2.0,
-        "realized_pnl": 200.0,
-        "win_rate": 1.0
+        "expectancy_r": 0.0,
+        "realized_pnl": 0.0,
+        "win_rate": 0.0
       }
     ],
     "equity": [
@@ -35,101 +35,57 @@
         "balance": 100000.0,
         "drawdown_pct": 0.0,
         "equity": 100000.0,
-        "timestamp": "2026-07-14T09:33:29.663994+10:00"
+        "timestamp": "2026-07-14T09:33:36.476932+10:00"
       }
     ],
-    "r_histogram": [
-      {
-        "count": 0,
-        "label": "<=-1R"
-      },
-      {
-        "count": 0,
-        "label": "-1R..0"
-      },
-      {
-        "count": 0,
-        "label": "0..1R"
-      },
-      {
-        "count": 0,
-        "label": "1R..2R"
-      },
-      {
-        "count": 1,
-        "label": ">2R"
-      }
-    ]
+    "r_histogram": []
   },
-  "generated_at": "2026-07-14T09:33:29.726511+10:00",
+  "generated_at": "2026-07-14T09:33:55.226979+10:00",
   "generated_at_display": "Jul 14, 9:33 AM",
   "performance": {
-    "by_instrument": [
-      {
-        "average_loss": 0.0,
-        "average_win": 200.0,
-        "average_win_loss_ratio": 0.0,
-        "closed_trades": 1,
-        "current_losing_streak": 0,
-        "expectancy_dollars": 200.0,
-        "expectancy_r": 2.0,
-        "losses": 0,
-        "max_losing_streak": 0,
-        "name": "NAS100",
-        "profit_factor": null,
-        "trades_per_month": 30.0,
-        "trades_per_week": 7.0,
-        "win_rate": 1.0,
-        "wins": 1
-      }
-    ],
-    "by_strategy": [
-      {
-        "average_loss": 0.0,
-        "average_win": 200.0,
-        "average_win_loss_ratio": 0.0,
-        "closed_trades": 1,
-        "current_losing_streak": 0,
-        "expectancy_dollars": 200.0,
-        "expectancy_r": 2.0,
-        "losses": 0,
-        "max_losing_streak": 0,
-        "name": "ORB",
-        "profit_factor": null,
-        "trades_per_month": 30.0,
-        "trades_per_week": 7.0,
-        "win_rate": 1.0,
-        "wins": 1
-      }
-    ],
+    "by_instrument": [],
+    "by_strategy": [],
     "summary": {
       "average_loss": 0.0,
-      "average_win": 200.0,
+      "average_win": 0.0,
       "average_win_loss_ratio": 0.0,
-      "closed_trades": 1,
+      "closed_trades": 0,
       "current_losing_streak": 0,
-      "expectancy_dollars": 200.0,
-      "expectancy_r": 2.0,
+      "expectancy_dollars": 0.0,
+      "expectancy_r": 0.0,
       "losses": 0,
       "max_losing_streak": 0,
-      "profit_factor": null,
-      "trades_per_month": 30.0,
-      "trades_per_week": 7.0,
-      "win_rate": 1.0,
-      "wins": 1
+      "profit_factor": 0.0,
+      "trades_per_month": 0.0,
+      "trades_per_week": 0.0,
+      "win_rate": 0.0,
+      "wins": 0
     }
   },
   "phase_monitor": {
     "classic_phase1_target_pct": 0.08,
     "daily_loss_baseline_estimate": 100000.0,
     "daily_loss_limit_pct": 0.05,
-    "days_since_last_trade": 7.235763888888889e-07,
+    "days_since_last_trade": null,
     "inactivity_limit_days": 30,
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
     "minimum_profitable_days": 3,
-    "news_status": "unknown",
-    "next_news": {},
+    "news_status": "clear",
+    "next_news": {
+      "block_end_local": "2026-07-14T22:35:00+10:00",
+      "block_end_utc": "2026-07-14T12:35:00+00:00",
+      "block_start_local": "2026-07-14T22:25:00+10:00",
+      "block_start_utc": "2026-07-14T12:25:00+00:00",
+      "country": "USD",
+      "event_time_local": "2026-07-14T22:30:00+10:00",
+      "event_time_utc": "2026-07-14T12:30:00+00:00",
+      "impact": "High",
+      "instruments": "BTCUSD,NAS100,XAUUSD,XTIUSD",
+      "reason": "Forex Factory high-impact event",
+      "source": "forex_factory",
+      "title": "Core CPI m/m"
+    },
     "phase1": {
       "label": "Phase 1",
       "progress": 0.0,
@@ -636,28 +592,62 @@
       "reason": "",
       "status": "clear"
     },
-    "broker_server": "TEST-DEMO",
-    "last_scan_at": "2026-07-14T09:33:29.663994+10:00",
+    "broker_server": "Pepperstone-Demo",
+    "last_scan_at": "2026-07-14T09:33:36.476932+10:00",
     "last_scan_at_display": "Jul 14, 9:33 AM",
-    "last_scan_status": "validation",
+    "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
       "block_end_local": "",
-      "last_fetch_at": "",
-      "next_event": {},
-      "reason": "",
-      "status": "not_checked"
+      "last_fetch_at": "2026-07-14T09:33:36.914143+10:00",
+      "next_event": {
+        "block_end_local": "2026-07-14T22:35:00+10:00",
+        "block_end_utc": "2026-07-14T12:35:00+00:00",
+        "block_start_local": "2026-07-14T22:25:00+10:00",
+        "block_start_utc": "2026-07-14T12:25:00+00:00",
+        "country": "USD",
+        "event_time_local": "2026-07-14T22:30:00+10:00",
+        "event_time_utc": "2026-07-14T12:30:00+00:00",
+        "impact": "High",
+        "instruments": "BTCUSD,NAS100,XAUUSD,XTIUSD",
+        "reason": "Forex Factory high-impact event",
+        "source": "forex_factory",
+        "title": "Core CPI m/m"
+      },
+      "reason": "no active high-impact news blackout",
+      "status": "clear"
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 0.062517,
+    "scan_age_seconds": 18.762575,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
+        "instrument": "BTCUSD",
+        "latest_candle": "2026-07-14T09:25:00+10:00",
+        "stale": false
+      },
+      {
+        "fresh": true,
+        "future": false,
+        "instrument": "NAS100",
+        "latest_candle": "2026-07-14T09:25:00+10:00",
+        "stale": false
+      },
+      {
+        "fresh": true,
+        "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-05-08T22:00:00+10:00",
+        "latest_candle": "2026-07-14T09:25:00+10:00",
+        "stale": false
+      },
+      {
+        "fresh": true,
+        "future": false,
+        "instrument": "XTIUSD",
+        "latest_candle": "2026-07-14T09:25:00+10:00",
         "stale": false
       }
     ],
@@ -669,20 +659,6 @@
       "orders": [],
       "positions": []
     },
-    "recent": [
-      {
-        "actual_exit": 102.1,
-        "created_at": "2026-07-14T09:33:29.663994+10:00",
-        "direction": "BUY",
-        "entry": 100.0,
-        "exit_reason": "TP",
-        "instrument": "NAS100",
-        "realized_pnl": 200.0,
-        "realized_r": 2.0,
-        "risk_dollars": 100.0,
-        "status": "CLOSED",
-        "strategy": "ORB"
-      }
-    ]
+    "recent": []
   }
 }
