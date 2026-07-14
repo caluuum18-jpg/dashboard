@@ -2466,12 +2466,36 @@
         "drawdown_pct": 0.0,
         "equity": 100000.0,
         "timestamp": "2026-07-14T18:48:36.450799+10:00"
+      },
+      {
+        "balance": 100000.0,
+        "drawdown_pct": 0.0,
+        "equity": 100000.0,
+        "timestamp": "2026-07-14T18:49:52.330691+10:00"
+      },
+      {
+        "balance": 100000.0,
+        "drawdown_pct": 0.0,
+        "equity": 100000.0,
+        "timestamp": "2026-07-14T18:51:16.128592+10:00"
+      },
+      {
+        "balance": 100000.0,
+        "drawdown_pct": 0.0,
+        "equity": 100000.0,
+        "timestamp": "2026-07-14T18:52:37.582795+10:00"
+      },
+      {
+        "balance": 100000.0,
+        "drawdown_pct": 0.0,
+        "equity": 100000.0,
+        "timestamp": "2026-07-14T18:54:05.927391+10:00"
       }
     ],
     "r_histogram": []
   },
-  "generated_at": "2026-07-14T18:48:49.169652+10:00",
-  "generated_at_display": "Jul 14, 6:48 PM",
+  "generated_at": "2026-07-14T18:54:47.083980+10:00",
+  "generated_at_display": "Jul 14, 6:54 PM",
   "performance": {
     "by_instrument": [],
     "by_strategy": [],
@@ -3023,8 +3047,8 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-07-14T18:48:36.450799+10:00",
-    "last_scan_at_display": "Jul 14, 6:48 PM",
+    "last_scan_at": "2026-07-14T18:54:05.927391+10:00",
+    "last_scan_at_display": "Jul 14, 6:54 PM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
@@ -3049,35 +3073,35 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 12.718853,
+    "scan_age_seconds": 41.156589,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-07-14T18:40:00+10:00",
+        "latest_candle": "2026-07-14T18:45:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-07-14T18:40:00+10:00",
+        "latest_candle": "2026-07-14T18:45:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-07-14T18:40:00+10:00",
+        "latest_candle": "2026-07-14T18:45:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XTIUSD",
-        "latest_candle": "2026-07-14T18:40:00+10:00",
+        "latest_candle": "2026-07-14T18:45:00+10:00",
         "stale": false
       }
     ],
