@@ -35,36 +35,6 @@
         "balance": 100000.0,
         "drawdown_pct": 0.0,
         "equity": 100000.0,
-        "timestamp": "2026-07-14T12:26:10.729107+10:00"
-      },
-      {
-        "balance": 100000.0,
-        "drawdown_pct": 0.0,
-        "equity": 100000.0,
-        "timestamp": "2026-07-14T12:27:22.214799+10:00"
-      },
-      {
-        "balance": 100000.0,
-        "drawdown_pct": 0.0,
-        "equity": 100000.0,
-        "timestamp": "2026-07-14T12:28:34.326913+10:00"
-      },
-      {
-        "balance": 100000.0,
-        "drawdown_pct": 0.0,
-        "equity": 100000.0,
-        "timestamp": "2026-07-14T12:29:56.394097+10:00"
-      },
-      {
-        "balance": 100000.0,
-        "drawdown_pct": 0.0,
-        "equity": 100000.0,
-        "timestamp": "2026-07-14T12:31:27.067038+10:00"
-      },
-      {
-        "balance": 100000.0,
-        "drawdown_pct": 0.0,
-        "equity": 100000.0,
         "timestamp": "2026-07-14T12:33:03.145722+10:00"
       },
       {
@@ -3030,12 +3000,42 @@
         "drawdown_pct": 0.0,
         "equity": 100000.0,
         "timestamp": "2026-07-14T23:49:01.378972+10:00"
+      },
+      {
+        "balance": 100000.0,
+        "drawdown_pct": 0.0,
+        "equity": 100000.0,
+        "timestamp": "2026-07-14T23:50:28.067557+10:00"
+      },
+      {
+        "balance": 100000.0,
+        "drawdown_pct": 0.0,
+        "equity": 100000.0,
+        "timestamp": "2026-07-14T23:51:46.506102+10:00"
+      },
+      {
+        "balance": 100000.0,
+        "drawdown_pct": 0.0,
+        "equity": 100000.0,
+        "timestamp": "2026-07-14T23:53:01.850865+10:00"
+      },
+      {
+        "balance": 100000.0,
+        "drawdown_pct": 0.0,
+        "equity": 100000.0,
+        "timestamp": "2026-07-14T23:54:18.711392+10:00"
+      },
+      {
+        "balance": 100000.0,
+        "drawdown_pct": 0.0,
+        "equity": 100000.0,
+        "timestamp": "2026-07-14T23:55:19.775430+10:00"
       }
     ],
     "r_histogram": []
   },
-  "generated_at": "2026-07-14T23:49:21.847879+10:00",
-  "generated_at_display": "Jul 14, 11:49 PM",
+  "generated_at": "2026-07-14T23:55:19.968792+10:00",
+  "generated_at_display": "Jul 14, 11:55 PM",
   "performance": {
     "by_instrument": [],
     "by_strategy": [],
@@ -3065,7 +3065,7 @@
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
     "minimum_profitable_days": 3,
-    "news_status": "clear",
+    "news_status": "blocked",
     "next_news": {
       "block_end_local": "2026-07-15T00:05:00+10:00",
       "block_end_utc": "2026-07-14T14:05:00+00:00",
@@ -3587,12 +3587,12 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-07-14T23:49:01.378972+10:00",
-    "last_scan_at_display": "Jul 14, 11:49 PM",
+    "last_scan_at": "2026-07-14T23:55:19.775430+10:00",
+    "last_scan_at_display": "Jul 14, 11:55 PM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
-      "block_end_local": "",
+      "block_end_local": "2026-07-15T00:05:00+10:00",
       "last_fetch_at": "2026-07-14T23:43:37.157373+10:00",
       "next_event": {
         "block_end_local": "2026-07-15T00:05:00+10:00",
@@ -3608,40 +3608,40 @@
         "source": "forex_factory",
         "title": "Fed Chairman Warsh Testifies"
       },
-      "reason": "no active high-impact news blackout",
-      "status": "clear"
+      "reason": "USD High Fed Chairman Warsh Testifies",
+      "status": "blocked"
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 20.468907,
+    "scan_age_seconds": 0.193362,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-07-14T23:40:00+10:00",
+        "latest_candle": "2026-07-14T23:45:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-07-14T23:40:00+10:00",
+        "latest_candle": "2026-07-14T23:45:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-07-14T23:40:00+10:00",
+        "latest_candle": "2026-07-14T23:45:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XTIUSD",
-        "latest_candle": "2026-07-14T23:40:00+10:00",
+        "latest_candle": "2026-07-14T23:45:00+10:00",
         "stale": false
       }
     ],
