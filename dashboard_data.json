@@ -43,30 +43,6 @@
         "balance": 100000.0,
         "drawdown_pct": 0.0,
         "equity": 100000.0,
-        "timestamp": "2026-07-15T12:32:26.292522+10:00"
-      },
-      {
-        "balance": 100000.0,
-        "drawdown_pct": 0.0,
-        "equity": 100000.0,
-        "timestamp": "2026-07-15T12:33:38.324669+10:00"
-      },
-      {
-        "balance": 100000.0,
-        "drawdown_pct": 0.0,
-        "equity": 100000.0,
-        "timestamp": "2026-07-15T12:34:51.267053+10:00"
-      },
-      {
-        "balance": 100000.0,
-        "drawdown_pct": 0.0,
-        "equity": 100000.0,
-        "timestamp": "2026-07-15T12:36:08.953492+10:00"
-      },
-      {
-        "balance": 100000.0,
-        "drawdown_pct": 0.0,
-        "equity": 100000.0,
         "timestamp": "2026-07-15T12:37:29.470140+10:00"
       },
       {
@@ -3038,12 +3014,36 @@
         "drawdown_pct": 0.0,
         "equity": 100000.0,
         "timestamp": "2026-07-15T23:50:03.926319+10:00"
+      },
+      {
+        "balance": 100000.0,
+        "drawdown_pct": 0.0,
+        "equity": 100000.0,
+        "timestamp": "2026-07-15T23:51:41.537406+10:00"
+      },
+      {
+        "balance": 100000.0,
+        "drawdown_pct": 0.0,
+        "equity": 100000.0,
+        "timestamp": "2026-07-15T23:53:14.917906+10:00"
+      },
+      {
+        "balance": 100000.0,
+        "drawdown_pct": 0.0,
+        "equity": 100000.0,
+        "timestamp": "2026-07-15T23:54:48.367469+10:00"
+      },
+      {
+        "balance": 100000.0,
+        "drawdown_pct": 0.0,
+        "equity": 100000.0,
+        "timestamp": "2026-07-15T23:55:49.962374+10:00"
       }
     ],
     "r_histogram": []
   },
-  "generated_at": "2026-07-15T23:50:33.942144+10:00",
-  "generated_at_display": "Jul 15, 11:50 PM",
+  "generated_at": "2026-07-15T23:55:50.370598+10:00",
+  "generated_at_display": "Jul 15, 11:55 PM",
   "performance": {
     "by_instrument": [],
     "by_strategy": [],
@@ -3073,7 +3073,7 @@
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
     "minimum_profitable_days": 3,
-    "news_status": "clear",
+    "news_status": "blocked",
     "next_news": {
       "block_end_local": "2026-07-16T00:05:00+10:00",
       "block_end_utc": "2026-07-15T14:05:00+00:00",
@@ -3595,12 +3595,12 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-07-15T23:50:03.926319+10:00",
-    "last_scan_at_display": "Jul 15, 11:50 PM",
+    "last_scan_at": "2026-07-15T23:55:49.962374+10:00",
+    "last_scan_at_display": "Jul 15, 11:55 PM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
-      "block_end_local": "",
+      "block_end_local": "2026-07-16T00:05:00+10:00",
       "last_fetch_at": "2026-07-15T22:59:22.027138+10:00",
       "next_event": {
         "block_end_local": "2026-07-16T00:05:00+10:00",
@@ -3616,12 +3616,12 @@
         "source": "forex_factory",
         "title": "Fed Chairman Warsh Testifies"
       },
-      "reason": "no active high-impact news blackout",
-      "status": "clear"
+      "reason": "USD High Fed Chairman Warsh Testifies",
+      "status": "blocked"
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 30.015825,
+    "scan_age_seconds": 0.408224,
     "scanner_stale": false,
     "symbols": [
       {
