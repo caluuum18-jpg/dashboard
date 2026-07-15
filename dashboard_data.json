@@ -43,36 +43,6 @@
         "balance": 100000.0,
         "drawdown_pct": 0.0,
         "equity": 100000.0,
-        "timestamp": "2026-07-15T11:10:34.677112+10:00"
-      },
-      {
-        "balance": 100000.0,
-        "drawdown_pct": 0.0,
-        "equity": 100000.0,
-        "timestamp": "2026-07-15T11:12:00.015549+10:00"
-      },
-      {
-        "balance": 100000.0,
-        "drawdown_pct": 0.0,
-        "equity": 100000.0,
-        "timestamp": "2026-07-15T11:13:14.492624+10:00"
-      },
-      {
-        "balance": 100000.0,
-        "drawdown_pct": 0.0,
-        "equity": 100000.0,
-        "timestamp": "2026-07-15T11:14:27.250431+10:00"
-      },
-      {
-        "balance": 100000.0,
-        "drawdown_pct": 0.0,
-        "equity": 100000.0,
-        "timestamp": "2026-07-15T11:15:50.313425+10:00"
-      },
-      {
-        "balance": 100000.0,
-        "drawdown_pct": 0.0,
-        "equity": 100000.0,
         "timestamp": "2026-07-15T11:17:25.291083+10:00"
       },
       {
@@ -3038,12 +3008,42 @@
         "drawdown_pct": 0.0,
         "equity": 100000.0,
         "timestamp": "2026-07-15T22:20:24.112082+10:00"
+      },
+      {
+        "balance": 100000.0,
+        "drawdown_pct": 0.0,
+        "equity": 100000.0,
+        "timestamp": "2026-07-15T22:21:53.332777+10:00"
+      },
+      {
+        "balance": 100000.0,
+        "drawdown_pct": 0.0,
+        "equity": 100000.0,
+        "timestamp": "2026-07-15T22:23:22.317543+10:00"
+      },
+      {
+        "balance": 100000.0,
+        "drawdown_pct": 0.0,
+        "equity": 100000.0,
+        "timestamp": "2026-07-15T22:24:39.381753+10:00"
+      },
+      {
+        "balance": 100000.0,
+        "drawdown_pct": 0.0,
+        "equity": 100000.0,
+        "timestamp": "2026-07-15T22:25:40.440300+10:00"
+      },
+      {
+        "balance": 100000.0,
+        "drawdown_pct": 0.0,
+        "equity": 100000.0,
+        "timestamp": "2026-07-15T22:26:41.019037+10:00"
       }
     ],
     "r_histogram": []
   },
-  "generated_at": "2026-07-15T22:20:47.065356+10:00",
-  "generated_at_display": "Jul 15, 10:20 PM",
+  "generated_at": "2026-07-15T22:26:41.377640+10:00",
+  "generated_at_display": "Jul 15, 10:26 PM",
   "performance": {
     "by_instrument": [],
     "by_strategy": [],
@@ -3073,7 +3073,7 @@
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
     "minimum_profitable_days": 3,
-    "news_status": "clear",
+    "news_status": "blocked",
     "next_news": {
       "block_end_local": "2026-07-15T22:35:00+10:00",
       "block_end_utc": "2026-07-15T12:35:00+00:00",
@@ -3595,12 +3595,12 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-07-15T22:20:24.112082+10:00",
-    "last_scan_at_display": "Jul 15, 10:20 PM",
+    "last_scan_at": "2026-07-15T22:26:41.019037+10:00",
+    "last_scan_at_display": "Jul 15, 10:26 PM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
-      "block_end_local": "",
+      "block_end_local": "2026-07-15T22:35:00+10:00",
       "last_fetch_at": "2026-07-15T21:58:43.892170+10:00",
       "next_event": {
         "block_end_local": "2026-07-15T22:35:00+10:00",
@@ -3616,12 +3616,12 @@
         "source": "forex_factory",
         "title": "Core PPI m/m"
       },
-      "reason": "no active high-impact news blackout",
-      "status": "clear"
+      "reason": "USD High Core PPI m/m",
+      "status": "blocked"
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 22.953274,
+    "scan_age_seconds": 0.358603,
     "scanner_stale": false,
     "symbols": [
       {
