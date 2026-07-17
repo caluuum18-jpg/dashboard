@@ -46,12 +46,12 @@
         "win_rate": 0.0
       },
       {
-        "closed_trades": 0,
+        "closed_trades": 1,
         "date": "2026-07-17",
         "ending_equity": 104963.93,
-        "expectancy_r": 0.0,
-        "realized_pnl": 0.0,
-        "win_rate": 0.0
+        "expectancy_r": 2.5013372315238445,
+        "realized_pnl": 4963.93,
+        "win_rate": 1.0
       },
       {
         "closed_trades": 0,
@@ -63,36 +63,6 @@
       }
     ],
     "equity": [
-      {
-        "balance": 100000.0,
-        "drawdown_pct": 0.0,
-        "equity": 100000.0,
-        "timestamp": "2026-07-17T14:45:37.906596+10:00"
-      },
-      {
-        "balance": 100000.0,
-        "drawdown_pct": 0.0,
-        "equity": 100000.0,
-        "timestamp": "2026-07-17T14:47:02.765236+10:00"
-      },
-      {
-        "balance": 100000.0,
-        "drawdown_pct": 0.0,
-        "equity": 100000.0,
-        "timestamp": "2026-07-17T14:48:30.734310+10:00"
-      },
-      {
-        "balance": 100000.0,
-        "drawdown_pct": 0.0,
-        "equity": 100000.0,
-        "timestamp": "2026-07-17T14:50:04.192954+10:00"
-      },
-      {
-        "balance": 100000.0,
-        "drawdown_pct": 0.0,
-        "equity": 100000.0,
-        "timestamp": "2026-07-17T14:51:28.561871+10:00"
-      },
       {
         "balance": 100000.0,
         "drawdown_pct": 0.0,
@@ -3062,37 +3032,124 @@
         "drawdown_pct": 0.0,
         "equity": 104963.93,
         "timestamp": "2026-07-18T01:39:16.044383+10:00"
+      },
+      {
+        "balance": 104963.93,
+        "drawdown_pct": 0.0,
+        "equity": 104963.93,
+        "timestamp": "2026-07-18T01:40:22.780584+10:00"
+      },
+      {
+        "balance": 104963.93,
+        "drawdown_pct": 0.0,
+        "equity": 104963.93,
+        "timestamp": "2026-07-18T01:41:23.281023+10:00"
+      },
+      {
+        "balance": 104963.93,
+        "drawdown_pct": 0.0,
+        "equity": 104963.93,
+        "timestamp": "2026-07-18T01:42:24.156869+10:00"
+      },
+      {
+        "balance": 104963.93,
+        "drawdown_pct": 0.0,
+        "equity": 104963.93,
+        "timestamp": "2026-07-18T01:43:25.441095+10:00"
+      },
+      {
+        "balance": 104963.93,
+        "drawdown_pct": 0.0,
+        "equity": 104963.93,
+        "timestamp": "2026-07-18T01:44:26.940000+10:00"
       }
     ],
-    "r_histogram": []
+    "r_histogram": [
+      {
+        "count": 0,
+        "label": "<=-1R"
+      },
+      {
+        "count": 0,
+        "label": "-1R..0"
+      },
+      {
+        "count": 0,
+        "label": "0..1R"
+      },
+      {
+        "count": 0,
+        "label": "1R..2R"
+      },
+      {
+        "count": 1,
+        "label": ">2R"
+      }
+    ]
   },
-  "generated_at": "2026-07-18T01:39:16.514312+10:00",
-  "generated_at_display": "Jul 18, 1:39 AM",
+  "generated_at": "2026-07-18T01:44:27.486892+10:00",
+  "generated_at_display": "Jul 18, 1:44 AM",
   "performance": {
-    "by_instrument": [],
-    "by_strategy": [],
+    "by_instrument": [
+      {
+        "average_loss": 0.0,
+        "average_win": 4963.93,
+        "average_win_loss_ratio": 0.0,
+        "closed_trades": 1,
+        "current_losing_streak": 0,
+        "expectancy_dollars": 4963.93,
+        "expectancy_r": 2.5013372315238445,
+        "losses": 0,
+        "max_losing_streak": 0,
+        "name": "XAUUSD",
+        "profit_factor": null,
+        "trades_per_month": 30.0,
+        "trades_per_week": 7.0,
+        "win_rate": 1.0,
+        "wins": 1
+      }
+    ],
+    "by_strategy": [
+      {
+        "average_loss": 0.0,
+        "average_win": 4963.93,
+        "average_win_loss_ratio": 0.0,
+        "closed_trades": 1,
+        "current_losing_streak": 0,
+        "expectancy_dollars": 4963.93,
+        "expectancy_r": 2.5013372315238445,
+        "losses": 0,
+        "max_losing_streak": 0,
+        "name": "FVG",
+        "profit_factor": null,
+        "trades_per_month": 30.0,
+        "trades_per_week": 7.0,
+        "win_rate": 1.0,
+        "wins": 1
+      }
+    ],
     "summary": {
       "average_loss": 0.0,
-      "average_win": 0.0,
+      "average_win": 4963.93,
       "average_win_loss_ratio": 0.0,
-      "closed_trades": 0,
+      "closed_trades": 1,
       "current_losing_streak": 0,
-      "expectancy_dollars": 0.0,
-      "expectancy_r": 0.0,
+      "expectancy_dollars": 4963.93,
+      "expectancy_r": 2.5013372315238445,
       "losses": 0,
       "max_losing_streak": 0,
-      "profit_factor": 0.0,
-      "trades_per_month": 0.0,
-      "trades_per_week": 0.0,
-      "win_rate": 0.0,
-      "wins": 0
+      "profit_factor": null,
+      "trades_per_month": 30.0,
+      "trades_per_week": 7.0,
+      "win_rate": 1.0,
+      "wins": 1
     }
   },
   "phase_monitor": {
     "classic_phase1_target_pct": 0.08,
     "daily_loss_baseline_estimate": 104963.93,
     "daily_loss_limit_pct": 0.05,
-    "days_since_last_trade": null,
+    "days_since_last_trade": 0.0009199871759259259,
     "inactivity_limit_days": 30,
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
@@ -3113,9 +3170,9 @@
       "target_dollars": 5000.0,
       "target_pct": 0.05
     },
-    "profitable_day_progress": 0.0,
+    "profitable_day_progress": 0.3333333333333333,
     "profitable_day_threshold": 500.0,
-    "profitable_days": 0,
+    "profitable_days": 1,
     "program": "new_high_stakes",
     "server_rollover_note": "Daily-loss baseline is estimated from runner state until broker-server rollover export is added."
   },
@@ -3606,8 +3663,8 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-07-18T01:39:16.044383+10:00",
-    "last_scan_at_display": "Jul 18, 1:39 AM",
+    "last_scan_at": "2026-07-18T01:44:26.940000+10:00",
+    "last_scan_at_display": "Jul 18, 1:44 AM",
     "last_scan_status": "weekend_guard",
     "mode": "LIVE DEMO",
     "news_guard": {
@@ -3619,7 +3676,7 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 0.469929,
+    "scan_age_seconds": 0.546892,
     "scanner_stale": false,
     "symbols": [
       {
@@ -3661,16 +3718,16 @@
     },
     "recent": [
       {
-        "actual_exit": 0.0,
+        "actual_exit": 3967.26,
         "created_at": "2026-07-17T17:10:55.212062+10:00",
         "direction": "SELL",
         "entry": 4000.275114285714,
-        "exit_reason": "nan",
+        "exit_reason": "TP",
         "instrument": "XAUUSD",
-        "realized_pnl": 0.0,
-        "realized_r": 0.0,
+        "realized_pnl": 4963.93,
+        "realized_r": 2.5013,
         "risk_dollars": 1984.5105,
-        "status": "ORDER_CREATED",
+        "status": "CLOSED",
         "strategy": "FVG"
       }
     ]
