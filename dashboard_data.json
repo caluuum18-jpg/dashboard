@@ -59,12 +59,6 @@
         "balance": 100000.0,
         "drawdown_pct": 0.0,
         "equity": 100000.0,
-        "timestamp": "2026-07-17T08:02:17.771236+10:00"
-      },
-      {
-        "balance": 100000.0,
-        "drawdown_pct": 0.0,
-        "equity": 100000.0,
         "timestamp": "2026-07-17T08:03:34.475075+10:00"
       },
       {
@@ -3054,12 +3048,18 @@
         "drawdown_pct": 0.0,
         "equity": 100000.0,
         "timestamp": "2026-07-17T19:21:00.488861+10:00"
+      },
+      {
+        "balance": 100000.0,
+        "drawdown_pct": 0.0,
+        "equity": 100000.0,
+        "timestamp": "2026-07-17T19:22:22.053534+10:00"
       }
     ],
     "r_histogram": []
   },
-  "generated_at": "2026-07-17T19:21:17.222294+10:00",
-  "generated_at_display": "Jul 17, 7:21 PM",
+  "generated_at": "2026-07-17T19:22:36.520856+10:00",
+  "generated_at_display": "Jul 17, 7:22 PM",
   "performance": {
     "by_instrument": [],
     "by_strategy": [],
@@ -3598,8 +3598,8 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-07-17T19:21:00.488861+10:00",
-    "last_scan_at_display": "Jul 17, 7:21 PM",
+    "last_scan_at": "2026-07-17T19:22:22.053534+10:00",
+    "last_scan_at_display": "Jul 17, 7:22 PM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
@@ -3611,7 +3611,7 @@
     },
     "open_orders_count": 1,
     "open_positions_count": 0,
-    "scan_age_seconds": 16.733433,
+    "scan_age_seconds": 14.467322,
     "scanner_stale": false,
     "symbols": [
       {
