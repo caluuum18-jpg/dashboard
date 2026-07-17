@@ -5,16 +5,16 @@
     "closed_pnl": -4.7299999999959255,
     "current_initial_drawdown_pct": 0.0,
     "daily_drawdown_pct": 0.0,
-    "daily_loss_remaining": 6239.509999999995,
+    "daily_loss_remaining": 6362.979999999996,
     "day_start_equity": 100000.0,
     "drawdown_from_initial_pct": 0.002727100000000064,
-    "equity": 101239.51,
-    "floating_pnl": 1244.2399999999907,
-    "max_loss_remaining": 11239.509999999995,
+    "equity": 101362.98,
+    "floating_pnl": 1367.7099999999919,
+    "max_loss_remaining": 11362.979999999996,
     "min_equity": 99727.29,
-    "net_pnl": 1239.5099999999948,
-    "peak_drawdown_pct": 0.0091,
-    "peak_equity": 101248.68,
+    "net_pnl": 1362.979999999996,
+    "peak_drawdown_pct": 0.0,
+    "peak_equity": 101362.98,
     "source": "journal",
     "warning": "",
     "zone": "green"
@@ -48,19 +48,13 @@
       {
         "closed_trades": 0,
         "date": "2026-07-17",
-        "ending_equity": 101239.51,
+        "ending_equity": 101362.98,
         "expectancy_r": 0.0,
         "realized_pnl": 0.0,
         "win_rate": 0.0
       }
     ],
     "equity": [
-      {
-        "balance": 100000.0,
-        "drawdown_pct": 0.0,
-        "equity": 100000.0,
-        "timestamp": "2026-07-17T09:37:03.032720+10:00"
-      },
       {
         "balance": 100000.0,
         "drawdown_pct": 0.0,
@@ -3054,12 +3048,18 @@
         "drawdown_pct": 0.0,
         "equity": 101239.51,
         "timestamp": "2026-07-17T20:58:38.241408+10:00"
+      },
+      {
+        "balance": 99995.27,
+        "drawdown_pct": 0.0,
+        "equity": 101362.98,
+        "timestamp": "2026-07-17T21:00:00.588770+10:00"
       }
     ],
     "r_histogram": []
   },
-  "generated_at": "2026-07-17T20:58:53.007221+10:00",
-  "generated_at_display": "Jul 17, 8:58 PM",
+  "generated_at": "2026-07-17T21:00:18.145047+10:00",
+  "generated_at_display": "Jul 17, 9:00 PM",
   "performance": {
     "by_instrument": [],
     "by_strategy": [],
@@ -3093,8 +3093,8 @@
     "next_news": {},
     "phase1": {
       "label": "Phase 1",
-      "progress": 0.12395099999999948,
-      "remaining_dollars": 8760.490000000005,
+      "progress": 0.1362979999999996,
+      "remaining_dollars": 8637.020000000004,
       "target_dollars": 10000.0,
       "target_pct": 0.1
     },
@@ -3598,8 +3598,8 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-07-17T20:58:38.241408+10:00",
-    "last_scan_at_display": "Jul 17, 8:58 PM",
+    "last_scan_at": "2026-07-17T21:00:00.588770+10:00",
+    "last_scan_at_display": "Jul 17, 9:00 PM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
@@ -3611,35 +3611,35 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 1,
-    "scan_age_seconds": 14.765813,
+    "scan_age_seconds": 17.556277,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-07-17T20:50:00+10:00",
+        "latest_candle": "2026-07-17T20:55:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-07-17T20:50:00+10:00",
+        "latest_candle": "2026-07-17T20:55:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-07-17T20:50:00+10:00",
+        "latest_candle": "2026-07-17T20:55:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XTIUSD",
-        "latest_candle": "2026-07-17T20:50:00+10:00",
+        "latest_candle": "2026-07-17T20:55:00+10:00",
         "stale": false
       }
     ],
@@ -3652,7 +3652,7 @@
       "positions": [
         {
           "price_open": 4000.28,
-          "profit": 1366.22,
+          "profit": 1156.88,
           "sl": 4013.48,
           "symbol": "XAUUSD.a",
           "tp": 3967.26,
