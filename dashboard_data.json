@@ -60,39 +60,17 @@
         "expectancy_r": 0.0,
         "realized_pnl": 0.0,
         "win_rate": 0.0
+      },
+      {
+        "closed_trades": 0,
+        "date": "2026-07-19",
+        "ending_equity": 104963.93,
+        "expectancy_r": 0.0,
+        "realized_pnl": 0.0,
+        "win_rate": 0.0
       }
     ],
     "equity": [
-      {
-        "balance": 104963.93,
-        "drawdown_pct": 0.0,
-        "equity": 104963.93,
-        "timestamp": "2026-07-18T15:26:02.253801+10:00"
-      },
-      {
-        "balance": 104963.93,
-        "drawdown_pct": 0.0,
-        "equity": 104963.93,
-        "timestamp": "2026-07-18T15:27:02.661011+10:00"
-      },
-      {
-        "balance": 104963.93,
-        "drawdown_pct": 0.0,
-        "equity": 104963.93,
-        "timestamp": "2026-07-18T15:28:03.021398+10:00"
-      },
-      {
-        "balance": 104963.93,
-        "drawdown_pct": 0.0,
-        "equity": 104963.93,
-        "timestamp": "2026-07-18T15:29:03.428594+10:00"
-      },
-      {
-        "balance": 104963.93,
-        "drawdown_pct": 0.0,
-        "equity": 104963.93,
-        "timestamp": "2026-07-18T15:30:03.804570+10:00"
-      },
       {
         "balance": 104963.93,
         "drawdown_pct": 0.0,
@@ -3062,6 +3040,36 @@
         "drawdown_pct": 0.0,
         "equity": 104963.93,
         "timestamp": "2026-07-18T23:58:41.927944+10:00"
+      },
+      {
+        "balance": 104963.93,
+        "drawdown_pct": 0.0,
+        "equity": 104963.93,
+        "timestamp": "2026-07-18T23:59:45.709983+10:00"
+      },
+      {
+        "balance": 104963.93,
+        "drawdown_pct": 0.0,
+        "equity": 104963.93,
+        "timestamp": "2026-07-19T00:00:47.086838+10:00"
+      },
+      {
+        "balance": 104963.93,
+        "drawdown_pct": 0.0,
+        "equity": 104963.93,
+        "timestamp": "2026-07-19T00:01:48.649162+10:00"
+      },
+      {
+        "balance": 104963.93,
+        "drawdown_pct": 0.0,
+        "equity": 104963.93,
+        "timestamp": "2026-07-19T00:02:50.058426+10:00"
+      },
+      {
+        "balance": 104963.93,
+        "drawdown_pct": 0.0,
+        "equity": 104963.93,
+        "timestamp": "2026-07-19T00:03:51.558421+10:00"
       }
     ],
     "r_histogram": [
@@ -3087,8 +3095,8 @@
       }
     ]
   },
-  "generated_at": "2026-07-18T23:58:42.271823+10:00",
-  "generated_at_display": "Jul 18, 11:58 PM",
+  "generated_at": "2026-07-19T00:03:51.902223+10:00",
+  "generated_at_display": "Jul 19, 12:03 AM",
   "performance": {
     "by_instrument": [
       {
@@ -3103,8 +3111,8 @@
         "max_losing_streak": 0,
         "name": "XAUUSD",
         "profit_factor": null,
-        "trades_per_month": 23.37934856989454,
-        "trades_per_week": 5.455181332975393,
+        "trades_per_month": 23.314236387368943,
+        "trades_per_week": 5.439988490386086,
         "win_rate": 1.0,
         "wins": 1
       }
@@ -3122,8 +3130,8 @@
         "max_losing_streak": 0,
         "name": "FVG",
         "profit_factor": null,
-        "trades_per_month": 23.37934856989454,
-        "trades_per_week": 5.455181332975393,
+        "trades_per_month": 23.314236387368943,
+        "trades_per_week": 5.439988490386086,
         "win_rate": 1.0,
         "wins": 1
       }
@@ -3139,8 +3147,8 @@
       "losses": 0,
       "max_losing_streak": 0,
       "profit_factor": null,
-      "trades_per_month": 23.37935186147865,
-      "trades_per_week": 5.455182101011685,
+      "trades_per_month": 23.31423966882273,
+      "trades_per_week": 5.439989256058637,
       "win_rate": 1.0,
       "wins": 1
     }
@@ -3149,7 +3157,7 @@
     "classic_phase1_target_pct": 0.08,
     "daily_loss_baseline_estimate": 104963.93,
     "daily_loss_limit_pct": 0.05,
-    "days_since_last_trade": 0.9274801786111111,
+    "days_since_last_trade": 0.9310638642476852,
     "inactivity_limit_days": 30,
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
@@ -3663,8 +3671,8 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-07-18T23:58:41.927944+10:00",
-    "last_scan_at_display": "Jul 18, 11:58 PM",
+    "last_scan_at": "2026-07-19T00:03:51.558421+10:00",
+    "last_scan_at_display": "Jul 19, 12:03 AM",
     "last_scan_status": "weekend_guard",
     "mode": "LIVE DEMO",
     "news_guard": {
@@ -3676,7 +3684,7 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 0.359488,
+    "scan_age_seconds": 0.343802,
     "scanner_stale": false,
     "symbols": [
       {
