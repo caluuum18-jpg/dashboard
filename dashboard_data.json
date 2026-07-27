@@ -116,39 +116,17 @@
         "expectancy_r": 0.0,
         "realized_pnl": 0.0,
         "win_rate": 0.0
+      },
+      {
+        "closed_trades": 0,
+        "date": "2026-07-27",
+        "ending_equity": 104963.93,
+        "expectancy_r": 0.0,
+        "realized_pnl": 0.0,
+        "win_rate": 0.0
       }
     ],
     "equity": [
-      {
-        "balance": 104963.93,
-        "drawdown_pct": 0.0,
-        "equity": 104963.93,
-        "timestamp": "2026-07-25T09:58:04.133718+10:00"
-      },
-      {
-        "balance": 104963.93,
-        "drawdown_pct": 0.0,
-        "equity": 104963.93,
-        "timestamp": "2026-07-25T09:59:05.664714+10:00"
-      },
-      {
-        "balance": 104963.93,
-        "drawdown_pct": 0.0,
-        "equity": 104963.93,
-        "timestamp": "2026-07-25T10:00:07.275339+10:00"
-      },
-      {
-        "balance": 104963.93,
-        "drawdown_pct": 0.0,
-        "equity": 104963.93,
-        "timestamp": "2026-07-25T10:01:08.881689+10:00"
-      },
-      {
-        "balance": 104963.93,
-        "drawdown_pct": 0.0,
-        "equity": 104963.93,
-        "timestamp": "2026-07-25T10:02:10.444877+10:00"
-      },
       {
         "balance": 104963.93,
         "drawdown_pct": 0.0,
@@ -3118,12 +3096,42 @@
         "drawdown_pct": 0.0,
         "equity": 104963.93,
         "timestamp": "2026-07-25T18:36:01.213022+10:00"
+      },
+      {
+        "balance": 104963.93,
+        "drawdown_pct": 0.0,
+        "equity": 104963.93,
+        "timestamp": "2026-07-25T18:37:05.105329+10:00"
+      },
+      {
+        "balance": 104963.93,
+        "drawdown_pct": 0.0,
+        "equity": 104963.93,
+        "timestamp": "2026-07-25T18:38:05.636882+10:00"
+      },
+      {
+        "balance": 104963.93,
+        "drawdown_pct": 0.0,
+        "equity": 104963.93,
+        "timestamp": "2026-07-25T18:39:06.325275+10:00"
+      },
+      {
+        "balance": 104963.93,
+        "drawdown_pct": 0.0,
+        "equity": 104963.93,
+        "timestamp": "2026-07-25T18:40:06.966782+10:00"
+      },
+      {
+        "balance": 104963.93,
+        "drawdown_pct": 0.0,
+        "equity": 104963.93,
+        "timestamp": "2026-07-27T13:25:21.772237+10:00"
       }
     ],
     "r_histogram": []
   },
-  "generated_at": "2026-07-25T18:36:01.666211+10:00",
-  "generated_at_display": "Jul 25, 6:36 PM",
+  "generated_at": "2026-07-27T13:25:56.217868+10:00",
+  "generated_at_display": "Jul 27, 1:25 PM",
   "performance": {
     "by_instrument": [],
     "by_strategy": [],
@@ -3154,7 +3162,20 @@
     "max_loss_limit_pct": 0.1,
     "minimum_profitable_days": 3,
     "news_status": "clear",
-    "next_news": {},
+    "next_news": {
+      "block_end_local": "2026-07-30T04:05:00+10:00",
+      "block_end_utc": "2026-07-29T18:05:00+00:00",
+      "block_start_local": "2026-07-30T03:55:00+10:00",
+      "block_start_utc": "2026-07-29T17:55:00+00:00",
+      "country": "USD",
+      "event_time_local": "2026-07-30T04:00:00+10:00",
+      "event_time_utc": "2026-07-29T18:00:00+00:00",
+      "impact": "High",
+      "instruments": "BTCUSD,NAS100,XAUUSD,XTIUSD",
+      "reason": "Forex Factory high-impact event",
+      "source": "forex_factory",
+      "title": "Federal Funds Rate"
+    },
     "phase1": {
       "label": "Phase 1",
       "progress": 0.4963929999999993,
@@ -3670,52 +3691,65 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-07-25T18:36:01.213022+10:00",
-    "last_scan_at_display": "Jul 25, 6:36 PM",
-    "last_scan_status": "weekend_guard",
+    "last_scan_at": "2026-07-27T13:25:21.772237+10:00",
+    "last_scan_at_display": "Jul 27, 1:25 PM",
+    "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
       "block_end_local": "",
-      "last_fetch_at": "2026-07-24T23:48:01.406536+10:00",
-      "next_event": {},
+      "last_fetch_at": "2026-07-27T13:25:23.827448+10:00",
+      "next_event": {
+        "block_end_local": "2026-07-30T04:05:00+10:00",
+        "block_end_utc": "2026-07-29T18:05:00+00:00",
+        "block_start_local": "2026-07-30T03:55:00+10:00",
+        "block_start_utc": "2026-07-29T17:55:00+00:00",
+        "country": "USD",
+        "event_time_local": "2026-07-30T04:00:00+10:00",
+        "event_time_utc": "2026-07-29T18:00:00+00:00",
+        "impact": "High",
+        "instruments": "BTCUSD,NAS100,XAUUSD,XTIUSD",
+        "reason": "Forex Factory high-impact event",
+        "source": "forex_factory",
+        "title": "Federal Funds Rate"
+      },
       "reason": "no active high-impact news blackout",
       "status": "clear"
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 0.453189,
+    "scan_age_seconds": 34.461818,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-07-24T23:50:00+10:00",
+        "latest_candle": "2026-07-27T13:20:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-07-24T23:50:00+10:00",
+        "latest_candle": "2026-07-27T13:20:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-07-24T23:50:00+10:00",
+        "latest_candle": "2026-07-27T13:20:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XTIUSD",
-        "latest_candle": "2026-07-24T23:50:00+10:00",
+        "latest_candle": "2026-07-27T13:20:00+10:00",
         "stale": false
       }
     ],
-    "weekend_guard": true
+    "weekend_guard": false
   },
   "trades": {
     "cancellations": [],
