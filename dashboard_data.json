@@ -4,16 +4,16 @@
     "baseline": 100000.0,
     "closed_pnl": 4963.929999999993,
     "current_initial_drawdown_pct": 0.0,
-    "daily_drawdown_pct": 0.0036776443107645602,
-    "daily_loss_remaining": 4862.176500000016,
+    "daily_drawdown_pct": 0.003269313563240143,
+    "daily_loss_remaining": 4905.0365000000165,
     "day_start_equity": 104963.93,
     "drawdown_from_initial_pct": 0.002727100000000064,
-    "equity": 104577.91,
-    "floating_pnl": -386.0199999999895,
-    "max_loss_remaining": 14577.910000000003,
+    "equity": 104620.77,
+    "floating_pnl": -343.15999999998894,
+    "max_loss_remaining": 14620.770000000004,
     "min_equity": 99727.29,
-    "net_pnl": 4577.9100000000035,
-    "peak_drawdown_pct": 0.3678,
+    "net_pnl": 4620.770000000004,
+    "peak_drawdown_pct": 0.3269,
     "peak_equity": 104963.93,
     "source": "journal",
     "warning": "",
@@ -128,19 +128,13 @@
       {
         "closed_trades": 0,
         "date": "2026-07-28",
-        "ending_equity": 104577.91,
+        "ending_equity": 104620.77,
         "expectancy_r": 0.0,
         "realized_pnl": 0.0,
         "win_rate": 0.0
       }
     ],
     "equity": [
-      {
-        "balance": 104963.93,
-        "drawdown_pct": 0.0,
-        "equity": 104963.93,
-        "timestamp": "2026-07-28T08:16:35.002497+10:00"
-      },
       {
         "balance": 104963.93,
         "drawdown_pct": 0.0,
@@ -3134,12 +3128,18 @@
         "drawdown_pct": 0.0,
         "equity": 104577.91,
         "timestamp": "2026-07-28T20:29:32.432621+10:00"
+      },
+      {
+        "balance": 104963.93,
+        "drawdown_pct": 0.0,
+        "equity": 104620.77,
+        "timestamp": "2026-07-28T20:30:56.621584+10:00"
       }
     ],
     "r_histogram": []
   },
-  "generated_at": "2026-07-28T20:29:51.729608+10:00",
-  "generated_at_display": "Jul 28, 8:29 PM",
+  "generated_at": "2026-07-28T20:31:18.105863+10:00",
+  "generated_at_display": "Jul 28, 8:31 PM",
   "performance": {
     "by_instrument": [],
     "by_strategy": [],
@@ -3186,8 +3186,8 @@
     },
     "phase1": {
       "label": "Phase 1",
-      "progress": 0.45779100000000034,
-      "remaining_dollars": 5422.0899999999965,
+      "progress": 0.4620770000000004,
+      "remaining_dollars": 5379.229999999996,
       "target_dollars": 10000.0,
       "target_pct": 0.1
     },
@@ -3699,8 +3699,8 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-07-28T20:29:32.432621+10:00",
-    "last_scan_at_display": "Jul 28, 8:29 PM",
+    "last_scan_at": "2026-07-28T20:30:56.621584+10:00",
+    "last_scan_at_display": "Jul 28, 8:30 PM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
@@ -3725,35 +3725,35 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 1,
-    "scan_age_seconds": 19.296987,
+    "scan_age_seconds": 21.484279,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-07-28T20:20:00+10:00",
+        "latest_candle": "2026-07-28T20:25:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-07-28T20:20:00+10:00",
+        "latest_candle": "2026-07-28T20:25:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-07-28T20:20:00+10:00",
+        "latest_candle": "2026-07-28T20:25:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XTIUSD",
-        "latest_candle": "2026-07-28T20:20:00+10:00",
+        "latest_candle": "2026-07-28T20:25:00+10:00",
         "stale": false
       }
     ],
@@ -3766,7 +3766,7 @@
       "positions": [
         {
           "price_open": 81.16,
-          "profit": -393.14,
+          "profit": -357.42,
           "sl": 81.896,
           "symbol": "SpotCrude.a",
           "tp": 79.321,
