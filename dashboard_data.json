@@ -155,36 +155,6 @@
         "balance": 104438.69,
         "drawdown_pct": 0.0,
         "equity": 104438.69,
-        "timestamp": "2026-07-29T15:17:18.549373+10:00"
-      },
-      {
-        "balance": 104438.69,
-        "drawdown_pct": 0.0,
-        "equity": 104438.69,
-        "timestamp": "2026-07-29T15:18:54.284898+10:00"
-      },
-      {
-        "balance": 104438.69,
-        "drawdown_pct": 0.0,
-        "equity": 104438.69,
-        "timestamp": "2026-07-29T15:20:26.113885+10:00"
-      },
-      {
-        "balance": 104438.69,
-        "drawdown_pct": 0.0,
-        "equity": 104438.69,
-        "timestamp": "2026-07-29T15:21:56.756294+10:00"
-      },
-      {
-        "balance": 104438.69,
-        "drawdown_pct": 0.0,
-        "equity": 104438.69,
-        "timestamp": "2026-07-29T15:23:29.319997+10:00"
-      },
-      {
-        "balance": 104438.69,
-        "drawdown_pct": 0.0,
-        "equity": 104438.69,
         "timestamp": "2026-07-29T15:25:09.307270+10:00"
       },
       {
@@ -3150,12 +3120,42 @@
         "drawdown_pct": 0.0,
         "equity": 104438.69,
         "timestamp": "2026-07-30T04:00:29.373728+10:00"
+      },
+      {
+        "balance": 104438.69,
+        "drawdown_pct": 0.0,
+        "equity": 104438.69,
+        "timestamp": "2026-07-30T04:01:39.198224+10:00"
+      },
+      {
+        "balance": 104438.69,
+        "drawdown_pct": 0.0,
+        "equity": 104438.69,
+        "timestamp": "2026-07-30T04:02:40.758921+10:00"
+      },
+      {
+        "balance": 104438.69,
+        "drawdown_pct": 0.0,
+        "equity": 104438.69,
+        "timestamp": "2026-07-30T04:03:42.809871+10:00"
+      },
+      {
+        "balance": 104438.69,
+        "drawdown_pct": 0.0,
+        "equity": 104438.69,
+        "timestamp": "2026-07-30T04:04:44.841823+10:00"
+      },
+      {
+        "balance": 104438.69,
+        "drawdown_pct": 0.0,
+        "equity": 104438.69,
+        "timestamp": "2026-07-30T04:05:47.687827+10:00"
       }
     ],
     "r_histogram": []
   },
-  "generated_at": "2026-07-30T04:00:31.743987+10:00",
-  "generated_at_display": "Jul 30, 4:00 AM",
+  "generated_at": "2026-07-30T04:06:30.641003+10:00",
+  "generated_at_display": "Jul 30, 4:06 AM",
   "performance": {
     "by_instrument": [],
     "by_strategy": [],
@@ -3185,20 +3185,20 @@
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
     "minimum_profitable_days": 3,
-    "news_status": "blocked",
+    "news_status": "clear",
     "next_news": {
-      "block_end_local": "2026-07-30T04:05:00+10:00",
-      "block_end_utc": "2026-07-29T18:05:00+00:00",
-      "block_start_local": "2026-07-30T03:55:00+10:00",
-      "block_start_utc": "2026-07-29T17:55:00+00:00",
+      "block_end_local": "2026-07-30T04:35:00+10:00",
+      "block_end_utc": "2026-07-29T18:35:00+00:00",
+      "block_start_local": "2026-07-30T04:25:00+10:00",
+      "block_start_utc": "2026-07-29T18:25:00+00:00",
       "country": "USD",
-      "event_time_local": "2026-07-30T04:00:00+10:00",
-      "event_time_utc": "2026-07-29T18:00:00+00:00",
+      "event_time_local": "2026-07-30T04:30:00+10:00",
+      "event_time_utc": "2026-07-29T18:30:00+00:00",
       "impact": "High",
       "instruments": "BTCUSD,NAS100,XAUUSD,XTIUSD",
       "reason": "Forex Factory high-impact event",
       "source": "forex_factory",
-      "title": "Federal Funds Rate"
+      "title": "FOMC Press Conference"
     },
     "phase1": {
       "label": "Phase 1",
@@ -3715,61 +3715,61 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-07-30T04:00:29.373728+10:00",
-    "last_scan_at_display": "Jul 30, 4:00 AM",
+    "last_scan_at": "2026-07-30T04:05:47.687827+10:00",
+    "last_scan_at_display": "Jul 30, 4:05 AM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
-      "block_end_local": "2026-07-30T04:05:00+10:00",
+      "block_end_local": "",
       "last_fetch_at": "2026-07-30T03:15:07.917911+10:00",
       "next_event": {
-        "block_end_local": "2026-07-30T04:05:00+10:00",
-        "block_end_utc": "2026-07-29T18:05:00+00:00",
-        "block_start_local": "2026-07-30T03:55:00+10:00",
-        "block_start_utc": "2026-07-29T17:55:00+00:00",
+        "block_end_local": "2026-07-30T04:35:00+10:00",
+        "block_end_utc": "2026-07-29T18:35:00+00:00",
+        "block_start_local": "2026-07-30T04:25:00+10:00",
+        "block_start_utc": "2026-07-29T18:25:00+00:00",
         "country": "USD",
-        "event_time_local": "2026-07-30T04:00:00+10:00",
-        "event_time_utc": "2026-07-29T18:00:00+00:00",
+        "event_time_local": "2026-07-30T04:30:00+10:00",
+        "event_time_utc": "2026-07-29T18:30:00+00:00",
         "impact": "High",
         "instruments": "BTCUSD,NAS100,XAUUSD,XTIUSD",
         "reason": "Forex Factory high-impact event",
         "source": "forex_factory",
-        "title": "Federal Funds Rate"
+        "title": "FOMC Press Conference"
       },
-      "reason": "USD High Federal Funds Rate",
-      "status": "blocked"
+      "reason": "no active high-impact news blackout",
+      "status": "clear"
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 2.370259,
+    "scan_age_seconds": 42.953176,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-07-30T03:45:00+10:00",
+        "latest_candle": "2026-07-30T04:00:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-07-30T03:45:00+10:00",
+        "latest_candle": "2026-07-30T04:00:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-07-30T03:45:00+10:00",
+        "latest_candle": "2026-07-30T04:00:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XTIUSD",
-        "latest_candle": "2026-07-30T03:45:00+10:00",
+        "latest_candle": "2026-07-30T04:00:00+10:00",
         "stale": false
       }
     ],
