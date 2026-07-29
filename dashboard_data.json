@@ -155,30 +155,6 @@
         "balance": 104438.69,
         "drawdown_pct": 0.0,
         "equity": 104438.69,
-        "timestamp": "2026-07-29T15:55:27.390392+10:00"
-      },
-      {
-        "balance": 104438.69,
-        "drawdown_pct": 0.0,
-        "equity": 104438.69,
-        "timestamp": "2026-07-29T15:57:06.883343+10:00"
-      },
-      {
-        "balance": 104438.69,
-        "drawdown_pct": 0.0,
-        "equity": 104438.69,
-        "timestamp": "2026-07-29T15:58:37.258409+10:00"
-      },
-      {
-        "balance": 104438.69,
-        "drawdown_pct": 0.0,
-        "equity": 104438.69,
-        "timestamp": "2026-07-29T16:00:10.670575+10:00"
-      },
-      {
-        "balance": 104438.69,
-        "drawdown_pct": 0.0,
-        "equity": 104438.69,
         "timestamp": "2026-07-29T16:01:45.796853+10:00"
       },
       {
@@ -3150,12 +3126,36 @@
         "drawdown_pct": 0.0,
         "equity": 104438.69,
         "timestamp": "2026-07-30T04:33:18.961710+10:00"
+      },
+      {
+        "balance": 104438.69,
+        "drawdown_pct": 0.0,
+        "equity": 104438.69,
+        "timestamp": "2026-07-30T04:34:27.544040+10:00"
+      },
+      {
+        "balance": 104438.69,
+        "drawdown_pct": 0.0,
+        "equity": 104438.69,
+        "timestamp": "2026-07-30T04:35:29.688996+10:00"
+      },
+      {
+        "balance": 104438.69,
+        "drawdown_pct": 0.0,
+        "equity": 104438.69,
+        "timestamp": "2026-07-30T04:37:15.673328+10:00"
+      },
+      {
+        "balance": 104438.69,
+        "drawdown_pct": 0.0,
+        "equity": 104438.69,
+        "timestamp": "2026-07-30T04:38:59.349143+10:00"
       }
     ],
     "r_histogram": []
   },
-  "generated_at": "2026-07-30T04:33:20.102341+10:00",
-  "generated_at_display": "Jul 30, 4:33 AM",
+  "generated_at": "2026-07-30T04:39:44.629760+10:00",
+  "generated_at_display": "Jul 30, 4:39 AM",
   "performance": {
     "by_instrument": [],
     "by_strategy": [],
@@ -3185,20 +3185,20 @@
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
     "minimum_profitable_days": 3,
-    "news_status": "blocked",
+    "news_status": "clear",
     "next_news": {
-      "block_end_local": "2026-07-30T04:35:00+10:00",
-      "block_end_utc": "2026-07-29T18:35:00+00:00",
-      "block_start_local": "2026-07-30T04:25:00+10:00",
-      "block_start_utc": "2026-07-29T18:25:00+00:00",
+      "block_end_local": "2026-07-30T22:35:00+10:00",
+      "block_end_utc": "2026-07-30T12:35:00+00:00",
+      "block_start_local": "2026-07-30T22:25:00+10:00",
+      "block_start_utc": "2026-07-30T12:25:00+00:00",
       "country": "USD",
-      "event_time_local": "2026-07-30T04:30:00+10:00",
-      "event_time_utc": "2026-07-29T18:30:00+00:00",
+      "event_time_local": "2026-07-30T22:30:00+10:00",
+      "event_time_utc": "2026-07-30T12:30:00+00:00",
       "impact": "High",
       "instruments": "BTCUSD,NAS100,XAUUSD,XTIUSD",
       "reason": "Forex Factory high-impact event",
       "source": "forex_factory",
-      "title": "FOMC Press Conference"
+      "title": "Advance GDP q/q"
     },
     "phase1": {
       "label": "Phase 1",
@@ -3715,61 +3715,61 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-07-30T04:33:18.961710+10:00",
-    "last_scan_at_display": "Jul 30, 4:33 AM",
+    "last_scan_at": "2026-07-30T04:38:59.349143+10:00",
+    "last_scan_at_display": "Jul 30, 4:38 AM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
-      "block_end_local": "2026-07-30T04:35:00+10:00",
+      "block_end_local": "",
       "last_fetch_at": "2026-07-30T04:16:17.260769+10:00",
       "next_event": {
-        "block_end_local": "2026-07-30T04:35:00+10:00",
-        "block_end_utc": "2026-07-29T18:35:00+00:00",
-        "block_start_local": "2026-07-30T04:25:00+10:00",
-        "block_start_utc": "2026-07-29T18:25:00+00:00",
+        "block_end_local": "2026-07-30T22:35:00+10:00",
+        "block_end_utc": "2026-07-30T12:35:00+00:00",
+        "block_start_local": "2026-07-30T22:25:00+10:00",
+        "block_start_utc": "2026-07-30T12:25:00+00:00",
         "country": "USD",
-        "event_time_local": "2026-07-30T04:30:00+10:00",
-        "event_time_utc": "2026-07-29T18:30:00+00:00",
+        "event_time_local": "2026-07-30T22:30:00+10:00",
+        "event_time_utc": "2026-07-30T12:30:00+00:00",
         "impact": "High",
         "instruments": "BTCUSD,NAS100,XAUUSD,XTIUSD",
         "reason": "Forex Factory high-impact event",
         "source": "forex_factory",
-        "title": "FOMC Press Conference"
+        "title": "Advance GDP q/q"
       },
-      "reason": "USD High FOMC Press Conference",
-      "status": "blocked"
+      "reason": "no active high-impact news blackout",
+      "status": "clear"
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 1.140631,
+    "scan_age_seconds": 45.280617,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-07-30T04:15:00+10:00",
+        "latest_candle": "2026-07-30T04:30:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-07-30T04:15:00+10:00",
+        "latest_candle": "2026-07-30T04:30:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-07-30T04:15:00+10:00",
+        "latest_candle": "2026-07-30T04:30:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XTIUSD",
-        "latest_candle": "2026-07-30T04:15:00+10:00",
+        "latest_candle": "2026-07-30T04:30:00+10:00",
         "stale": false
       }
     ],
