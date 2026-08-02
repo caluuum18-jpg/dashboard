@@ -172,27 +172,17 @@
         "expectancy_r": 0.0,
         "realized_pnl": 0.0,
         "win_rate": 0.0
+      },
+      {
+        "closed_trades": 0,
+        "date": "2026-08-03",
+        "ending_equity": 104438.69,
+        "expectancy_r": 0.0,
+        "realized_pnl": 0.0,
+        "win_rate": 0.0
       }
     ],
     "equity": [
-      {
-        "balance": 104438.69,
-        "drawdown_pct": 0.0,
-        "equity": 104438.69,
-        "timestamp": "2026-08-02T10:45:50.009555+10:00"
-      },
-      {
-        "balance": 104438.69,
-        "drawdown_pct": 0.0,
-        "equity": 104438.69,
-        "timestamp": "2026-08-02T10:46:53.697878+10:00"
-      },
-      {
-        "balance": 104438.69,
-        "drawdown_pct": 0.0,
-        "equity": 104438.69,
-        "timestamp": "2026-08-02T10:47:57.046783+10:00"
-      },
       {
         "balance": 104438.69,
         "drawdown_pct": 0.0,
@@ -3174,12 +3164,30 @@
         "drawdown_pct": 0.0,
         "equity": 104438.69,
         "timestamp": "2026-08-02T23:59:14.624514+10:00"
+      },
+      {
+        "balance": 104438.69,
+        "drawdown_pct": 0.0,
+        "equity": 104438.69,
+        "timestamp": "2026-08-03T00:00:23.470194+10:00"
+      },
+      {
+        "balance": 104438.69,
+        "drawdown_pct": 0.0,
+        "equity": 104438.69,
+        "timestamp": "2026-08-03T00:02:48.736957+10:00"
+      },
+      {
+        "balance": 104438.69,
+        "drawdown_pct": 0.0,
+        "equity": 104438.69,
+        "timestamp": "2026-08-03T00:04:56.161705+10:00"
       }
     ],
     "r_histogram": []
   },
-  "generated_at": "2026-08-02T23:59:16.468269+10:00",
-  "generated_at_display": "Aug 2, 11:59 PM",
+  "generated_at": "2026-08-03T00:06:04.504703+10:00",
+  "generated_at_display": "Aug 3, 12:06 AM",
   "performance": {
     "by_instrument": [],
     "by_strategy": [],
@@ -3210,7 +3218,20 @@
     "max_loss_limit_pct": 0.1,
     "minimum_profitable_days": 3,
     "news_status": "clear",
-    "next_news": {},
+    "next_news": {
+      "block_end_local": "2026-08-04T00:05:00+10:00",
+      "block_end_utc": "2026-08-03T14:05:00+00:00",
+      "block_start_local": "2026-08-03T23:55:00+10:00",
+      "block_start_utc": "2026-08-03T13:55:00+00:00",
+      "country": "USD",
+      "event_time_local": "2026-08-04T00:00:00+10:00",
+      "event_time_utc": "2026-08-03T14:00:00+00:00",
+      "impact": "High",
+      "instruments": "BTCUSD,NAS100,XAUUSD,XTIUSD",
+      "reason": "Forex Factory high-impact event",
+      "source": "forex_factory",
+      "title": "ISM Manufacturing PMI"
+    },
     "phase1": {
       "label": "Phase 1",
       "progress": 0.44386900000000024,
@@ -3726,52 +3747,65 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-08-02T23:59:14.624514+10:00",
-    "last_scan_at_display": "Aug 2, 11:59 PM",
-    "last_scan_status": "weekend_guard",
+    "last_scan_at": "2026-08-03T00:04:56.161705+10:00",
+    "last_scan_at_display": "Aug 3, 12:04 AM",
+    "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
       "block_end_local": "",
-      "last_fetch_at": "2026-07-31T23:54:19.403194+10:00",
-      "next_event": {},
+      "last_fetch_at": "2026-08-03T00:00:25.235069+10:00",
+      "next_event": {
+        "block_end_local": "2026-08-04T00:05:00+10:00",
+        "block_end_utc": "2026-08-03T14:05:00+00:00",
+        "block_start_local": "2026-08-03T23:55:00+10:00",
+        "block_start_utc": "2026-08-03T13:55:00+00:00",
+        "country": "USD",
+        "event_time_local": "2026-08-04T00:00:00+10:00",
+        "event_time_utc": "2026-08-03T14:00:00+00:00",
+        "impact": "High",
+        "instruments": "BTCUSD,NAS100,XAUUSD,XTIUSD",
+        "reason": "Forex Factory high-impact event",
+        "source": "forex_factory",
+        "title": "ISM Manufacturing PMI"
+      },
       "reason": "no active high-impact news blackout",
       "status": "clear"
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 1.843755,
+    "scan_age_seconds": 68.342998,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-07-31T23:55:00+10:00",
+        "latest_candle": "2026-08-03T00:00:00+10:00",
         "stale": false
       },
       {
-        "fresh": true,
+        "fresh": false,
         "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-07-31T23:55:00+10:00",
-        "stale": false
+        "latest_candle": "2026-08-01T09:45:00+10:00",
+        "stale": true
       },
       {
-        "fresh": true,
+        "fresh": false,
         "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-07-31T23:50:00+10:00",
-        "stale": false
+        "latest_candle": "2026-08-01T09:45:00+10:00",
+        "stale": true
       },
       {
-        "fresh": true,
+        "fresh": false,
         "future": false,
         "instrument": "XTIUSD",
-        "latest_candle": "2026-07-31T23:55:00+10:00",
-        "stale": false
+        "latest_candle": "2026-08-01T09:45:00+10:00",
+        "stale": true
       }
     ],
-    "weekend_guard": true
+    "weekend_guard": false
   },
   "trades": {
     "cancellations": [],
