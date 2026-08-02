@@ -187,24 +187,6 @@
         "balance": 104438.69,
         "drawdown_pct": 0.0,
         "equity": 104438.69,
-        "timestamp": "2026-08-02T12:04:11.714703+10:00"
-      },
-      {
-        "balance": 104438.69,
-        "drawdown_pct": 0.0,
-        "equity": 104438.69,
-        "timestamp": "2026-08-02T12:05:15.544148+10:00"
-      },
-      {
-        "balance": 104438.69,
-        "drawdown_pct": 0.0,
-        "equity": 104438.69,
-        "timestamp": "2026-08-02T12:06:26.169416+10:00"
-      },
-      {
-        "balance": 104438.69,
-        "drawdown_pct": 0.0,
-        "equity": 104438.69,
         "timestamp": "2026-08-02T12:07:28.716902+10:00"
       },
       {
@@ -3182,12 +3164,30 @@
         "drawdown_pct": 0.0,
         "equity": 104438.69,
         "timestamp": "2026-08-03T02:41:44.240669+10:00"
+      },
+      {
+        "balance": 104438.69,
+        "drawdown_pct": 0.0,
+        "equity": 104438.69,
+        "timestamp": "2026-08-03T02:43:53.023556+10:00"
+      },
+      {
+        "balance": 104438.69,
+        "drawdown_pct": 0.0,
+        "equity": 104438.69,
+        "timestamp": "2026-08-03T02:45:54.384661+10:00"
+      },
+      {
+        "balance": 104438.69,
+        "drawdown_pct": 0.0,
+        "equity": 104438.69,
+        "timestamp": "2026-08-03T02:47:57.619847+10:00"
       }
     ],
     "r_histogram": []
   },
-  "generated_at": "2026-08-03T02:42:43.241012+10:00",
-  "generated_at_display": "Aug 3, 2:42 AM",
+  "generated_at": "2026-08-03T02:49:01.917131+10:00",
+  "generated_at_display": "Aug 3, 2:49 AM",
   "performance": {
     "by_instrument": [],
     "by_strategy": [],
@@ -3747,8 +3747,8 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-08-03T02:41:44.240669+10:00",
-    "last_scan_at_display": "Aug 3, 2:41 AM",
+    "last_scan_at": "2026-08-03T02:47:57.619847+10:00",
+    "last_scan_at_display": "Aug 3, 2:47 AM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
@@ -3773,14 +3773,14 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 59.000343,
+    "scan_age_seconds": 64.297284,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-08-03T02:35:00+10:00",
+        "latest_candle": "2026-08-03T02:40:00+10:00",
         "stale": false
       },
       {
