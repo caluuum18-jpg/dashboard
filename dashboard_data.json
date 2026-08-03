@@ -5,15 +5,15 @@
     "closed_pnl": 4438.690000000002,
     "current_initial_drawdown_pct": 0.0,
     "daily_drawdown_pct": 0.0,
-    "daily_loss_remaining": 5475.804499999998,
+    "daily_loss_remaining": 5364.904500000004,
     "day_start_equity": 104438.69,
     "drawdown_from_initial_pct": 0.002727100000000064,
-    "equity": 104692.56,
-    "floating_pnl": 253.86999999999534,
-    "max_loss_remaining": 14692.559999999998,
+    "equity": 104581.66,
+    "floating_pnl": 142.97000000000116,
+    "max_loss_remaining": 14581.660000000003,
     "min_equity": 99727.29,
-    "net_pnl": 4692.559999999998,
-    "peak_drawdown_pct": 0.9057,
+    "net_pnl": 4581.6600000000035,
+    "peak_drawdown_pct": 1.0106,
     "peak_equity": 105649.39,
     "source": "journal",
     "warning": "",
@@ -184,19 +184,13 @@
       {
         "closed_trades": 0,
         "date": "2026-08-04",
-        "ending_equity": 104692.56,
+        "ending_equity": 104581.66,
         "expectancy_r": 0.0,
         "realized_pnl": 0.0,
         "win_rate": 0.0
       }
     ],
     "equity": [
-      {
-        "balance": 104438.69,
-        "drawdown_pct": 0.0,
-        "equity": 104438.69,
-        "timestamp": "2026-08-03T13:13:03.759633+10:00"
-      },
       {
         "balance": 104438.69,
         "drawdown_pct": 0.0,
@@ -3190,12 +3184,18 @@
         "drawdown_pct": 0.0,
         "equity": 104692.56,
         "timestamp": "2026-08-04T01:42:19.921084+10:00"
+      },
+      {
+        "balance": 104438.69,
+        "drawdown_pct": 0.0,
+        "equity": 104581.66,
+        "timestamp": "2026-08-04T01:43:47.562937+10:00"
       }
     ],
     "r_histogram": []
   },
-  "generated_at": "2026-08-04T01:42:41.077816+10:00",
-  "generated_at_display": "Aug 4, 1:42 AM",
+  "generated_at": "2026-08-04T01:44:10.688104+10:00",
+  "generated_at_display": "Aug 4, 1:44 AM",
   "performance": {
     "by_instrument": [],
     "by_strategy": [],
@@ -3242,8 +3242,8 @@
     },
     "phase1": {
       "label": "Phase 1",
-      "progress": 0.4692559999999998,
-      "remaining_dollars": 5307.440000000002,
+      "progress": 0.45816600000000035,
+      "remaining_dollars": 5418.3399999999965,
       "target_dollars": 10000.0,
       "target_pct": 0.1
     },
@@ -3755,8 +3755,8 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-08-04T01:42:19.921084+10:00",
-    "last_scan_at_display": "Aug 4, 1:42 AM",
+    "last_scan_at": "2026-08-04T01:43:47.562937+10:00",
+    "last_scan_at_display": "Aug 4, 1:43 AM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
@@ -3781,7 +3781,7 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 1,
-    "scan_age_seconds": 21.156732,
+    "scan_age_seconds": 23.125167,
     "scanner_stale": false,
     "symbols": [
       {
@@ -3822,7 +3822,7 @@
       "positions": [
         {
           "price_open": 80.333,
-          "profit": 245.66,
+          "profit": 192.26,
           "sl": 80.968,
           "symbol": "SpotCrude.a",
           "tp": 78.743,
