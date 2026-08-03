@@ -5,15 +5,15 @@
     "closed_pnl": 4438.690000000002,
     "current_initial_drawdown_pct": 0.0,
     "daily_drawdown_pct": 0.0,
-    "daily_loss_remaining": 6160.7744999999995,
+    "daily_loss_remaining": 6122.084499999997,
     "day_start_equity": 104438.69,
     "drawdown_from_initial_pct": 0.002727100000000064,
-    "equity": 105377.53,
-    "floating_pnl": 938.8399999999965,
-    "max_loss_remaining": 15377.529999999999,
+    "equity": 105338.84,
+    "floating_pnl": 900.1499999999942,
+    "max_loss_remaining": 15338.839999999997,
     "min_equity": 99727.29,
-    "net_pnl": 5377.529999999999,
-    "peak_drawdown_pct": 0.2573,
+    "net_pnl": 5338.8399999999965,
+    "peak_drawdown_pct": 0.2939,
     "peak_equity": 105649.39,
     "source": "journal",
     "warning": "",
@@ -176,19 +176,13 @@
       {
         "closed_trades": 0,
         "date": "2026-08-03",
-        "ending_equity": 105377.53,
+        "ending_equity": 105338.84,
         "expectancy_r": 0.0,
         "realized_pnl": 0.0,
         "win_rate": 0.0
       }
     ],
     "equity": [
-      {
-        "balance": 104438.69,
-        "drawdown_pct": 0.0,
-        "equity": 104438.69,
-        "timestamp": "2026-08-03T11:28:49.962418+10:00"
-      },
       {
         "balance": 104438.69,
         "drawdown_pct": 0.0,
@@ -3182,12 +3176,18 @@
         "drawdown_pct": 0.0,
         "equity": 105377.53,
         "timestamp": "2026-08-03T23:53:26.848024+10:00"
+      },
+      {
+        "balance": 104438.69,
+        "drawdown_pct": 0.0,
+        "equity": 105338.84,
+        "timestamp": "2026-08-03T23:55:01.576465+10:00"
       }
     ],
     "r_histogram": []
   },
-  "generated_at": "2026-08-03T23:53:53.162502+10:00",
-  "generated_at_display": "Aug 3, 11:53 PM",
+  "generated_at": "2026-08-03T23:55:04.029591+10:00",
+  "generated_at_display": "Aug 3, 11:55 PM",
   "performance": {
     "by_instrument": [],
     "by_strategy": [],
@@ -3217,7 +3217,7 @@
     "initial_balance": 100000.0,
     "max_loss_limit_pct": 0.1,
     "minimum_profitable_days": 3,
-    "news_status": "clear",
+    "news_status": "blocked",
     "next_news": {
       "block_end_local": "2026-08-04T00:05:00+10:00",
       "block_end_utc": "2026-08-03T14:05:00+00:00",
@@ -3234,8 +3234,8 @@
     },
     "phase1": {
       "label": "Phase 1",
-      "progress": 0.5377529999999999,
-      "remaining_dollars": 4622.470000000001,
+      "progress": 0.5338839999999997,
+      "remaining_dollars": 4661.1600000000035,
       "target_dollars": 10000.0,
       "target_pct": 0.1
     },
@@ -3747,12 +3747,12 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-08-03T23:53:26.848024+10:00",
-    "last_scan_at_display": "Aug 3, 11:53 PM",
+    "last_scan_at": "2026-08-03T23:55:01.576465+10:00",
+    "last_scan_at_display": "Aug 3, 11:55 PM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
-      "block_end_local": "",
+      "block_end_local": "2026-08-04T00:05:00+10:00",
       "last_fetch_at": "2026-08-03T23:20:29.698422+10:00",
       "next_event": {
         "block_end_local": "2026-08-04T00:05:00+10:00",
@@ -3768,12 +3768,12 @@
         "source": "forex_factory",
         "title": "ISM Manufacturing PMI"
       },
-      "reason": "no active high-impact news blackout",
-      "status": "clear"
+      "reason": "USD High ISM Manufacturing PMI",
+      "status": "blocked"
     },
     "open_orders_count": 0,
     "open_positions_count": 1,
-    "scan_age_seconds": 26.314478,
+    "scan_age_seconds": 2.453126,
     "scanner_stale": false,
     "symbols": [
       {
@@ -3814,7 +3814,7 @@
       "positions": [
         {
           "price_open": 80.333,
-          "profit": 954.47,
+          "profit": 910.02,
           "sl": 80.968,
           "symbol": "SpotCrude.a",
           "tp": 78.743,
