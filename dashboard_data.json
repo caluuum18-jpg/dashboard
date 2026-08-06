@@ -219,36 +219,6 @@
         "balance": 103397.76,
         "drawdown_pct": 0.0,
         "equity": 103397.76,
-        "timestamp": "2026-08-06T21:28:54.819539+10:00"
-      },
-      {
-        "balance": 103397.76,
-        "drawdown_pct": 0.0,
-        "equity": 103397.76,
-        "timestamp": "2026-08-06T21:30:06.273686+10:00"
-      },
-      {
-        "balance": 103397.76,
-        "drawdown_pct": 0.0,
-        "equity": 103397.76,
-        "timestamp": "2026-08-06T21:31:18.883918+10:00"
-      },
-      {
-        "balance": 103397.76,
-        "drawdown_pct": 0.0,
-        "equity": 103397.76,
-        "timestamp": "2026-08-06T21:32:33.933862+10:00"
-      },
-      {
-        "balance": 103397.76,
-        "drawdown_pct": 0.0,
-        "equity": 103397.76,
-        "timestamp": "2026-08-06T21:33:44.905550+10:00"
-      },
-      {
-        "balance": 103397.76,
-        "drawdown_pct": 0.0,
-        "equity": 103397.76,
         "timestamp": "2026-08-06T21:34:56.433332+10:00"
       },
       {
@@ -3214,12 +3184,42 @@
         "drawdown_pct": 0.0,
         "equity": 103397.76,
         "timestamp": "2026-08-07T07:37:19.313448+10:00"
+      },
+      {
+        "balance": 103397.76,
+        "drawdown_pct": 0.0,
+        "equity": 103397.76,
+        "timestamp": "2026-08-07T07:38:24.783062+10:00"
+      },
+      {
+        "balance": 103397.76,
+        "drawdown_pct": 0.0,
+        "equity": 103397.76,
+        "timestamp": "2026-08-07T07:39:28.117651+10:00"
+      },
+      {
+        "balance": 103397.76,
+        "drawdown_pct": 0.0,
+        "equity": 103397.76,
+        "timestamp": "2026-08-07T07:40:31.472285+10:00"
+      },
+      {
+        "balance": 103397.76,
+        "drawdown_pct": 0.0,
+        "equity": 103397.76,
+        "timestamp": "2026-08-07T07:41:40.770086+10:00"
+      },
+      {
+        "balance": 103397.76,
+        "drawdown_pct": 0.0,
+        "equity": 103397.76,
+        "timestamp": "2026-08-07T07:42:50.708605+10:00"
       }
     ],
     "r_histogram": []
   },
-  "generated_at": "2026-08-07T07:37:22.594742+10:00",
-  "generated_at_display": "Aug 7, 7:37 AM",
+  "generated_at": "2026-08-07T07:42:59.864833+10:00",
+  "generated_at_display": "Aug 7, 7:42 AM",
   "performance": {
     "by_instrument": [],
     "by_strategy": [],
@@ -3779,8 +3779,8 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-08-07T07:37:19.313448+10:00",
-    "last_scan_at_display": "Aug 7, 7:37 AM",
+    "last_scan_at": "2026-08-07T07:42:50.708605+10:00",
+    "last_scan_at_display": "Aug 7, 7:42 AM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
@@ -3805,36 +3805,36 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 3.281294,
+    "scan_age_seconds": 9.156228,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-08-07T07:30:00+10:00",
+        "latest_candle": "2026-08-07T07:35:00+10:00",
         "stale": false
       },
       {
-        "fresh": false,
-        "future": true,
+        "fresh": true,
+        "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-08-07T09:50:00+10:00",
-        "stale": true
+        "latest_candle": "2026-08-07T07:50:00+10:00",
+        "stale": false
       },
       {
-        "fresh": false,
-        "future": true,
+        "fresh": true,
+        "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-08-07T09:50:00+10:00",
-        "stale": true
+        "latest_candle": "2026-08-07T07:50:00+10:00",
+        "stale": false
       },
       {
-        "fresh": false,
-        "future": true,
+        "fresh": true,
+        "future": false,
         "instrument": "XTIUSD",
-        "latest_candle": "2026-08-07T09:50:00+10:00",
-        "stale": true
+        "latest_candle": "2026-08-07T07:50:00+10:00",
+        "stale": false
       }
     ],
     "weekend_guard": false
