@@ -4,16 +4,16 @@
     "baseline": 100000.0,
     "closed_pnl": 3916.9900000000052,
     "current_initial_drawdown_pct": 0.0,
-    "daily_drawdown_pct": 0.002117170637833229,
-    "daily_loss_remaining": 4975.839500000002,
+    "daily_drawdown_pct": 0.0021242917062936485,
+    "daily_loss_remaining": 4975.099500000011,
     "day_start_equity": 103916.99,
     "drawdown_from_initial_pct": 0.002727100000000064,
-    "equity": 103696.98,
-    "floating_pnl": -220.0100000000093,
-    "max_loss_remaining": 13696.979999999996,
+    "equity": 103696.24,
+    "floating_pnl": -220.75,
+    "max_loss_remaining": 13696.240000000005,
     "min_equity": 99727.29,
-    "net_pnl": 3696.979999999996,
-    "peak_drawdown_pct": 1.848,
+    "net_pnl": 3696.2400000000052,
+    "peak_drawdown_pct": 1.8487,
     "peak_equity": 105649.39,
     "source": "journal",
     "warning": "",
@@ -200,19 +200,13 @@
       {
         "closed_trades": 0,
         "date": "2026-08-06",
-        "ending_equity": 103696.98,
+        "ending_equity": 103696.24,
         "expectancy_r": 0.0,
         "realized_pnl": 0.0,
         "win_rate": 0.0
       }
     ],
     "equity": [
-      {
-        "balance": 103916.99,
-        "drawdown_pct": 0.0,
-        "equity": 103916.99,
-        "timestamp": "2026-08-06T08:20:25.356127+10:00"
-      },
       {
         "balance": 103916.99,
         "drawdown_pct": 0.0,
@@ -3206,12 +3200,18 @@
         "drawdown_pct": 0.0,
         "equity": 103696.98,
         "timestamp": "2026-08-06T20:13:50.858060+10:00"
+      },
+      {
+        "balance": 103916.99,
+        "drawdown_pct": 0.0,
+        "equity": 103696.24,
+        "timestamp": "2026-08-06T20:15:00.887689+10:00"
       }
     ],
     "r_histogram": []
   },
-  "generated_at": "2026-08-06T20:13:58.402422+10:00",
-  "generated_at_display": "Aug 6, 8:13 PM",
+  "generated_at": "2026-08-06T20:15:09.497170+10:00",
+  "generated_at_display": "Aug 6, 8:15 PM",
   "performance": {
     "by_instrument": [],
     "by_strategy": [],
@@ -3258,8 +3258,8 @@
     },
     "phase1": {
       "label": "Phase 1",
-      "progress": 0.3696979999999996,
-      "remaining_dollars": 6303.020000000004,
+      "progress": 0.3696240000000005,
+      "remaining_dollars": 6303.759999999995,
       "target_dollars": 10000.0,
       "target_pct": 0.1
     },
@@ -3771,8 +3771,8 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-08-06T20:13:50.858060+10:00",
-    "last_scan_at_display": "Aug 6, 8:13 PM",
+    "last_scan_at": "2026-08-06T20:15:00.887689+10:00",
+    "last_scan_at_display": "Aug 6, 8:15 PM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
@@ -3797,35 +3797,35 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 1,
-    "scan_age_seconds": 7.544362,
+    "scan_age_seconds": 8.609481,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-08-06T20:05:00+10:00",
+        "latest_candle": "2026-08-06T20:10:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-08-06T20:05:00+10:00",
+        "latest_candle": "2026-08-06T20:10:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-08-06T20:05:00+10:00",
+        "latest_candle": "2026-08-06T20:10:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XTIUSD",
-        "latest_candle": "2026-08-06T20:05:00+10:00",
+        "latest_candle": "2026-08-06T20:10:00+10:00",
         "stale": false
       }
     ],
@@ -3838,7 +3838,7 @@
       "positions": [
         {
           "price_open": 75.617,
-          "profit": -220.75,
+          "profit": -230.32,
           "sl": 76.323,
           "symbol": "SpotCrude.a",
           "tp": 73.852,
