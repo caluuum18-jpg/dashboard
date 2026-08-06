@@ -211,36 +211,6 @@
         "balance": 103916.99,
         "drawdown_pct": 0.0,
         "equity": 103916.99,
-        "timestamp": "2026-08-06T10:34:56.703200+10:00"
-      },
-      {
-        "balance": 103916.99,
-        "drawdown_pct": 0.0,
-        "equity": 103916.99,
-        "timestamp": "2026-08-06T10:36:27.547925+10:00"
-      },
-      {
-        "balance": 103916.99,
-        "drawdown_pct": 0.0,
-        "equity": 103916.99,
-        "timestamp": "2026-08-06T10:38:01.063866+10:00"
-      },
-      {
-        "balance": 103916.99,
-        "drawdown_pct": 0.0,
-        "equity": 103916.99,
-        "timestamp": "2026-08-06T10:39:27.393273+10:00"
-      },
-      {
-        "balance": 103916.99,
-        "drawdown_pct": 0.0,
-        "equity": 103916.99,
-        "timestamp": "2026-08-06T10:40:53.674620+10:00"
-      },
-      {
-        "balance": 103916.99,
-        "drawdown_pct": 0.0,
-        "equity": 103916.99,
         "timestamp": "2026-08-06T10:42:22.050278+10:00"
       },
       {
@@ -3206,12 +3176,42 @@
         "drawdown_pct": 0.0,
         "equity": 103397.76,
         "timestamp": "2026-08-06T22:07:42.741209+10:00"
+      },
+      {
+        "balance": 103397.76,
+        "drawdown_pct": 0.0,
+        "equity": 103397.76,
+        "timestamp": "2026-08-06T22:08:57.397399+10:00"
+      },
+      {
+        "balance": 103397.76,
+        "drawdown_pct": 0.0,
+        "equity": 103397.76,
+        "timestamp": "2026-08-06T22:10:12.398393+10:00"
+      },
+      {
+        "balance": 103397.76,
+        "drawdown_pct": 0.0,
+        "equity": 103397.76,
+        "timestamp": "2026-08-06T22:11:25.211914+10:00"
+      },
+      {
+        "balance": 103397.76,
+        "drawdown_pct": 0.0,
+        "equity": 103397.76,
+        "timestamp": "2026-08-06T22:12:37.791665+10:00"
+      },
+      {
+        "balance": 103397.76,
+        "drawdown_pct": 0.0,
+        "equity": 103397.76,
+        "timestamp": "2026-08-06T22:13:49.734137+10:00"
       }
     ],
     "r_histogram": []
   },
-  "generated_at": "2026-08-06T22:07:54.177739+10:00",
-  "generated_at_display": "Aug 6, 10:07 PM",
+  "generated_at": "2026-08-06T22:14:01.776540+10:00",
+  "generated_at_display": "Aug 6, 10:14 PM",
   "performance": {
     "by_instrument": [],
     "by_strategy": [],
@@ -3771,13 +3771,13 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-08-06T22:07:42.741209+10:00",
-    "last_scan_at_display": "Aug 6, 10:07 PM",
+    "last_scan_at": "2026-08-06T22:13:49.734137+10:00",
+    "last_scan_at_display": "Aug 6, 10:13 PM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
       "block_end_local": "",
-      "last_fetch_at": "2026-08-06T21:13:10.997225+10:00",
+      "last_fetch_at": "2026-08-06T22:13:49.823322+10:00",
       "next_event": {
         "block_end_local": "2026-08-07T22:35:00+10:00",
         "block_end_utc": "2026-08-07T12:35:00+00:00",
@@ -3797,35 +3797,35 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 11.43653,
+    "scan_age_seconds": 12.042403,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-08-06T22:00:00+10:00",
+        "latest_candle": "2026-08-06T22:05:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-08-06T22:00:00+10:00",
+        "latest_candle": "2026-08-06T22:05:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-08-06T22:00:00+10:00",
+        "latest_candle": "2026-08-06T22:05:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XTIUSD",
-        "latest_candle": "2026-08-06T22:00:00+10:00",
+        "latest_candle": "2026-08-06T22:05:00+10:00",
         "stale": false
       }
     ],
