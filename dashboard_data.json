@@ -5,15 +5,15 @@
     "closed_pnl": 3916.9900000000052,
     "current_initial_drawdown_pct": 0.0,
     "daily_drawdown_pct": 0.0,
-    "daily_loss_remaining": 5251.749500000005,
+    "daily_loss_remaining": 5298.819500000012,
     "day_start_equity": 103916.99,
     "drawdown_from_initial_pct": 0.002727100000000064,
-    "equity": 103972.89,
-    "floating_pnl": 55.89999999999418,
-    "max_loss_remaining": 13972.89,
+    "equity": 104019.96,
+    "floating_pnl": 102.97000000000116,
+    "max_loss_remaining": 14019.960000000006,
     "min_equity": 99727.29,
-    "net_pnl": 3972.8899999999994,
-    "peak_drawdown_pct": 1.5869,
+    "net_pnl": 4019.9600000000064,
+    "peak_drawdown_pct": 1.5423,
     "peak_equity": 105649.39,
     "source": "journal",
     "warning": "",
@@ -200,19 +200,13 @@
       {
         "closed_trades": 0,
         "date": "2026-08-06",
-        "ending_equity": 103972.89,
+        "ending_equity": 104019.96,
         "expectancy_r": 0.0,
         "realized_pnl": 0.0,
         "win_rate": 0.0
       }
     ],
     "equity": [
-      {
-        "balance": 103916.99,
-        "drawdown_pct": 0.0,
-        "equity": 103916.99,
-        "timestamp": "2026-08-06T07:30:53.925656+10:00"
-      },
       {
         "balance": 103916.99,
         "drawdown_pct": 0.0,
@@ -3206,12 +3200,18 @@
         "drawdown_pct": 0.0,
         "equity": 103972.89,
         "timestamp": "2026-08-06T19:29:02.523186+10:00"
+      },
+      {
+        "balance": 103916.99,
+        "drawdown_pct": 0.0,
+        "equity": 104019.96,
+        "timestamp": "2026-08-06T19:30:13.320994+10:00"
       }
     ],
     "r_histogram": []
   },
-  "generated_at": "2026-08-06T19:29:10.304525+10:00",
-  "generated_at_display": "Aug 6, 7:29 PM",
+  "generated_at": "2026-08-06T19:30:20.992987+10:00",
+  "generated_at_display": "Aug 6, 7:30 PM",
   "performance": {
     "by_instrument": [],
     "by_strategy": [],
@@ -3258,8 +3258,8 @@
     },
     "phase1": {
       "label": "Phase 1",
-      "progress": 0.39728899999999995,
-      "remaining_dollars": 6027.110000000001,
+      "progress": 0.40199600000000063,
+      "remaining_dollars": 5980.039999999994,
       "target_dollars": 10000.0,
       "target_pct": 0.1
     },
@@ -3771,8 +3771,8 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-08-06T19:29:02.523186+10:00",
-    "last_scan_at_display": "Aug 6, 7:29 PM",
+    "last_scan_at": "2026-08-06T19:30:13.320994+10:00",
+    "last_scan_at_display": "Aug 6, 7:30 PM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
@@ -3797,35 +3797,35 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 1,
-    "scan_age_seconds": 7.781339,
+    "scan_age_seconds": 7.671993,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-08-06T19:20:00+10:00",
+        "latest_candle": "2026-08-06T19:25:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-08-06T19:20:00+10:00",
+        "latest_candle": "2026-08-06T19:25:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-08-06T19:20:00+10:00",
+        "latest_candle": "2026-08-06T19:25:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XTIUSD",
-        "latest_candle": "2026-08-06T19:20:00+10:00",
+        "latest_candle": "2026-08-06T19:25:00+10:00",
         "stale": false
       }
     ],
@@ -3838,7 +3838,7 @@
       "positions": [
         {
           "price_open": 75.617,
-          "profit": 55.9,
+          "profit": 102.97,
           "sl": 76.323,
           "symbol": "SpotCrude.a",
           "tp": 73.852,
