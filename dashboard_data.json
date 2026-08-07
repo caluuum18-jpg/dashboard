@@ -212,39 +212,17 @@
         "expectancy_r": 0.0,
         "realized_pnl": 0.0,
         "win_rate": 0.0
+      },
+      {
+        "closed_trades": 0,
+        "date": "2026-08-08",
+        "ending_equity": 103397.76,
+        "expectancy_r": 0.0,
+        "realized_pnl": 0.0,
+        "win_rate": 0.0
       }
     ],
     "equity": [
-      {
-        "balance": 103397.76,
-        "drawdown_pct": 0.0,
-        "equity": 103397.76,
-        "timestamp": "2026-08-07T13:51:18.638647+10:00"
-      },
-      {
-        "balance": 103397.76,
-        "drawdown_pct": 0.0,
-        "equity": 103397.76,
-        "timestamp": "2026-08-07T13:52:29.249118+10:00"
-      },
-      {
-        "balance": 103397.76,
-        "drawdown_pct": 0.0,
-        "equity": 103397.76,
-        "timestamp": "2026-08-07T13:53:40.156464+10:00"
-      },
-      {
-        "balance": 103397.76,
-        "drawdown_pct": 0.0,
-        "equity": 103397.76,
-        "timestamp": "2026-08-07T13:54:50.485638+10:00"
-      },
-      {
-        "balance": 103397.76,
-        "drawdown_pct": 0.0,
-        "equity": 103397.76,
-        "timestamp": "2026-08-07T13:56:00.986349+10:00"
-      },
       {
         "balance": 103397.76,
         "drawdown_pct": 0.0,
@@ -3214,12 +3192,42 @@
         "drawdown_pct": 0.0,
         "equity": 103397.76,
         "timestamp": "2026-08-07T23:58:15.150219+10:00"
+      },
+      {
+        "balance": 103397.76,
+        "drawdown_pct": 0.0,
+        "equity": 103397.76,
+        "timestamp": "2026-08-07T23:59:34.165760+10:00"
+      },
+      {
+        "balance": 103397.76,
+        "drawdown_pct": 0.0,
+        "equity": 103397.76,
+        "timestamp": "2026-08-08T00:00:49.588627+10:00"
+      },
+      {
+        "balance": 103397.76,
+        "drawdown_pct": 0.0,
+        "equity": 103397.76,
+        "timestamp": "2026-08-08T00:01:50.635973+10:00"
+      },
+      {
+        "balance": 103397.76,
+        "drawdown_pct": 0.0,
+        "equity": 103397.76,
+        "timestamp": "2026-08-08T00:02:51.465015+10:00"
+      },
+      {
+        "balance": 103397.76,
+        "drawdown_pct": 0.0,
+        "equity": 103397.76,
+        "timestamp": "2026-08-08T00:03:52.497204+10:00"
       }
     ],
     "r_histogram": []
   },
-  "generated_at": "2026-08-07T23:58:30.461788+10:00",
-  "generated_at_display": "Aug 7, 11:58 PM",
+  "generated_at": "2026-08-08T00:03:53.340997+10:00",
+  "generated_at_display": "Aug 8, 12:03 AM",
   "performance": {
     "by_instrument": [],
     "by_strategy": [],
@@ -3766,9 +3774,9 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-08-07T23:58:15.150219+10:00",
-    "last_scan_at_display": "Aug 7, 11:58 PM",
-    "last_scan_status": "connected",
+    "last_scan_at": "2026-08-08T00:03:52.497204+10:00",
+    "last_scan_at_display": "Aug 8, 12:03 AM",
+    "last_scan_status": "weekend_guard",
     "mode": "LIVE DEMO",
     "news_guard": {
       "block_end_local": "",
@@ -3779,7 +3787,7 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 15.311569,
+    "scan_age_seconds": 0.843793,
     "scanner_stale": false,
     "symbols": [
       {
@@ -3811,7 +3819,7 @@
         "stale": false
       }
     ],
-    "weekend_guard": false
+    "weekend_guard": true
   },
   "trades": {
     "cancellations": [],
