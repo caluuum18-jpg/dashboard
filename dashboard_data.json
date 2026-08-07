@@ -219,36 +219,6 @@
         "balance": 103397.76,
         "drawdown_pct": 0.0,
         "equity": 103397.76,
-        "timestamp": "2026-08-07T08:13:19.028258+10:00"
-      },
-      {
-        "balance": 103397.76,
-        "drawdown_pct": 0.0,
-        "equity": 103397.76,
-        "timestamp": "2026-08-07T08:14:29.122997+10:00"
-      },
-      {
-        "balance": 103397.76,
-        "drawdown_pct": 0.0,
-        "equity": 103397.76,
-        "timestamp": "2026-08-07T08:15:39.155167+10:00"
-      },
-      {
-        "balance": 103397.76,
-        "drawdown_pct": 0.0,
-        "equity": 103397.76,
-        "timestamp": "2026-08-07T08:16:48.781104+10:00"
-      },
-      {
-        "balance": 103397.76,
-        "drawdown_pct": 0.0,
-        "equity": 103397.76,
-        "timestamp": "2026-08-07T08:17:58.741768+10:00"
-      },
-      {
-        "balance": 103397.76,
-        "drawdown_pct": 0.0,
-        "equity": 103397.76,
         "timestamp": "2026-08-07T08:19:11.548634+10:00"
       },
       {
@@ -3214,12 +3184,42 @@
         "drawdown_pct": 0.0,
         "equity": 103397.76,
         "timestamp": "2026-08-07T18:17:11.237642+10:00"
+      },
+      {
+        "balance": 103397.76,
+        "drawdown_pct": 0.0,
+        "equity": 103397.76,
+        "timestamp": "2026-08-07T18:18:27.441763+10:00"
+      },
+      {
+        "balance": 103397.76,
+        "drawdown_pct": 0.0,
+        "equity": 103397.76,
+        "timestamp": "2026-08-07T18:19:39.927331+10:00"
+      },
+      {
+        "balance": 103397.76,
+        "drawdown_pct": 0.0,
+        "equity": 103397.76,
+        "timestamp": "2026-08-07T18:20:52.194091+10:00"
+      },
+      {
+        "balance": 103397.76,
+        "drawdown_pct": 0.0,
+        "equity": 103397.76,
+        "timestamp": "2026-08-07T18:22:05.007771+10:00"
+      },
+      {
+        "balance": 103397.76,
+        "drawdown_pct": 0.0,
+        "equity": 103397.76,
+        "timestamp": "2026-08-07T18:23:16.746388+10:00"
       }
     ],
     "r_histogram": []
   },
-  "generated_at": "2026-08-07T18:17:24.378407+10:00",
-  "generated_at_display": "Aug 7, 6:17 PM",
+  "generated_at": "2026-08-07T18:23:29.149677+10:00",
+  "generated_at_display": "Aug 7, 6:23 PM",
   "performance": {
     "by_instrument": [],
     "by_strategy": [],
@@ -3779,13 +3779,13 @@
       "status": "clear"
     },
     "broker_server": "Pepperstone-Demo",
-    "last_scan_at": "2026-08-07T18:17:11.237642+10:00",
-    "last_scan_at_display": "Aug 7, 6:17 PM",
+    "last_scan_at": "2026-08-07T18:23:16.746388+10:00",
+    "last_scan_at_display": "Aug 7, 6:23 PM",
     "last_scan_status": "connected",
     "mode": "LIVE DEMO",
     "news_guard": {
       "block_end_local": "",
-      "last_fetch_at": "2026-08-07T17:22:24.506522+10:00",
+      "last_fetch_at": "2026-08-07T18:23:16.837080+10:00",
       "next_event": {
         "block_end_local": "2026-08-07T22:35:00+10:00",
         "block_end_utc": "2026-08-07T12:35:00+00:00",
@@ -3805,35 +3805,35 @@
     },
     "open_orders_count": 0,
     "open_positions_count": 0,
-    "scan_age_seconds": 13.140765,
+    "scan_age_seconds": 12.403289000000001,
     "scanner_stale": false,
     "symbols": [
       {
         "fresh": true,
         "future": false,
         "instrument": "BTCUSD",
-        "latest_candle": "2026-08-07T18:10:00+10:00",
+        "latest_candle": "2026-08-07T18:15:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "NAS100",
-        "latest_candle": "2026-08-07T18:10:00+10:00",
+        "latest_candle": "2026-08-07T18:15:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XAUUSD",
-        "latest_candle": "2026-08-07T18:10:00+10:00",
+        "latest_candle": "2026-08-07T18:15:00+10:00",
         "stale": false
       },
       {
         "fresh": true,
         "future": false,
         "instrument": "XTIUSD",
-        "latest_candle": "2026-08-07T18:10:00+10:00",
+        "latest_candle": "2026-08-07T18:15:00+10:00",
         "stale": false
       }
     ],
